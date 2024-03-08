@@ -1,21 +1,19 @@
 # Introduction
 
-مدیریت منابع و امکانات سخت افزاری و بستر های شبکه موجود یکی از دغدغه های همیشگی سازمانها و شرکتها و حتی افراد می باشد.
-در سالهای ابتدایی قرن ۲۱ چالش تعامل سیستم ادمین ها و توسعه دهندگان روز به روز بیشتر می شد. و با توجه به سرعت بالای توسعه در حوزه فناوری اطلاعات نیاز به مدیریت چابک سیستم ها (Agile System Administration) بیشتر احساس می شد که باعث ایجاد جنبش DevOps گردید.
+Resource management, hardware facilities, and network infrastructures are one of the perennial concerns of organizations, companies, and even individuals. In the early years of the 21st century, the challenge of interaction between system administrators and developers was increasing day by day. With the rapid development in the field of information technology, the need for agile system administration was felt more, leading to the emergence of the DevOps movement.
 
-در واقع کلمه devops در راستای تحقق مفهوم زیرساخت چابک (Agile Infrastructure) در کنفرانسی به همین نام سال ۲۰۰۹ ابداع شد. در دهه دوم قرن ۲۱ مفاهیم، ابزارها و راهکارهای متنوع دیگری توسعه یافتند که این کار را سرعت می بخشیدند. که یکی از مهمترین آنها مفهوم داکر و ابزار کوبرنیتیز است.
+In fact, the word "DevOps" was coined in a conference of the same name in 2009 to achieve the concept of Agile Infrastructure. In the second decade of the 21st century, various concepts, tools, and solutions were developed that accelerated this process. One of the most important concepts is Docker and Kubernetes tools.
 
-همچنین ایده زیرساخت به صورت کد (IaC - Infrastructure as code) به مدیران سیستم کمک می کند که زیر ساخت را به صورت توصیفی مدیریت کنند و نسخه ها و تغییرات آن را به راحتی نگهداری کنند. این امر در مدیریت چابک و تحویل پیوسته ( continuous delivery) بسیار کلیدی است. هدف اصلی IaC داشتن محیطی پایدار و مقیاس پذیر و در عین حال چابک در تغییرات و تکرار پذیر است. ابزاری مانند helm می تواند قدمی قابل قبول در این راستا باشد.
+Moreover, the idea of Infrastructure as Code (IaC) helps system administrators manage infrastructure descriptively and easily maintain versions and changes. This is crucial in agile management and continuous delivery. The main goal of IaC is to have a stable and scalable environment that is agile in changes and reproducible. Tools like Helm can be a significant step in this direction.
 
-در «مجموعه سامانه های نرم افزاری و زیرساخت های ابری کوبیت» با بهره گیری از ایده های نوین و تکنولوژی ها و ابزارهای به روز حوزه مدیریت زیرساخت، سعی شده است که دانش روز دنیا در خدمت سازمانها، شرکتها و افرادی باشد که در حوزه فناوری اطلاعات می خواهند پیشرو باشند.
+In "The Collection of Software Systems and Cloud Infrastructures at Kubchi," by utilizing innovative ideas, technologies, and up-to-date infrastructure management tools, an attempt has been made to provide the latest world knowledge to organizations, companies, and individuals who want to be pioneers in the field of information technology.
 
-قبل از مطالعه بیشتر جزییات می توانید [شروع به کار](kubchi/getting-started) کنید یا
-معرفی کلی از اجزاء کوبیت به تفکیک زیر سامانه ها را ببینید.
+Before delving into further details, you can [get started](kubchi/getting-started) or explore an overview of Kubchi components divided into sub-systems:
 
-- [سرتمن](certman): امنیت ابری با استفاده از گواهی سمت کلاینت
-- [کوبچی](kubchi) : مدیریت ابزارها و برنامه های ابری
-- [ریسمان](resmon): رصد منابع با ریزدانگی مناسب
-- [زرشک](zereshk): پروکسی هوشمند
-- [رسان](resan): مرکز دریافت و مدیریت ارسال پیامها
-- [خدمات زیرساخت](iaas) : رایانش ابری
-- [سامانه پایش وضعیت](./statuspage) سامانه ها از نظر در دسترسی بودن
+- [Certman](certman): Cloud security using client-side certificates
+- [Kubchi](kubchi): Management of cloud tools and applications
+- [Resmon](resmon): Resource monitoring with appropriate granularity
+- [Zereshk](zereshk): Intelligent proxy
+- [Resan](resan): Message reception and management center
+- [Infrastructure Services](iaas): Cloud computing
+- [Status Monitoring System](./statuspage) for system availability
