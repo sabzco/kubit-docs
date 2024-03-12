@@ -1,0 +1,12 @@
+printWidth: 120
+tabWidth: 2
+semi: false
+singleQuote: true
+jsxSingleQuote: false
+trailingComma: all
+quoteProps: consistent
+endOfLine: lf
+bracketSpacing: false
+organizeImportsSkipDestructiveCodeActions: true
+plugins:
+  - prettier-plugin-organize-imports
