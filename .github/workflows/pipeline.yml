@@ -1,0 +1,64 @@
+name: CI
+
+on:
+  - push
+  - pull_request
+
+jobs:
+  npm-install:
+    name: Install dependencies
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '21.7.1'
+
+      - name: Cache node_modules
+        id: cache-node_modules
+        uses: actions/cache@v4
+        with:
+          path: node_modules
+          key: ${{ runner.os }}-node_modules-${{ hashFiles('package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-node_modules-
+
+      - name: Install dependencies
+        if: steps.cache-node_modules.outputs.cache-hit != 'true'
+        run: npm ci
+
+      - name: Upload `node_modules` folder
+        uses: actions/upload-artifact@v4
+        with:
+          name: node_modules-artifact
+          path: node_modules/
+
+  prettier:
+    name: Check prettier
+    needs: npm-install
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '21.7.1'
+
+      - name: Download `node_modules` folder
+        uses: actions/download-artifact@v4
+        with:
+          name: node_modules-artifact
+          path: node_modules
+
+      - name: Fix `node_modules/.bin` symlinks
+        run: npm rebuild
+
+      - name: Check files with prettier
+        run: npm run prettier:check

@@ -11,8 +11,8 @@
   "author": "S. Mahdi Mir-Ismaili <s.m.mirismaili@gmail.com>",
   "type": "module",
   "scripts": {
-    "prettier.check": "prettier --check .",
-    "prettier.format": "prettier --write .",
+    "prettier:check": "prettier --check .",
+    "prettier:format": "prettier --write .",
     "sort-dependencies": "node -e \"if(process.env.CI)process.exit();P=fs.readFileSync('package.json','utf8');({dependencies:d,devDependencies:D}=p=JSON.parse(P));[k,K]=[d??{},D??{}].map(Object.keys);[s,S]=[k,K].map(x=>[...x].sort());if(s.every((x,i)=>x===k[i])&&S.every((x,i)=>x===K[i]))process.exit();p.dependencies=d&&Object.fromEntries(s.map(k=>[k,d[k]]));p.devDependencies=D&&Object.fromEntries(S.map(K=>[K,D[K]]));fs.writeFileSync('package.json',JSON.stringify(p,null,P.match(/(?<=^\\{\\n?)[ \\t]+/)[0])+'\\n');console.log('\\x1b[32mDependencies have been sorted.\\x1b[0m👏')\"",
     "postinstall": "npm run sort-dependencies"
   },
