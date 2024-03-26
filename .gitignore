@@ -1,3 +1,19 @@
-/node_modules
-/.idea/
-/.vscode/
+### dependencies ###
+node_modules/
+
+### Intellij IDEA ###
+.idea/*
+!.idea/misc.xml
+!.idea/modules.xml
+!.idea/*.iml
+!.idea/codeStyles/
+!.idea/runConfigurations/
+!.idea/jsLibraryMappings.xml
+!.idea/icon.svg
+!.idea/dictionaries/
+!.idea/jsLinters/
+!.idea/prettier.xml
+
+.vscode/
+
+.post-commit.log

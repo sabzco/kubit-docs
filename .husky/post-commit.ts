@@ -1,15 +1,31 @@
 import notifier from 'node-notifier'
+import {exec as legacyExec} from 'node:child_process'
 import {readFile, writeFile} from 'node:fs/promises'
 import {resolve} from 'node:path'
-import * as path from 'path'
+import {setTimeout} from 'node:timers/promises'
+import {promisify} from 'node:util'
 import prettier from 'prettier'
 
-// noinspection JSUnusedGlobalSymbols
-export default async function preCommit(files) {
-  await prettyFiles(files)
+const exec = promisify(legacyExec)
+
+console.info(process.cwd())
+
+const {stdout, stderr} = await exec(
+  'git diff-tree -r --name-only --diff-filter=ACMRTUXB --no-commit-id HEAD', // https://stackoverflow.com/a/78214581/5318303
+)
+if (stderr) console.error(stderr)
+
+const trimmedOutput = stdout.trimEnd()
+const files = trimmedOutput ? trimmedOutput.split('\n') : [] // Avoid `['']`
+
+if (!files.length) {
+  console.info('No new/modified file to commit.')
+  process.exit()
 }
 
-async function prettyFiles(files) {
+await prettyFiles(files)
+
+async function prettyFiles(files: string[]) {
   if (!files.length) return console.info('No file to be checked by Prettier.')
 
   console.group('>> Checking if files are pretty:')
@@ -35,16 +51,16 @@ async function prettyFiles(files) {
     }),
   )
   console.groupEnd()
-  if (results.filter((wasPretty) => !wasPretty).length) {
-    const title = 'Pre-commit checks failed.'
-    const message = `Some files weren't well-formatted.\nWe formatted them for you.\nYou should "amend commit" them yourself.`
-    console.info(title)
-    console.info(message)
-    notifier.notify({
-      title: title,
-      message: message,
-      appID: 'pre-commit.js',
-      icon: 'git.svg',
-    })
-  }
+
+  if (!results.filter((wasPretty) => !wasPretty).length) return
+  const title = 'Post-commit checks failed.'
+  const message = `Some files weren't well-formatted.\nWe formatted them for you.\nYou should "amend commit" them yourself.`
+  console.info('\n', title)
+  console.info(message)
+  notifier.notify({
+    title: title,
+    message: message,
+    appID: 'Commit on kubit-docs',
+    icon: './.husky/git.svg',
+  })
 }
