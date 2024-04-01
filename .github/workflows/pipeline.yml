@@ -64,3 +64,26 @@ jobs:
 
       - name: Check files with prettier
         run: npm run prettier:check
+
+  sync-kubit-docs-app-repo:
+    name: Sync Kubit Docs app with this repo
+    needs: prettier
+    if: >-
+      github.event_name == 'push' && 
+      github.ref == 'refs/heads/main' && 
+      !contains(github.event.head_commit.message, '[SKIP SYNC DOCS APP]')
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Sync Kubit Docs app with this repo
+        env:
+          BEARER_TOKEN: ${{secrets.BEARER_TOKEN}}
+          API_ENDPOINT: ${{vars.API_ENDPOINT}}
+        run: >-
+          curl -L --fail-with-body
+          -X PUT
+          -H "Authorization: Bearer $BEARER_TOKEN"
+          -s -o /dev/null --write-out '%{http_code}'
+          $API_ENDPOINT/sync-kubit-docs-repo?commit-hash=$GITHUB_SHA
