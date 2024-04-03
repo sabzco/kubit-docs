@@ -1,3 +1,13 @@
+---
+subDocuments:
+  - kubchi
+  - zereshk
+  - resan
+  - resmon
+  - certman
+  - iaas
+---
+
 # Introduction
 
 Resource management, hardware facilities, and network infrastructures are one of the perennial concerns of organizations, companies, and even individuals. In the early years of the 21st century, the challenge of interaction between system administrators and developers was increasing day by day. With the rapid development in the field of information technology, the need for agile system administration was felt more, leading to the emergence of the DevOps movement.

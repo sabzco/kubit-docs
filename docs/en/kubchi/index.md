@@ -1,3 +1,13 @@
+---
+subDocuments:
+  - getting-started
+  - create-project
+  - manage-pack
+  - manage-access
+  - vars
+  - gitops
+---
+
 # Kubchi (Cloud Platform)
 
 The Kubchi management tool is developed based on Agile management ideas to create a simple tool for managing infrastructures using Kubernetes.

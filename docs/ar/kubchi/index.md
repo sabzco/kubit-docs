@@ -1,3 +1,13 @@
+---
+subDocuments:
+  - getting-started
+  - create-project
+  - manage-pack
+  - manage-access
+  - vars
+  - gitops
+---
+
 # كوبچي (منصة سحابية)
 
 تم تطوير أداة إدارة كوبيتشي استنادًا إلى أفكار إدارة السرعة الرشيقة لإنشاء أداة بسيطة لإدارة البنية التحتية باستخدام Kubernetes.
