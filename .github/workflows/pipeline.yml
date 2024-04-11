@@ -16,26 +16,12 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '21.7.1'
-
-      - name: Cache node_modules
-        id: cache-node_modules
-        uses: actions/cache@v4
-        with:
-          path: node_modules
-          key: ${{ runner.os }}-node_modules-${{ hashFiles('package-lock.json') }}
-          restore-keys: |
-            ${{ runner.os }}-node_modules-
+          node-version: 21.7.1
+          cache: npm
 
       - name: Install dependencies
         if: steps.cache-node_modules.outputs.cache-hit != 'true'
         run: npm ci
-
-      - name: Upload `node_modules` folder
-        uses: actions/upload-artifact@v4
-        with:
-          name: node_modules-artifact
-          path: node_modules/
 
   prettier:
     name: Check prettier
@@ -49,18 +35,12 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '21.7.1'
+          node-version: 21.7.1
+          cache: npm
 
-      - name: Download `node_modules` folder
-        uses: actions/download-artifact@v4
-        with:
-          name: node_modules-artifact
-          path: node_modules
-
-      - name: Fix `node_modules/.bin` symlinks
-        run: |
-          rm -rf node_modules/esbuild
-          npm rebuild
+      - name: Install dependencies
+        if: steps.cache-node_modules.outputs.cache-hit != 'true'
+        run: npm ci
 
       - name: Check files with prettier
         run: npm run prettier:check
@@ -77,13 +57,28 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
 
+      - name: Setup jq
+        uses: dcarbone/install-jq-action@v2
+
       - name: Sync Kubit Docs app with this repo
         env:
-          BEARER_TOKEN: ${{secrets.BEARER_TOKEN}}
           API_ENDPOINT: ${{vars.API_ENDPOINT}}
-        run: >-
-          curl -L --fail-with-body
-          -X PUT
-          -H "Authorization: Bearer $BEARER_TOKEN"
-          -s -o /dev/null --write-out '%{http_code}'
-          $API_ENDPOINT/sync-kubit-docs-repo?commit-hash=$GITHUB_SHA
+          BEARER_TOKEN: ${{secrets.BEARER_TOKEN}}
+          COMMIT_MSG: "Docs: Auto-sync Kubit Docs app according to docs repo\n\n${{github.event.head_commit.message}}"
+        run: |-
+          PAYLOAD=$(cat <<JSON
+          {
+            "commitHash": "$GITHUB_SHA",
+            "commitMessage": $(jq --null-input --arg input "$COMMIT_MSG" '$input'),
+            "authorName": "GH Actions"
+          }
+          JSON
+          )
+          echo "$PAYLOAD"
+          curl -L --fail-with-body \
+          -X PUT \
+          -H "Authorization: Bearer $BEARER_TOKEN" \
+          -H 'Content-Type: application/json' \
+          -d "$PAYLOAD" \
+          -s -o /dev/null --write-out '%{http_code}' \
+          $API_ENDPOINT/sync-kubit-docs-repo
