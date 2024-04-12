@@ -64,7 +64,7 @@ jobs:
         env:
           API_ENDPOINT: ${{vars.API_ENDPOINT}}
           BEARER_TOKEN: ${{secrets.BEARER_TOKEN}}
-          COMMIT_MSG: "Docs: Auto-sync Kubit Docs app according to docs repo\n\n${{github.event.head_commit.message}}"
+          COMMIT_MSG: ${{github.event.head_commit.message}}
         run: |-
           PAYLOAD=$(cat <<JSON
           {
