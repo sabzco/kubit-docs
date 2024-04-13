@@ -4,7 +4,7 @@ import {finish, step} from './logger-utility.js'
 step(1)
 // Let's read a file:
 readFile('async-programming.md', (err, data) => {
-  step(5)
+  step(4)
   if (err) console.error('I/O operation encountered some error.\n', err)
   console.info('I/O operation was finished.', data.length, 'bytes were loaded from disk.')
   finish()

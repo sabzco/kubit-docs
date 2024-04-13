@@ -1,6 +1,6 @@
 # Async Programming
 
-[//]: # '![synchronous-vs-asynchronous image](synchronous-vs-asynchronous.png)'
+![synchronous-vs-asynchronous image](synchronous-vs-asynchronous.png)
 
 First of all, create this `logger-utility.js` file:
 
@@ -20,7 +20,7 @@ Don't care it. Just know we'll use it in all our subsequent examples.
 
 Let's start from step 2 (as **motivation** step).
 
-## 2. What is the problem?
+## 2. What's the problem?
 
 See the below **not async (sync)** program:😕
 
@@ -73,7 +73,7 @@ import {finish, step} from './logger-utility.js'
 step(1)
 // Let's read a file:
 readFile('async-programming.md', (err, data) => {
-  step(5)
+  step(4)
   if (err) console.error('I/O operation encountered some error.\n', err)
   console.info('I/O operation was finished.', data.length, 'bytes were loaded from disk.')
   finish()
@@ -123,7 +123,9 @@ Be patient. We'll show it to you.
 
 ## Promise API; The perfect solution!
 
-### How do I handle errors?
+### Edge cases
+
+#### How do I handle errors?
 
 You have multiple choices. Already existed `try/catch` block is still with you, if you want:
 
@@ -139,7 +141,7 @@ But **you probably prefer to do it using [`Promise` API][1] itself**. That's pos
 
 You'll learn it, in the following sections.
 
-### What if I want sync scenario for a trivial or special case?
+#### What if I want sync scenario for a trivial or special case?
 
 **Then, do I need more lines of code or more complex coding?**
 
@@ -151,7 +153,7 @@ const data = await readFile('async-programming.md') // I'm blocked here. Because
 
 Plus additional features, that you'll see soon.😊
 
-### What happens if step 2 takes longer than our I/O operation?
+#### What happens if step 2 takes longer than our I/O operation?
 
 To understand this question, look at our first perfect example in [Modern APIs](#modern-apis) section.
 
@@ -177,7 +179,7 @@ But if you want to know what happens **if** `data` is ready before step 3, I rea
 
 But get it out of your mind to don't `await` it. `dataPromise` (as its name says) is just a **promise of `data`** (type: `Promise<typeof data>`) not the `data` (or error) itself.
 
-### OK. But I want to handle the data/error immediately, too?
+#### OK. But I want to handle the data/error immediately, too?
 
 Don't worry. You're using [Promise][1] API and it's very flexible. Just use its event trigger methods:
 
@@ -253,7 +255,7 @@ And what was the purpose of `return ''` in the `await dataPromise.catch(...)`?
 [Answer](#chaining-promises)
 :::
 
-### Excellent `try`/`catch` alternative👌. What about `try`/`catch`/`finally`?
+#### Excellent `try`/`catch` alternative👌. What about `try`/`catch`/`finally`?
 
 ```js
 promise
@@ -320,7 +322,7 @@ So we should ask **What is `async` functions?**
 
 And the answer is easy:
 
-**An `async function` is a `function` that always returns a [`Promise`][2].** *Even if it appears to return something else!*
+**An `async function` is a `function` that always returns a [`Promise`][2].** _Even if it appears to return something else!_
 
 For example:
 
@@ -344,7 +346,7 @@ But in our examples, it wasn't like that!
 
 Yes. [Top-level `await`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/await#top_level_await) is an exception. Currently, [all modern JS environment support (module) top-level await](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/await#browser_compatibility).
 
-### What is `Promise`? {#what-is-promise}
+### What is `Promise`? (1)
 
 The wonderful thing is that `Promise` is a very simple `class`! You can implement it with a few lines of code!
 
@@ -354,29 +356,40 @@ In the next sections, you'll see how much it's simple.
 
 ### Convert a legacy async API to `Promise` API
 
-Easy work. For example, JavaScript has a historic [`setTimeout()`](https://developer.mozilla.org/en-US/docs/Web/API/setTimeout) function. It, like other legacy async APIs gets a callback:
+Easy work! See below examples:
+
+#### 1. Simple example w/o data/error: JS `setTimeout()`
+
+JavaScript has a historic [`setTimeout()`](https://developer.mozilla.org/en-US/docs/Web/API/setTimeout) function. It, like other legacy async APIs gets a callback (to run it after the `delay` (the second parameter)):
 
 ```js
 console.log('1')
 setTimeout(() => console.log('3'), 1000) // Logs `3` after 1000 ms
 console.log('2') // Logs `2` immediately after `1`
 ```
+
 Do you like an `async function sleep()` like this:
+
 ```js
 console.log('1')
 sleep(1000).then(() => console.log('3')) // Logs `3` after 1000 ms
 console.log('2') // Logs `2` immediately after `1`
 ```
+
 So if you want, you can easily use it synchronously like this:😊
+
 ```js
 console.log('1')
 await sleep(1000)
 console.log('3') // Logs `3` after 1000 ms
 ```
+
 OK. Let's convert `setTimeout` to our likely `sleep`:
+
 ```js
 const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms))
 ```
+
 Just it and the work is finished!😊
 
 ::::thinkPoint[Where is async keyword?]
@@ -386,6 +399,7 @@ The above `sleep` function, explicitly returns a `Promise`. So it doesn't need t
 ```js
 const sleep = async (ms) => await new Promise((resolve) => setTimeout(resolve, ms))
 ```
+
 These are equivalent.
 
 :::tip
@@ -395,15 +409,49 @@ This is an advanced feature that [you'll learn it in the following sections](#ch
 
 But currently, as a general rule:
 
-**Don't forget using `await`s in your `async` functions**.
+**Don't forget using `await` in your `async` functions**.
 
-What happens if you miss it?
+What happens if you miss it?🤔
 :::
 ::::
 
 :::tip
-Node.js v17 has a built-in `async` version of `setTimeout()` (just like our `sleep()`)
+Node.js v15+ has a built-in `async` version of `setTimeout()` (like our `sleep()` + some other features from legacy `setTimeout()`):
+
+https://nodejs.org/api/timers.html#timerspromisessettimeoutdelay-value-options
 :::
+
+:::tip
+Bun.js already implemented our modern `sleep()`:
+
+https://bun.sh/guides/util/sleep 😊
+:::
+
+#### 2. Full-feature example w/ data/error: Node.js legacy `readFile()`
+
+As you already have seen, Node.js already implemented modern `Promise`-based `readFile()` + a lot of other legacy APIs.
+
+But, what if we want to convert it, ourselves?
+
+OK. Let's do it:
+
+```js
+import {readFile as legacyReadFile} from 'node:fs'
+
+const readFile = (...args) =>
+  new Promise((resolve, reject) => {
+    legacyReadFile(...args, (err, data) => {
+      if (err) return reject(err)
+      resolve(data)
+    })
+  })
+```
+
+And finished. Just add `...args` type to it to make it a complete solution.😊
+
+### What is `Promise`? (2)
+
+A `Promise<DataType>` is a 
 
 ### Combine multiple promises
 
@@ -432,6 +480,10 @@ Read more: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Glo
 ### Streaming!
 
 ## Async/Parallel programming; Dos and Don'ts
+
+## Examples
+
+1. https://stackoverflow.com/a/71166133/5318303
 
 [1]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise
 [2]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/Promise
