@@ -6,6 +6,8 @@ subDocuments:
   - resmon
   - certman
   - iaas
+  - tools
+  - charts
 ---
 
 # Introduction
