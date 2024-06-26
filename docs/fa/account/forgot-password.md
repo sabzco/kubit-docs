@@ -7,15 +7,12 @@
 _تصویر گزینه فراموشی رمز عبور در صفحه لاگین_
 
 شماره موبایل یا ایمیل حساب کاربری خود را وارد کنید:
-
 ![Account: enter email](enter-email.png)
 
 کد تأیید ارسال شده را وارد کنید تا حساب کاربری خود را بازیابی نمایید:
-
 ![Account: confirm forgot password](confirm-forgot-password.png)
 
 در انتها، رمز عبور جدید خود را وارد کنید:
-
 ![Account: new password](new-password.png)
 
 پس از تأیید رمز عبور جدید، می‌توانید به حساب کاربری خود وارد شوید.
