@@ -1,3 +1,12 @@
+---
+subDocuments:
+  - register
+  - login
+  - panel
+  - profile-settings
+  - forgot-password
+---
+
 # حساب کاربری
 
 برای شروع کار با کوبیت و استفاده از خدمات آن، ابتدا نیاز به یک حساب کاربری دارید. برای این منظور، می‌توانید [ثبت‌نام](https://auth.kubit.ir/fa/register) کنید یا اگر قبلاً ثبت‌نام کرده‌اید، به حساب کاربری خود [وارد شوید](https://auth.kubit.ir/fa/login).
