@@ -8,10 +8,45 @@
 ![IAM: users](users.png)
 
 در این قسمت می‌توانید لیست کاربران سازمان را مشاهده کنید:
-![IAM: roles list](roles-list.png)
+![IAM: users list](users-list.png)
 
 با کلیک روی نام هر کاربر، به صفحه اطلاعات کاربری آن کاربر هدایت می‌شوید:
-![IAM: role details](role-details.png)
+![IAM: user details](user-details.png)
+
+از طریق صفحه اطلاعات کاربر به لیست گروه ها و نقش های کاربر نیز میتوانید دسترسی پیدا کنید:
+
+#### گروه های کاربر
+
+![IAM: user gps](user-gps.png)
+![IAM: user gps list](users-gps-list.png)
+
+#### نقش های کاربر
+
+![IAM: user roles](user-roles.png)
+![IAM: user roles list](users-roles-list.png)
+
+### انتساب نقش به کاربر
+
+![IAM: add role to user btn](add-role-to-user-btn.png)
+![IAM: add role to user form](add-role-to-user-form.png)
+
+![IAM: confirm add role to user](confirm-add-role-to-user.png)
+
+### حذف نقش از کابر
+
+![IAM: remove role from user](remove-role-from-user.png)
+![IAM: confirm remove role from user](confirm-remove-role-from-user.png)
+
+### افزودن کاربر به گروه
+
+![IAM: add user to gp](add-user-to-gp.png)
+![IAM: add user to gp form](add-user-to-gp-form.png)
+![IAM: confirm add user to gp](confirm-add-user-to-gp.png)
+
+### ترک/حذف کاربر از گروه
+
+![IAM: leave user from gp](leave-gp-btn.png)
+![IAM: confirm leaving user from gp](confirm-leave-gp.png)
 
 ### اضافه کردن کاربر سازمان
 
@@ -25,7 +60,7 @@
 
 #### افزودن کاربر LDAP
 
-## تنظیمات نقش ها {#roles}
+## تنظیمات نقش‌ها {#roles}
 
 از بخش **سازماندهی** وارد قسمت **نقش‌ها** شوید:
 ![IAM: roles](roles.png)
@@ -123,7 +158,7 @@
 برای حذف و اضافه نقش‌های پایه و مجوزهای نسبت داده شده به هر نقش، از طریق صفحه جزئیات نقش می‌توانید اقدام کنید.
 :::
 
-## تنظیمات گروه ها
+## تنظیمات گروه‌هاا
 
 از بخش **سازماندهی** وارد قسمت **گروه‌ها** شوید:
 ![IAM: groups](groups.png)
