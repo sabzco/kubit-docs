@@ -23,6 +23,8 @@ if (!files.length) {
   process.exit()
 }
 
+const NOTIFIER_APP_ID = 'Commit on kubit-docs'
+
 await prettyFiles(files)
 
 async function prettyFiles(files: string[]) {
@@ -52,7 +54,18 @@ async function prettyFiles(files: string[]) {
   )
   console.groupEnd()
 
-  if (!results.filter((wasPretty) => !wasPretty).length) return
+  if (!results.filter((wasPretty) => !wasPretty).length) {
+    console.info('\n')
+    const title = 'Post-commit checks ✅\xA0\xA0'
+    console.info(title)
+    notifier.notify({
+      title,
+      message: 'Prettier 👌',
+      appID: NOTIFIER_APP_ID,
+      icon: './.husky/git.svg',
+    })
+  }
+
   const title = 'Post-commit checks failed.'
   const message = `Some files weren't well-formatted.\nWe formatted them for you.\nYou should "amend commit" them yourself.`
   console.info('\n', title)
@@ -60,7 +73,7 @@ async function prettyFiles(files: string[]) {
   notifier.notify({
     title: title,
     message: message,
-    appID: 'Commit on kubit-docs',
+    appID: NOTIFIER_APP_ID,
     icon: './.husky/git.svg',
   })
 }

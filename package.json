@@ -15,17 +15,17 @@
     "prettier:format": "prettier --write .",
     "sort-dependencies": "node -e \"if(process.env.CI)process.exit();P=fs.readFileSync('package.json','utf8');({dependencies:d,devDependencies:D}=p=JSON.parse(P));[k,K]=[d??{},D??{}].map(Object.keys);[s,S]=[k,K].map(x=>[...x].sort());if(s.every((x,i)=>x===k[i])&&S.every((x,i)=>x===K[i]))process.exit();p.dependencies=d&&Object.fromEntries(s.map(k=>[k,d[k]]));p.devDependencies=D&&Object.fromEntries(S.map(K=>[K,D[K]]));fs.writeFileSync('package.json',JSON.stringify(p,null,P.match(/(?<=^\\{\\n?)[ \\t]+/)[0])+'\\n');console.log('\\x1b[32mDependencies have been sorted.\\x1b[0m👏')\"",
     "postinstall": "npm run sort-dependencies",
-    "post-commit": "node --import ./register-ts-loader.js ./.husky/post-commit.ts",
+    "post-commit": "node --import tsx ./.husky/post-commit.ts",
     "prepare": "husky"
   },
   "devDependencies": {
     "@types/node": "^20.11.30",
     "@types/node-notifier": "^8.0.5",
-    "esbuild": "^0.20.2",
     "husky": "^9.0.11",
     "node-notifier": "^10.0.1",
     "prettier": "^3.2.5",
     "prettier-plugin-organize-imports": "^3.2.4",
+    "tsx": "^4.16.2",
     "typescript": "^5.4.3"
   },
   "engines": {
