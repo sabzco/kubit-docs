@@ -10,6 +10,7 @@
 :::
 
 ## مسیر اول: صفحه اصلی پنل
+
 از صفحه اصلی پنل، روی دکمه **تیکت جدید** کلیک کنید تا به فرم ساخت تیکت هدایت شوید:
 ![Ticketing: create ticket from panel](create-ticket-from-panel.png)
 
@@ -22,6 +23,7 @@
 ![Ticketing: create ticket](create-ticket.png)
 
 ## فرم ساخت تیکت
+
 در صورت استفاده از هر کدام از مسیرهای ذکرشده، به فرم ساخت تیکت هدایت می‌شوید:
 ![Ticketing: new ticket form](new-ticket-form.png)
 
