@@ -7,8 +7,7 @@ node_modules/
 !.idea/modules.xml
 !.idea/*.iml
 !.idea/codeStyles/
-!.idea/runConfigurations/
-!.idea/jsLibraryMappings.xml
+!.idea/externalDependencies.xml
 !.idea/icon.svg
 !.idea/dictionaries/
 !.idea/jsLinters/
