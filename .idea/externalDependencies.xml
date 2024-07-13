@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalDependencies">
+    <plugin id="JavaScript" min-version="bundled 241.18034.62" />
+    <plugin id="intellij.prettierJS" min-version="bundled 241.18034.62" />
+  </component>
+</project>
