@@ -10,6 +10,7 @@
 
 با کلیک روی نام هر گروه، به صفحه جزئیات گروه هدایت می‌شوید:
 ![Groups: group details](group-details.png)
+![Groups: edit gp info](edit-gp-info.png)
 
 ## ساخت گروه
 
