@@ -11,7 +11,7 @@
 با کلیک روی نام هر گروه، به صفحه جزئیات گروه هدایت می‌شوید:
 ![Groups: group details](group-details.png)
 
-## ساخت گروه
+## ساخت گروه{#create-group}
 
 با کلیک روی دکمه‌ **گروه جدید**، می‌توانید یک گروه جدید تعریف کنید:
 ![Groups: create group btn](create-group-btn.png)
