@@ -13,9 +13,9 @@
 
 از طریق صفحه اطلاعات کاربر به لیست گروه‌ها و نقش‌های کاربر نیز می‌توانید دسترسی پیدا کنید.
 
-#### گروه‌های کاربر
+## گروه‌های کاربر
 
-با کلیک بر روی گزینه **گروه‌ها** به لیست گروه‌های کاربر هدایت می‌شوید:
+با کلیک روی گزینه **گروه‌ها** به لیست گروه‌های کاربر هدایت می‌شوید:
 ![IAM: user gps](user-gps.png)
 ![IAM: user gps list](users-gps-list.png)
 
@@ -23,7 +23,7 @@
 
 - برای افزودن کاربر به گروه‌های دیگر، روی دکمه **افزودن به گروه** کلیک کنید.
 - از لیست گروه‌های سازمان، گروه موردنظر را انتخاب کنید.
-- سپس با کلیک روی **افزودن**، کاربر را به گروه انتخاب شده، اضافه می‌کنید.
+- سپس با کلیک روی **افزودن**، کاربر را به گروه انتخاب شده، اضافه کنید.
   ![IAM: add user to gp](add-user-to-gp.png)
   ![IAM: add user to gp form](add-user-to-gp-form.png)
   ![IAM: gps list](gps-list.png)
@@ -31,11 +31,14 @@
 
 ### ترک/حذف کاربر از گروه
 
-![IAM: leave user from gp](leave-gp-btn.png)
-![IAM: confirm leaving user from gp](confirm-leave-gp.png)
+- برای ترک/حذف کاربر از گروه، روی آیکون خروج در ستون عملیات، کلیک کنید.
+- سپس با کلیک روی **ترک گروه**، کاربر از گروه انتخاب شده، حذف می‌شود.
+  ![IAM: leave user from gp](leave-gp-btn.png)
+  ![IAM: confirm leaving user from gp](confirm-leave-gp.png)
 
-#### نقش‌های کاربر
+## نقش‌های کاربر
 
+با کلیک روی گزینه **نقش‌ها** به لیست نقش‌های کاربر هدایت می‌شوید:
 ![IAM: user roles](user-roles.png)
 ![IAM: user roles list](users-roles-list.png)
 
@@ -51,5 +54,7 @@
 
 ### حذف نقش از کاربر
 
-![IAM: remove role from user](remove-role-from-user.png)
-![IAM: confirm remove role from user](confirm-remove-role-from-user.png)
+- برای حذف نقش از نقش‌های کاربر، روی آیکون سطل زباله در ستون عملیات، کلیک کنید.
+- سپس با کلیک روی **پاک کردن**، نقش را از کاربر حذف کنید.
+  ![IAM: remove role from user](remove-role-from-user.png)
+  ![IAM: confirm remove role from user](confirm-remove-role-from-user.png)
