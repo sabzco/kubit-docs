@@ -2,6 +2,7 @@
 subDocuments:
   - bucket-settings
   - space
+  - create-space
   - bucket
   - create-bucket
 ---
