@@ -3,6 +3,7 @@ subDocuments:
   - bucket-settings
   - space
   - bucket
+  - create-bucket
 ---
 
 # باکت‌ها (فضای ذخیره‌سازی ابری)
