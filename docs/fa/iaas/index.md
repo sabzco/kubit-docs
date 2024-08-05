@@ -1,6 +1,6 @@
 ---
 subDocuments:
-  - iaas
+  - iaas-settings
   - vms
   - ssh-keys
   - subnets
