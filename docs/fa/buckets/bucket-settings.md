@@ -39,8 +39,8 @@
 
 - برای قطع اتصال پروژه از سرویس باکت، می‌توانید از آیکون قطع اتصال روی کارت پروژه موردنظر اقدام کنید.
 - سپس در صورت اطمینان، روی دکمه **تایید** دیالوگ باز شده کلیک کنید.
-![Buckets: unbind project](unbind-project.png)
-![Buckets: conform unbind project](confirm-unbind-project.png)
+  ![Buckets: unbind project](unbind-project.png)
+  ![Buckets: conform unbind project](confirm-unbind-project.png)
 
 :::tip[ساخت پروژه]
 همچنین اگه تمایل به ایجاد پروژه جدید دارید، می‌توانید از طریق گزینه **ایجاد پروژه جدید** اقدام کنید:
