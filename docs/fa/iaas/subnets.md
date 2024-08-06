@@ -22,9 +22,8 @@
 
 - برای حذف کارت شبکه تخصیص داده شده به ماشین مجازی، روی آیکون **سطل زباله** ماشین مربوطه کلیک کنید.
 - سپس در صورت اطمینان از حذف، روی دکمه **پاک کردن** در دیالوگ باز شده کلیک کنید.
-
-![Subnets: remove vm network from subnet](remove-vm-network-from-subnet.png)
-![Subnets: confirm remove vm network from subnet](confirm-remove-vm-network-from-subnet.png)
+  ![Subnets: remove vm network from subnet](remove-vm-network-from-subnet.png)
+  ![Subnets: confirm remove vm network from subnet](confirm-remove-vm-network-from-subnet.png)
 
 ### هدایت به ماشین مجازی
 
