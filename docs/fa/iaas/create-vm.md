@@ -72,8 +72,8 @@
 ### افزودن ساب‌نت
 
 روی دکمه **افزودن ساب‌نت جدید** کلیک کنید تا فرم ساخت ساب‌نت باز شود و سپس فرم را با اطلاعات موردنظر پر کنید:
-![VM: new subnet btn](new-subnet-btn.png)
-![VM: new subnet form](new-subnet-form.png)
+![VM: new subnet btn](new-subnet-btn-vm.png)
+![VM: new subnet form](new-subnet-form-vm.png)
 برای اطلاعات بیشتر درمورد ساخت ساب‌نت و فیلدهای آن، به سند [افزودن ساب‌نت جدید](../subnets#add-new-subnet) مراجعه کنید.
 
 ## تخصیص IP شناور
