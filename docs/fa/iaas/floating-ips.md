@@ -18,6 +18,7 @@
 :::
 
 ## عملیات‌های یک IP شناور
+
 برای مشاهده عملیات‌های ممکن برای یک IP شناور، روی دکمه سه نقطه در ستون **عملیات** کلیک کنید تا لیستی از عملیات‌ها نمایش داده شود:
 ![Floating IP: options btn](floating-ips-options-btn.png)
 ![Floating IP: options list](floating-ip-options.png)
