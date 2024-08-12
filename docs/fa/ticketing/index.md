@@ -1,6 +1,6 @@
 ---
 subDocuments:
-  - ticket
+  - settings
   - create-ticket
 ---
 

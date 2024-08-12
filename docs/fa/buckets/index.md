@@ -1,9 +1,9 @@
 ---
 subDocuments:
-  - bucket-settings
-  - space
+  - settings
+  - spaces
   - create-space
-  - bucket
+  - buckets
   - create-bucket
 ---
 

@@ -1,6 +1,6 @@
 ---
 subDocuments:
-  - iaas-settings
+  - settings
   - create-vm
   - vms
   - ssh-keys
