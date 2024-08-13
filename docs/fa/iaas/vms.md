@@ -67,9 +67,9 @@
 - ابتدا نسبت به خاموش بودن ماشین اطمینان حاصل کنید.
 - برای تغییر اندازه ماشین، روی گزینه **تغییر اندازه** کلیک کنید.
 - در دیالوگ باز شده، اندازه جدید ماشین را انتخاب کرده و روی دکمه **تغییر اندازه** کلیک کنید.
-  ![VMs: change scale btn](vm-change-scale-btn.png)
-  ![VMs: change scale](vm-resources-list.png)
-  ![VMs: change scale](vm-change-scale.png)
+  ![VMs: resize btn](vm-resize-btn.png)
+  ![VMs: resources](vm-resources-list.png)
+  ![VMs: resize](vm-resize.png)
 
 ### قطع برق
 
