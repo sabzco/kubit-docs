@@ -3,6 +3,7 @@ subDocuments:
   - settings
   - create-vm
   - vms
+  - vm
   - ssh-keys
   - subnets
   - floating-ips
