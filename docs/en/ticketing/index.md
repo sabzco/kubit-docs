@@ -1,2 +1,3 @@
 # Support (Ticketing)
+
 The Kubit support service is designed based on a ticketing system, ensuring that users have access to support services in the quickest and most efficient manner possible. Each ticket is carefully reviewed and responded to by our experienced specialists. Users have full access to the tickets they have submitted and the responses they have received through the company's dedicated panel. Users can create tickets with different priorities and in various categories to make the support process more organized and efficient. This flexible structure ensures that each organization receives the highest level of support services according to its needs and priorities.
