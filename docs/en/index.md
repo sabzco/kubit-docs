@@ -1,31 +1,34 @@
 ---
 subDocuments:
+  - iaas
+  - buckets
   - kubchi
+  - certman
+  - account
+  - organize
+  - ticketing
+  - accounting
+  - resmon
   - zereshk
   - resan
-  - resmon
-  - certman
-  - iaas
-  - tools
-  - charts
 ---
 
 # Introduction
 
-Resource management, hardware facilities, and network infrastructures are one of the perennial concerns of organizations, companies, and even individuals. In the early years of the 21st century, the challenge of interaction between system administrators and developers was increasing day by day. With the rapid development in the field of information technology, the need for agile system administration was felt more, leading to the emergence of the DevOps movement.
+Welcome to the comprehensive Kubit documentation! These documents are designed to guide you in using Kubit services and tools, from basic to advanced stages. On these pages, you can get acquainted with the details of each product and learn step-by-step how to use and manage cloud services. Our goal is to provide you with a simple and efficient experience working with Kubit.
 
-In fact, the word "DevOps" was coined in a conference of the same name in 2009 to achieve the concept of Agile Infrastructure. In the second decade of the 21st century, various concepts, tools, and solutions were developed that accelerated this process. One of the most important concepts is Docker and Kubernetes tools.
+## Getting Started
 
-Moreover, the idea of Infrastructure as Code (IaC) helps system administrators manage infrastructure descriptively and easily maintain versions and changes. This is crucial in agile management and continuous delivery. The main goal of IaC is to have a stable and scalable environment that is agile in changes and reproducible. Tools like Helm can be a significant step in this direction.
+- [User Account](account)
+- [Organize](organize)
+- [Support](ticketing)
 
-In "The Collection of Software Systems and Cloud Infrastructures at Kubchi," by utilizing innovative ideas, technologies, and up-to-date infrastructure management tools, an attempt has been made to provide the latest world knowledge to organizations, companies, and individuals who want to be pioneers in the field of information technology.
+## Technical Documentation
 
-Before delving into further details, you can [get started](kubchi/getting-started) or explore an overview of Kubchi components divided into sub-systems:
-
-- [Certman](certman): Cloud security using client-side certificates
-- [Kubchi](kubchi): Management of cloud tools and applications
-- [Resmon](resmon): Resource monitoring with appropriate granularity
-- [Zereshk](zereshk): Intelligent proxy
-- [Resan](resan): Message reception and management center
-- [Infrastructure Services](iaas): Cloud computing
-- [Status Monitoring System](./statuspage) for system availability
+- [Infrastructure](iaas): Cloud Computing
+- [Buckets](buckets): Buckets (Cloud Storage Space)
+- [Kubchi](bubchi): Management of Cloud Tools and Applications
+- [Certman](certman): Cloud Security Using Client-side Certificates
+- [Resmon](resmon): Resource Monitoring with Appropriate Granularity
+- [Zereshk](zereshk): Smart Proxy
+- [Resan](resan): Message Reception and Management Center
