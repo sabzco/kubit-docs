@@ -7,7 +7,6 @@ subDocuments:
   - account
   - organize
   - ticketing
-  - accounting
   - resmon
   - zereshk
   - resan

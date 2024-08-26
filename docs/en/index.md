@@ -7,7 +7,6 @@ subDocuments:
   - account
   - organize
   - ticketing
-  - accounting
   - resmon
   - zereshk
   - resan
@@ -27,7 +26,7 @@ Welcome to the comprehensive Kubit documentation! These documents are designed t
 
 - [Infrastructure](iaas): Cloud Computing
 - [Buckets](buckets): Buckets (Cloud Storage Space)
-- [Kubchi](bubchi): Management of Cloud Tools and Applications
+- [Kubchi](kubchi): Management of Cloud Tools and Applications
 - [Certman](certman): Cloud Security Using Client-side Certificates
 - [Resmon](resmon): Resource Monitoring with Appropriate Granularity
 - [Zereshk](zereshk): Smart Proxy
