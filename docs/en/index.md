@@ -14,7 +14,7 @@ subDocuments:
 
 # Introduction
 
-Welcome to the comprehensive Kubit documentation! These documents are designed to guide you in using Kubit services and tools, from basic to advanced stages. On these pages, you can get acquainted with the details of each product and learn step-by-step how to use and manage cloud services. Our goal is to provide you with a simple and efficient experience working with Kubit.
+Welcome to the comprehensive [Kubit](https://panel.kubit.ir/en/) documentation! These documents are designed to guide you in using Kubit services and tools, from basic to advanced stages. On these pages, you can get acquainted with the details of each product and learn step-by-step how to use and manage cloud services. Our goal is to provide you with a simple and efficient experience working with Kubit.
 
 ## Getting Started
 
