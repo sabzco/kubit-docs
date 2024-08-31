@@ -2,8 +2,8 @@
 
 To access ticket creation, two access points have been established:
 
-- Recent Tickets section on the main panel page
-- New Ticket section on the support service page
+- **Recent Tickets** section on the main panel page
+- **New Ticket** section on the support service page
 
 :::tip[Ticket Creation Form]
 The only primary access to the ticket creation option is different, and when using either of the paths, you will be directed straight to the ticket creation form.
@@ -32,19 +32,20 @@ Then, enter the ticket title:
 
 Select the priority and category from the list:
 ![Create Ticket: priority list](priority-list.png)
-![Create Ticket: category list](category-list.png)
 
 :::info[Default Priority]
 When creating a ticket, the default priority is set to **Normal**, which you can change.
 :::
 
+![Create Ticket: category list](category-list.png)
+
 Also, enter your ticket description:
 ![Create Ticket: ticket desc](ticket-desc.png)
 
-If you need to upload a file, in the attachments section, click on the Add Attachment button and select the file you want to upload:
+If you need to upload a file, in the **Attachments** section, click on the **Add Attachment** button and select the file you want to upload:
 ![Create Ticket: add attach](add-attach.png)
 
-At the end, click the **Submit** button to send your ticket:
+At the end, click the **Send** button to send your ticket:
 ![Create Ticket: submit ticket](submit-ticket.png)
 
 After creating the ticket, you will be directed to the ticket list page, where you can view the new ticket:

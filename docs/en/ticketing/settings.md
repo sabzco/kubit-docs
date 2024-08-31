@@ -19,7 +19,7 @@ Additionally, by clicking on a ticket, you can view the ticket details:
 
 ## Closing a Ticket by the User
 
-If the user's issue has been resolved and no further follow-up is needed from support, the user can change the status of their ticket to **Closed**. This can be done in two ways: the **Close Ticket** option from the ticket list and the **Close Ticket** button on the ticket details page.
+If the user's issue has been resolved and no further follow-up is needed from support, the user can change the status of their ticket to **Closed**. This can be done in two ways: the Close Ticket option from the **ticket list** and the Close Ticket button on the **ticket details page**.
 
 ### Method 1: Ticket List
 
