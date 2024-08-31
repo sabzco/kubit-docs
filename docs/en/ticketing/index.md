@@ -69,13 +69,14 @@ SLA stands for Service Level Agreement, which specifies the commitments, standar
 
 The table below shows the support plans provided by Kubit:
 
-| Priority                                 | Organizational  | Advanced     | Medium     | Base       |
-| ---------------------------------------- | --------------- | ------------ | ---------- | ---------- |
-| Low (General Guidance)                   | < 24 hours      | < 24 hours   | < 48 hours | < 48 hours |
-| Normal (System Disruption)               | < 4 hours       | < 12 hours   | < 12 hours | < 24 hours |
-| High (Disruption in Production System)   | < 4 hours       | < 8 hours    | < 8 hours  | -          |
-| Urgent (Production System Halt)          | < 1 hour        | < 2 hours    | < 2 hours  | -          |
-| Critical (Business-Critical System Halt) | 10 - 30 minutes | < 30 minutes | -          | -          |
+| Priority                                 | Organizational    | Advanced     | Medium     | Base           |
+| ---------------------------------------- |-------------------| ------------ | ---------- | -------------- |
+| Low (General Guidance)                   | < 24 hours        | < 24 hours   | < 48 hours | < 48 hours     |
+| Normal (System Disruption)               | < 4 hours         | < 12 hours   | < 12 hours | < 24 hours     |
+| High (Disruption in Production System)   | < 4 hours         | < 8 hours    | < 8 hours  | -              |
+| Urgent (Production System Halt)          | < 1 hour          | < 2 hours    | < 2 hours  | -              |
+| Critical (Business-Critical System Halt) | < 10 - 30 minutes | < 30 minutes | -          | -              |
+| Technical Support                        | 24/7              | 24/7         | 24/7       | Business hours |
 
 :::info[Default Support Plan]
 By default, the base support plan is set for new organizations.
