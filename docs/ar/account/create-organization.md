@@ -12,7 +12,7 @@
 أخيراً، ستدخل إلى لوحة كوبيت تحت المنظمة التي تم إنشاؤها:
 ![Organization: panel after register](panel-after-register.png)
 
-## الطريقة الثانية: بعد إنشاء الحساب{#./#after-register} 
+## الطريقة الثانية: بعد إنشاء الحساب{#./#after-register}
 
 إذا لم تقم بإنشاء منظمتك بعد التسجيل في كوبيت، ستواجه الرسالة التالية عند الدخول إلى اللوحة:
 ![Organization: no org user](no-org-page.png)
