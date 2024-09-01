@@ -73,6 +73,7 @@ The Favorite Pages section on the main panel page provides quick access to users
 :::tip[Adding a Service to the Favorites List]
 By clicking on the star icon on the top bar of each service page, you can add the desired service to your favorites with the desired name:
 ![Panel: add favorite](add-favorite.png)
+![Panel: add fav page name](favorite-page-name.png)
 :::
 
 ## Kubit Services
