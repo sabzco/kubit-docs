@@ -17,7 +17,7 @@ Then, enter the 6-digit code sent to your email or phone number for authenticati
 
 Finally, after submitting the verification code, your registration process will be completed and your Kubit account will be created.
 
-After this, you will be directed to the form for creating an organization associated with your user account. As mentioned in the explanation of the [concept of an organization](../#organization), to access the panel's features, an organization must be linked to your account. By entering the requested information (organization name and slug), you can create your organization:
+After this, you will be directed to the form for creating an organization associated with your user account. As mentioned in the explanation of the [concept of an organization](../#organization), to access the panel's features, an organization must be linked to your account. By entering the requested information (organization title and slug), you can create your organization:
 ![Organization: create org after register](create-org-after-register.png)
 
 At the end, you will be logged into your user account and will have access to the organization panel.
