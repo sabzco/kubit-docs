@@ -4,7 +4,7 @@ There are three ways to create an organization: during account creation, after a
 
 ## Method 1: During Account Creation
 
-After confirming your [registration](https://auth.kubit.ir/en/register) on Kubit with the verification code sent to you and before entering the panel, you will be directed to the organization creation form.
+After confirming your [registration](https://panel.kubit.ir/en/register) on Kubit with the verification code sent to you and before entering the panel, you will be directed to the organization creation form.
 
 Enter the required information in the organization creation form, including the organization **title** and organization **slug**, and click **create**.
 ![Organization: create org after register](create-org-after-register.png)

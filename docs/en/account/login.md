@@ -28,13 +28,13 @@ If you have been invited to an organization, you can use one of the following me
 
 If your membership type is Kubit User, you can log in by clicking the link sent to your email or phone number.
 
-If you did not previously have an account, you will be directed to the [registration page](https://auth.kubit.ir/en/register/). By [creating a user account](../register), you will join the relevant organization.
+If you did not previously have an account, you will be directed to the [registration page](https://panel.kubit.ir/en/register/). By [creating a user account](../register), you will join the relevant organization.
 
 If you already have a user account and have logged into the panel, you will be directly redirected to the relevant organization's panel.
 
 ### LDAP User
 
-If you have been added to the organization as an LDAP user, you need to go to the [login page](https://auth.kubit.ir/en/login/) and use the **Forgot Password** option to set a new password.
+If you have been added to the organization as an LDAP user, you need to go to the [login page](https://panel.kubit.ir/en/login/) and use the **Forgot Password** option to set a new password.
 On the login page, click on **Single Sing-On**:
 ![Login: login with org](login-with-org.png)
 

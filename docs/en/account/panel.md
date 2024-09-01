@@ -85,10 +85,10 @@ In addition to the right-side menu of the panel, you can also access the list of
 
 ### Events
 
-Through the **recent events** section, you can access Kubit's announcements. In this section, organizational announcements (separated by each organization) and public announcements are visible.
+Through the **Recent events** section, you can access Kubit's announcements. In this section, organizational announcements (separated by each organization) and public announcements are visible.
 ![Panel: recent notices](recent-notices.png)
 
 ### Tickets
 
-The latest tickets submitted in the support service can be accessed through the **recent tickets** section.
+The latest tickets submitted in the support service can be accessed through the **Recent tickets** section.
 ![Panel: recent tickets](recent-tickets.png)

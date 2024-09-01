@@ -4,7 +4,7 @@ To use any of Kubit's products, you first need a user account. If you have alrea
 
 ## Registration
 
-- First, go to the [registration page](https://auth.kubit.ir/en/register).
+- First, go to the [registration page](https://panel.kubit.ir/en/register).
 - Then, enter your information into the relevant fields and create a strong password according to the provided instructions.
   ![Register: register form](register-form.png)
 

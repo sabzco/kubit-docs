@@ -5,7 +5,7 @@
 
 ## ثبت‌نام
 
-- ابتدا به صفحه‌ی [ثبت‌نام](https://auth.kubit.ir/fa/register) بروید.
+- ابتدا به صفحه‌ی [ثبت‌نام](https://panel.kubit.ir/fa/register) بروید.
 - سپس، اطلاعات خود را در فیلدهای مربوطه وارد کرده و یک رمز عبور قوی مطابق با دستورالعمل‌های موجود تعیین کنید.
 
 ![Register: register form](register-form.png)
