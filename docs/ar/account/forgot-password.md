@@ -5,7 +5,7 @@
 أولاً، انقر على **Reset**:
 ![Forgot: forgot password](forgot-password.png)
 
-أدخل رقم الجوال أو البريد الإلكتروني لحسابك وانقر على **Submit**:
+أدخل رقم الجوال أو البريد الإلكتروني لحسابك وانقر على **Send**:
 ![Account: enter email](enter-phone-forgot.png)
 
 أدخل رمز التحقق المرسل إليك لإكمال عملية التحقق:

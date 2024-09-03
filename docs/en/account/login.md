@@ -1,6 +1,6 @@
 # Login to user account
 
-Given the ability to manage multiple organizations with a single account in Kubit, there are two methods for logging into your user account: Email/Phone Login and Organizational Login. Both methods are accessible via the login page. Below, we will explain each of these methods.
+Given the ability to manage multiple organizations with a single account in Kubit, there are two methods for logging into your user account: Email/Phone Login and Organizational Login. Both methods are accessible via the [login page](https://panel.kubit.ir/en/login/). Below, we will explain each of these methods.
 
 ## Method 1: Email/Phone Login
 
@@ -10,7 +10,7 @@ Given the ability to manage multiple organizations with a single account in Kubi
 
 ## Method 2: Organizational Login (SSO)
 
-If you need access to the Kubit panel of the organization you are a member of, first click on the **Single Sign-On** option on the login page:
+If you need access to the Kubit panel of the organization you are a member of, first click on the **Single Sign-On** option on the [login page](https://panel.kubit.ir/en/login/):
 ![Login: login with org](login-with-org.png)
 
 At this stage, enter the title of the relevant organization and click the **Continue** button:
@@ -26,7 +26,7 @@ If you have been invited to an organization, you can use one of the following me
 
 ### Invitation Link (Kubit User)
 
-If your membership type is Kubit User, you can log in by clicking the link sent to your email or phone number.
+If your membership type is **Kubit User**, you can log in by clicking the link sent to your email or phone number.
 
 If you did not previously have an account, you will be directed to the [registration page](https://panel.kubit.ir/en/register/). By [creating a user account](../register), you will join the relevant organization.
 

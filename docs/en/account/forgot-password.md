@@ -1,11 +1,11 @@
 # Forgot Password
 
-If you have forgotten your password, you can follow the steps below to change your password through the login page by selecting the **forgot password** option.
+If you have forgotten your password, you can follow the steps below to change your password through the [login page](https://panel.kubit.ir/en/login/) by selecting the **forgot password** option.
 
 First, click on **Reset**:
 ![Forgot: forgot password](forgot-password.png)
 
-Enter your account's mobile number or email and click **Submit**:
+Enter your account's mobile number or email and click **Send**:
 ![Account: enter email](enter-phone-forgot.png)
 
 Enter the verification code sent to you to complete the authentication process:
