@@ -17,7 +17,7 @@ Finally, you will enter the Kubit panel under the created organization:
 If you did not create your organization after registering on Kubit, you will encounter the following message when entering the panel:
 ![Organization: no org user](no-org-page.png)
 
-As mentioned in the [organization concept explanation](../#organization), to access the panel features, there must be an organization associated with the user account. To do this, click on the **Create Your Own Organization** button:
+As mentioned in the [organization concept explanation](../#organization), to access the panel features, there must be an organization associated with the user account. To do this, click on the **Create Organization** button:
 ![Organization: create org btn](create-org-btn.jpeg)
 
 Enter the required information in the organization creation form, including the **Organization Title** and **Organization Slug**, and click **Create**:
@@ -34,7 +34,7 @@ Please note that for the **organization slug**, you should select a valid slug c
 If you have previously accessed the panel under another organization and want to create your own organization, first click on the profile, and then from the opened menu, select the **Create Your Own Organization** option:
 ![Organization: create personal account](create-personal-account.png)
 
-You will then be directed to the account creation page. Enter the required user details and click **Sign Up**:
+You will then be directed to the **account creation page**. Enter the required user details and click **Sign Up**:
 ![Panel: personal account form](register-form.png)
 
 You will then need to enter the 6-digit code sent to your email or phone number for authentication and registration confirmation, and click **Submit**:

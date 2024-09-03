@@ -48,12 +48,12 @@ After this, you will be directed to the organization creation form related to yo
 Finally, you will be logged into the panel and will have access to your personal organization's panel.
 
 :::info[Create an Organization in the Panel]
-If you chose not to create an organization after registration (by selecting the **Skip** option in the image above), you can still create the organization related to your account through the Kubit panel. You can access the step-by-step guide for creating an organization from the organization's creation document.
+If you chose not to create an organization after registration (by selecting the **Skip** option in the image above), you can still create the organization related to your account through the Kubit panel. You can access the step-by-step guide for creating an organization from the [Create an Organization](../create-organization) document.
 :::
 
 ## Switching Between Organizations
 
-To manage multiple organizations in the user panel, first click on your profile and then select the option **Switch to Another Organization**.
+To manage multiple organizations in the user panel, first click on your profile and then select the option **Login to another organization**.
 ![Panel: other organization](other-organization.png)
 
 Enter the title of the desired organization and click **Continue**.

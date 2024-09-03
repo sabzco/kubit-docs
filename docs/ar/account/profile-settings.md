@@ -31,3 +31,4 @@
 
 في قسم **Notification**، تتوفر قائمة بالقنوات المختلفة لتلقي إعلانات خدمات كوبيت. لكل خدمة تم تكوين نظام الإخطار لها، يمكنك عرض القنوات ذات الصلة وتفعيلها أو تعطيلها بشكل فردي.
 ![Profile: profile notices](profile-notices.png)
+![Profile: notices list](notices-list.png)

@@ -3,6 +3,8 @@ subDocuments:
   - register
   - login
   - panel
+  - create-organization
+
   - profile-settings
   - forgot-password
 ---

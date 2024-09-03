@@ -31,3 +31,4 @@ Then enter the old password and the new password in the change password form and
 
 In the **Notification** section, a list of various channels for receiving Kubit service announcements is available. For each service with a configured notification system, you can view the related channels and individually enable or disable them.
 ![Profile: profile notices](profile-notices.png)
+![Profile: notices list](notices-list.png)
