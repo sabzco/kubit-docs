@@ -10,10 +10,8 @@
 - مکان موردنظر خود را از میان مکان‌های موجود در کوبیت انتخاب کرده و روی **اتصال** کلیک کنید.
   ![IaaS: empty project list](empty-project-list.png)
   ![IaaS: project lists](project-lists.png)
-
-![IaaS: bind project](bind-project.png)
-
-![IaaS: locations list](locations-list.png)
+  ![IaaS: bind project](bind-project.png)
+  ![IaaS: locations list](locations-list.png)
 
 در انتها، پروژه به سرویس زیرساخت متصل شده و به صفحه ماشین‌های مجازی پروژه هدایت می‌شوید:
 ![IaaS: after binding project](after-binding-project.png)
