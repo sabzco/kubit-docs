@@ -48,12 +48,14 @@ Then enter the **Title** and **Key** of the project and click on **Create**:
 :::
 
 ### Unbinding a Project
+
 - To unbind a project from the Infrastructure service, you can click on the unbind icon on the desired project card.
 - Then, if you are sure, click on the **Confirm** button in the opened dialog.
   ![IaaS: unbind project](unbind-project.png)
   ![IaaS: confirm unbind project](confirm-unbind-project.png)
 
 ### Jobs
+
 The button at the bottom of the Infrastructure page provides quick access to a list of completed/ongoing jobs. If there is a current job, its status will be shown; otherwise, the status of the last completed job will be displayed.
 
 :::tip[Jobs at Different Levels]
