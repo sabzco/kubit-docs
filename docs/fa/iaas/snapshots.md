@@ -38,6 +38,6 @@
 - برای حذف تمام اسنپ‌شات‌های یک ماشین، روی آیکون سه نقطه در ستون عملیات ماشین مربوطه کلیک کنید.
 - سپس روی گزینه **پاک کردن** کلیک کنید.
 - و در صورت اطمینان، روی دکمه **پاک کردن** در دیالوگ باز شده کلیک کنید.
-  ![Snapshots: options](snapshots-options.png)
+  ![Snapshots: actions](snapshots-actions.png)
   ![Snapshots: remove btn](remove-snapshots-btn.png)
   ![Snapshots: confirm remove](remove-snapshots.png)
