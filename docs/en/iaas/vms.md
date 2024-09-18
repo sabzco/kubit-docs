@@ -9,13 +9,11 @@ By clicking on any of the machines, you will be redirected to the machine's over
 There are various operations available for virtual machines, which we will explain below:
 
 - Power On/Off the Virtual Machine: Powering off or on a virtual machine is similar to shutting down or turning on a physical computer; the operating system shuts down or starts normally.
--
 - Power Cut: Cutting the power is equivalent to a sudden shutdown without a proper shutdown process, which may result in data or operating system damage.
--
 - Reboot the Machine: Rebooting the virtual machine restarts the operating system without completely powering off and on the virtual machine.
-  :::caution[توجه!]
-  Please note that some operations depend on the machine's power state. If the required state is not met, the operation cannot be performed.
 
+:::caution[Note!]
+Please note that some operations depend on the machine's power state. If the required state is not met, the operation cannot be performed.
 Power Off Requirement: Operations such as Delete and Resize require the machine to be powered off.
 Power On Requirement: Operations such as Reboot and Power Cut require the machine to be powered on.
 :::
