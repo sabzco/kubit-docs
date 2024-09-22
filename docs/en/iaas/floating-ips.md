@@ -9,7 +9,7 @@ In this section, you can view the list of available floating IPs in the project 
 - Click on the **Assign New Floating IP option**.
 - In the opened dialog, enter a **valid and unique name**.
 - Then, click on **Allocate Floating IP**. A **job** related to the floating IP assignment will be created, showing the status of the request.
-- After the successful completion of the task, you can start using your new floating IP.
+- After the successful completion of the job, you can start using your new floating IP.
   ![Floating IP: new btn](new-floating-ips-btn.png)
   ![Floating IP: assign new](assign-new-floating-ip.png)
 
@@ -25,7 +25,7 @@ To view the possible operations for a floating IP, click the three-dot button in
 
 ### Disconnect
 
-- To disconnect from all resources, click the three-dot button in the **Actions** column and select **Delete**.
+- To disconnect from all resources, click the three-dot button in the **Actions** column and select **Disconnect**.
 - Then, if confirmed, click the **Confirm** button in the opened dialog.
 - ![Floating IP: unbind](unbind-floating-ip.png)
   ![Floating IP: confirm unbind](confirm-unbind-floating-ip.png)

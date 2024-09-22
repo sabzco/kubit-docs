@@ -38,7 +38,7 @@ To view the available operations for a subnet, click the three-dot button in the
 ![Subnets: options btn](subnet-actions-btn.png)
 ![Subnets: options](subnet-actions.png)
 
-### Editing
+### Edite
 
 - To edit the subnet, click **Edit**.
 - In the opened dialog, you can only modify the **name** and **sharing status** of the subnet. After entering your desired changes, click **Update Subnet**.
@@ -74,7 +74,7 @@ In both methods, after clicking **Allocate Floating IP**, a task related to this
   ![Subnets: add sec gp form](add-sec-gp-to-subnet-form.png)
   ![Subnets: add sec gp lists](sec-gp-lists.png)
 
-### Deleting a Subnet
+### Delete
 
 To delete a subnet, click **Delete**.
 Then, if confirmed, click the **Delete** button in the opened dialog.
