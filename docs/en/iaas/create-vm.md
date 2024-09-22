@@ -1,6 +1,6 @@
-# Creating a New Virtual Machine
+# Create New Virtual Machine
 
-On the Infrastructure page, after selecting a bound project, go to the Virtual Machines section to create your first virtual machine and click on the "Create Virtual Machine" button.
+On the Infrastructure page, after [selecting a project](../settings#select-project), go to the **Virtual Machines** section to create your first virtual machine and click on the **Create Virtual Machine** button.
 ![VM: create vm btn](create-vm-btn.png)
 
 ## Step 1: Selecting the Operating System
@@ -44,19 +44,20 @@ Select the desired keys from the current keys and click on **Next Step**:
 ![VM: select a key](select-key.png)
 
 :::tip[Random Password]
-Please note that despite setting an SSH key, it is still possible to use a password for the machine. By enabling the **Generate a random password for the virtual machine** option, the machine password will be emailed to the user.
+Please note that despite setting an SSH key, it is still possible to use a password for the machine. By enabling the **Generate a random password for this VM.** option, the machine password will be emailed to the user.
 :::
 
 ### Add a New Key
 
-Click on the **Add SSH Key** box. Then enter the key information, including the **name** and **public SSH key**, and click on **Add Key**.
-![VM: add new key card](add-new-key-card.png)
-![VM: add new key](add-new-key.png)
-Then the added key can be [selected](#select-key).
+- Click on the **Add SSH Key** box.
+- Then, enter the key information, including the **name** and **SSH public key**, and click **Add Key**.
+  ![VM: add new key card](add-new-key-card.png)
+  ![VM: add new key](add-new-key.png)
+  Then the added key can be [selected](#select-key).
 
 ## Step 5: Network
 
-In this step, network settings configuration, including **adding a network card** and assigning a **floating IP**, is done. To assign a floating IP, you must define at least one network card for your machine.
+In this step, network settings configuration, including **adding a network interface** and **assigning a floating IP**, is done. To assign a floating IP, you must define at least one network card for your machine.
 
 First, click on **Add interface** to open the network information form:
 ![VM: add network](add-network.png)
@@ -73,18 +74,18 @@ Choose one of the available subnets:
 
 ### Add Subnet
 
-Click on the **Add new subnet** box. Then enter the subnet information, including the **name**, **CIDR**, and **gateway**, and click on **Add Subnet**.
-![VM: new subnet btn](new-subnet-btn-vm.png)
-![VM: new subnet form](new-subnet-form-vm.png)
-For more information about creating a subnet and its fields, please refer to the [Add New Subnet](../subnets#add-new-subnet) document.
+- Click on the **Add new subnet** box.
+- Then enter the subnet information, including the **name**, **CIDR**, and **gateway**.
+- Finally, if you wish to share this subnet within the organization, select the option **Use this subnet in all projects** and click **Create Subnet**.
+  ![VM: new subnet btn](new-subnet-btn-vm.png)
+  ![VM: new subnet form](new-subnet-form-vm.png)
 
-### Allocating Floating IP
+### Assigning Floating IP
 
-After selecting the subnet, you can also assign a floating IP to the machine. First, select the option "Allocate floating IP to this virtual machine!":
-![VM: activate floating ip](activate-floating-ip.png)
-
-Then you can choose from the floating IPs of the project and those shared in the organization, or you can create a new floating IP:
-![VM: add floating ip](select-floating-ip.png)
+- After selecting the subnet, you can also assign a floating IP to the machine. First, select the option **Assign floating IP to this VM!**.
+- Then you can choose from the floating IPs of the project and those shared in the organization, or you can create a new floating IP.
+  ![VM: activate floating ip](activate-floating-ip.png)
+  ![VM: add floating ip](select-floating-ip.png)
 
 #### Select Floating IP
 
@@ -95,6 +96,7 @@ Choose one of the available floating IPs:
 
 Click on the **Allocate New Floating IP** button to open the allocation form. Then choose a name for it and click on the "Allocate Floating IP" button:
 ![VM: new floating ip btn](new-floating-ip-btn.png)
+![VM: new floating ip form](new-floating-ip-form.png)
 
 Finally, after selecting the subnet and allocating the floating IP, proceed to the next step.
 
@@ -108,10 +110,10 @@ In the final review, you will see information such as the name of the virtual ma
 To edit any of the specifications except for the location, simply click on the corresponding pencil icon:
 ![VM: edit vm details](edit-new-vm-details.png)
 
-Finally, after reviewing the specifications and settings of the machine, click on the "Create Virtual Machine" button:
+Finally, after reviewing the specifications and settings of the machine, click on the **Create VM** button:
 ![VM: create new vm](create-new-vm.png)
 
-Then you will be directed to the virtual machine overview page, and simultaneously, a task titled "Creating Virtual Machine" will be created that displays the status of the new machine's creation:
+Then you will be directed to the **VM Overview** page, and simultaneously, a task titled **Create VM** will be created that displays the status of the new machine's creation:
 ![VM: new vm job 1](new-vm-job-1.png)
 ![VM: new vm job 2](new-vm-job-2.png)
 ![VM: new vm jobs](new-vm-jobs.png)
@@ -119,4 +121,4 @@ Then you will be directed to the virtual machine overview page, and simultaneous
 Once all tasks are successfully completed, access to the created virtual machine will be provided.
 ![VM: overview](overview-new-vm.png)
 
-Refer to the documents related to the virtual machine overview page in the [virtual machine settings](../vms) section.
+Refer to the documents related to the virtual machine overview page in the [Virtual Machine settings](../vm) section.
