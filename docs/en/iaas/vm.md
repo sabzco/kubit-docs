@@ -50,7 +50,6 @@ If a password is set for the machine, you can view it by clicking the **Show Pas
 - Finally, click the **Add** button.
   ![VM: add ssh](add-sshkey-vm.png)
   ![VM: select ssh](select-ssh-key.png)
-  ![VM: ssh options](ssh-options.png)
 
 ### Adding a Security Group
 
@@ -75,18 +74,18 @@ In this subpage, information about the virtual machine’s disks is displayed. T
 
 ### Disk Actions
 
-Various operations available for a disk can be accessed through the **Operations** column:
+Various operations available for a disk can be accessed through the **Actions** column:
 ![VM: disk actions btn](disk-actions-btn.png)
 ![VM: disk actions list](disk-actions.png)
 
-#### Detach a Disk
+#### Detach
 
 - To detach a disk, click the **Detach** disk button in the operations column.
 - Then, if confirmed, click the **Detach** button in the dialog that opens.
   ![VM: detach disk btn](detach-disk-btn.png)
   ![VM: detach disk](detach-disk.png)
 
-### Editing a Disk
+### Edit
 
 - To edit a disk, click the **Edit** icon in the Actions column.
 - Then enter the new size and name according to your needs.
@@ -94,12 +93,12 @@ Various operations available for a disk can be accessed through the **Operations
   ![VM: resize disk btn](disk-resize-btn.png)
   ![VM: resize disk](disk-resize.png)
 
-### Deleting a Disk
+### Delete
 
 - To delete a disk, first click the **Delete** option in the Actions column.
 - If you are sure about the operation, enter the name of the disk as a confirmation to delete and click on **Delete**.
-  ![VM: remove disk btn](remove-disk.png)
-  ![VM: remove disk](remove-disk-confirm.png)
+  ![VM: remove disk btn](remove-disk-btn.png)
+  ![VM: remove disk](remove-disk.png)
 
 ### Bulk Operations
 
@@ -140,14 +139,14 @@ A list of available actions for subnets can be accessed by clicking the three-do
 
 #### Convert to Primary Network Interface
 
-- To convert a subnet to the primary network interface, click on the Convert to Primary option.
-- If you're sure, click the Confirm button
+- To convert a subnet to the primary network interface, click on the **Make Primary interface** option.
+- If you're sure, click the **Confirm** button
   ![VM: convert to primary](convert-to-primary.png)
   ![VM: confirm convert to primary](confirm-convert-to-primary.png)
 
 #### Removing a Subnet
 
-- To remove a subnet, click the Remove button.
+- To remove a subnet, click the **Remove** button.
 - If confirmed, enter the subnet name as confirmation and click Delete.
   ![VM: remove subnet btn](remove-subnet-btn.png)
-  ![VM: remove subnet](remove-subnet-vm.png)
+  ![VM: remove subnet](remove-subnet-confirm.png)
