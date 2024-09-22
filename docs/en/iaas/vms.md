@@ -1,6 +1,6 @@
 # Virtual Machines
 
-On the Virtual Machines page, you can view a list of virtual machines created in the selected project. This list includes the general specifications of the machines, along with various available operations.
+On the **Virtual Machines** page, you can view a list of virtual machines created in the selected project. This list includes the general specifications of the machines, along with various available operations.
 ![VMs: vms list](vms-list.png)
 By clicking on any of the machines, you will be redirected to the machine's overview page. For more information, refer to the [Overview](../vm#overview) document.
 

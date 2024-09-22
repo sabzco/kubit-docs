@@ -35,7 +35,7 @@ After selecting the project, you will be redirected to the virtual machines page
 - **Operating System**: Displays the name and version of the machine's operating system.
 - **Public IP**: Displays the public IPs configured for the machine.
 - **Tags**: Displays the tags associated with the machine.
-- **Actions**: Access to power on/off, redirect to console, restart, edit name, resize, power off, and delete.
+- **Operations**: Access to power on/off, redirect to console, restart, edit name, resize, power off, and delete.
   ![IaaS: vms list](vms-list.png)
 
 For more information and details, refer to the [Virtual Machines](../vms) document.
