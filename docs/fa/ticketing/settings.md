@@ -3,18 +3,18 @@
 در بخش پشتیبانی پنل کوبیت، دسترسی به **لیست تیکت‌ها**، **ساخت تیکت جدید** و **بات تلگرام** فراهم شده است.
 
 ابتدا از پنل کوبیت، وارد سرویس **پشتیبانی** شوید:
-![Ticketing: tickets](ticketing.png)
+![Ticketing: tickets](img/ticketing.png)
 
 در صفحه اول سرویس پشتیبانی، به لیست تیکت‌ها دسترسی خواهید داشت:
-![Ticketing: tickets list](tickets-list.png)
+![Ticketing: tickets list](img/tickets-list.png)
 
 از طریق نوار بالایی لیست، می‌توانید متناسب با نیاز خود، لیست تیکت هارا بر اساس هر ستون، مرتب، فیلتر یا مخفی کنید:
-![Ticketing: ticket list bar](ticket-list-bar.png)
+![Ticketing: ticket list bar](img/ticket-list-bar.png)
 برای مشاهده آپشن‌ها، روی دکمه سه نقطه کنار اسم هر ستون کلیک کنید:
-![Ticketing: ticket list options](ticket-list-options.png)
+![Ticketing: ticket list options](img/ticket-list-options.png)
 
 همچنین با کلیک روی یک تیکت، می‌توانید جزئیات تیکت را مشاهده کنید:
-![Ticketing: ticket details](ticket-details.png)
+![Ticketing: ticket details](img/ticket-details.png)
 
 ## بستن تیکت توسط کاربر
 
@@ -23,13 +23,13 @@
 
 ### روش اول: لیست تیکت‌ها
 
-![Ticketing: close ticket](close-ticket.png)
-![Ticketing: close ticket confirm](close-ticket-confirm.png)
+![Ticketing: close ticket](img/close-ticket.png)
+![Ticketing: close ticket confirm](img/close-ticket-confirm.png)
 
 ### روش دوم: جزئیات تیکت
 
-![Ticketing: close ticket btn](close-ticket-btn.png)
-![Ticketing: close ticket details confirm](close-ticket-details-confirm.png)
+![Ticketing: close ticket btn](img/close-ticket-btn.png)
+![Ticketing: close ticket details confirm](img/close-ticket-details-confirm.png)
 
 :::tip[ارسال وضعیت تیکت از طریق پیامک]
 در هر مرحله از تغییرات وضعیت تیکت، پیامی حاوی تغییر ایجاد شده به شماره همراه مشتری (ایجادکننده تیکت) ارسال می‌شود.
@@ -40,10 +40,10 @@
 با اتصال بات تلگرام به پنل کوبیت، می‌توانید از طریق تلگرام به سرویس پشتیبانی دسترسی داشته باشید و از طریق بات نسبت به ارسال تیکت و پیگیری تیکت‌های خود، اقدام کنید.
 
 برای مشاهده تنظیمات بات تلگرام، از صفحه پشتیبانی، گزینه **بات تلگرام** را انتخاب کنید:
-![Ticketing: ticketing bot](ticketing-bot.png)
+![Ticketing: ticketing bot](img/ticketing-bot.png)
 
 - مطابق مراحل گفته شده، بات تلگرامی [@KubitSupportBot](https://t.me/KubitSupportBot) را به گروه تلگرامی موردنظر خود اضافه کنید.
 - سپس شناسه گروه دریافتی از سمت بات را در بخش **شناسه گروه** وارد کرده و **فعال کردن** را انتخاب کنید:
-  ![Ticketing: add ticketing bot](add-ticketing-bot.png)
+  ![Ticketing: add ticketing bot](img/add-ticketing-bot.png)
 
 زین پس، از طریق گروه مربوطه می‌توانید عملیت‌هایی چون **ساخت تیکت**، **حذف کردن شناسه تلگرام** و **لغو فرآیند ساخت تیکت** را انجام دهید.
