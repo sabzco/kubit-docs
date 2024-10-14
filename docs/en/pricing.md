@@ -61,7 +61,7 @@ This service is billed on a PAYG basis, based on the amount of storage and traff
 - PAYG for Overages
 
 |                  | پایه          | متوسط         | بزرگ         | سازمانی    |
-| :--------------- | :------------ | :------------ |:-------------| :--------- |
+| :--------------- | :------------ | :------------ | :----------- | :--------- |
 | User             | Unlimited     | Unlimited     | Unlimited    | Unlimited  |
 | Project          | Unlimited     | Unlimited     | Unlimited    | Unlimited  |
 | Error Monitoring | +1K for $0.4  | +1k for $0.35 | +1k for $0.3 | Negotiable |
