@@ -37,10 +37,10 @@ In this service, the Kubernetes license is priced based on the resources allocat
 
 This service is billed on a PAYG basis, based on the amount of storage and traffic (upload and download) used.
 
-|                             |      | Price  |
-| :-------------------------- | :--- | :----- |
-| Storage                     | 1 GB | €0.015 |
-| Traffic (Upload & Download) | 1 GB | €0.04  |
+|                             |      | Price        |
+| :-------------------------- | :--- | :----------- |
+| Storage                     | 1 GB | €0.015/Month |
+| Traffic (Upload & Download) | 1 GB | €0.04        |
 
 ## SaaS (Tools)
 
@@ -90,6 +90,6 @@ This service is billed on a PAYG basis, based on the amount of storage and traff
 
 ### Docker Registery
 
-|        |      | Price  |
-| :----- | :--- | :----- |
-| Storge | 1 GB | €0.015 |
+|        |      | Price        |
+| :----- | :--- | :----------- |
+| Storge | 1 GB | €0.015/Month |
