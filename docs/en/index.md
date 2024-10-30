@@ -8,7 +8,6 @@ subDocuments:
   - organize
   - ticketing
   - resmon
-  - zereshk
   - resan
 ---
 
@@ -29,5 +28,4 @@ Welcome to the comprehensive [Kubit](https://panel.kubit.ir/en/) documentation! 
 - [Kubchi](kubchi): Management of Cloud Tools and Applications
 - [Certman](certman): Cloud Security Using Client-side Certificates
 - [Resmon](resmon): Resource Monitoring with Appropriate Granularity
-- [Zereshk](zereshk): Smart Proxy
 - [Resan](resan): Message Reception and Management Center
