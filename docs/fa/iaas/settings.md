@@ -8,13 +8,13 @@
 - از میان پروژه‌ها، پروژه موردنظر خود را انتخاب کنید.
 - سپس خطای عدم اتصال پروژه ظاهر می‌شود. برای اتصال پروژه، روی دکمه **اتصال** کلیک کنید.
 - مکان موردنظر خود را از میان مکان‌های موجود در کوبیت انتخاب کرده و روی **اتصال** کلیک کنید.
-  ![IaaS: empty project list](empty-project-list.png)
-  ![IaaS: project lists](project-lists.png)
-  ![IaaS: bind project](bind-project.png)
-  ![IaaS: locations list](locations-list.png)
+  ![IaaS: empty project list](img/empty-project-list.png)
+  ![IaaS: project lists](img/project-lists.png)
+  ![IaaS: bind project](img/bind-project.png)
+  ![IaaS: locations list](img/locations-list.png)
 
 در انتها، پروژه به سرویس زیرساخت متصل شده و به صفحه ماشین‌های مجازی پروژه هدایت می‌شوید:
-![IaaS: after binding project](after-binding-project.png)
+![IaaS: after binding project](img/after-binding-project.png)
 
 :::info[تنظیمات پیش‌فرض پروژه پس از اتصال]
 پس از اتصال پروژه به زیرساخت، مقادیر **ساب‌نت**، **IP شناور** و **گروه امنیتی** پیش‌فرض نیز برای آن تنظیم می‌شود.
@@ -25,7 +25,7 @@
 ## انتخاب پروژه{#select-project}
 
 در صفحه اول سرویس، لیستی از پروژه‌های متصل قابل مشاهده است. ابتدا باید پروژه موردنظر را از میان این لیست انتخاب کنید:
-![IaaS: select projects](select-project.png)
+![IaaS: select projects](img/select-project.png)
 
 در انتها به صفحه ماشین‌های مجازی هدایت خواهید شد.
 
@@ -39,23 +39,23 @@
 - **IP** **عمومی**: نمایش IPهای عمومی تنظیم شده برای ماشین
 - **برچسب‌ها**: نمایش برچسب‌های ماشین
 - **عملیات**: دسترسی به خاموش/روشن کردن، هدایت به کنسول، راه‌اندازی مجدد، ویرایش نام، تغییر اندازه، قطع برق، پاک کردن
-  ![IaaS: vms list](vms-list.png)
+  ![IaaS: vms list](img/vms-list.png)
 
 برای مطالعه و توضیحات بیشتر، به سند [ماشین‌های مجازی](../vms) مراجعه کنید.
 
 :::tip[ساخت پروژه]
 همچنین اگه تمایل به ایجاد پروژه جدید دارید، می‌توانید از طریق گزینه **ایجاد پروژه جدید** اقدام کنید:
 سپس **عنوان** و **کلید** پروژه را وارد کرده و روی **ایجاد** کلیک کنید:
-![IaaS: new project](new-project.png)
-![IaaS: create project form](../organize/create-project-form.png)
+![IaaS: new project](img/new-project.png)
+![IaaS: create project form](../organize/img/create-project-form.png)
 :::
 
 ## قطع اتصال پروژه
 
 - برای قطع اتصال پروژه از سرویس زیرساخت، می‌توانید از آیکون قطع اتصال روی کارت پروژه موردنظر اقدام کنید.
 - سپس در صورت اطمینان، روی دکمه **تایید** دیالوگ باز شده کلیک کنید.
-  ![IaaS: unbind project](unbind-project.png)
-  ![IaaS: confirm unbind project](confirm-unbind-project.png)
+  ![IaaS: unbind project](img/unbind-project.png)
+  ![IaaS: confirm unbind project](img/confirm-unbind-project.png)
 
 ## کارها
 
@@ -65,8 +65,8 @@
 کارها در دو سطح مختلف **پروژه** و **ماشین** وجود دارند. متناسب با صفحه‌ای که در آن هستید، می‌توانید به کارهای همان صفحه و سطح دسترسی پیدا کنید.
 :::
 
-![IaaS: jobs btn](jobs-btn.png)
-![IaaS: jobs list](jobs-list.png)
+![IaaS: jobs btn](img/jobs-btn.png)
+![IaaS: jobs list](img/jobs-list.png)
 
 - نمونه کارها
-  ![IaaS: full jobs list](full-jobs-list.png)
+  ![IaaS: full jobs list](img/full-jobs-list.png)

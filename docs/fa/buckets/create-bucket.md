@@ -1,14 +1,14 @@
 # ساخت باکت جدید
 
 در صفحه سرویس باکت‌ها، پس از [انتخاب یک پروژه متصل](../bucket-settings#select-project)، روی **ساخت باکت جدید** کلیک کنید تا به فرم ساخت باکت هدایت شوید:
-![Create Bucket: new bucket btn](new-bucket-btn.png)
+![Create Bucket: new bucket btn](img/new-bucket-btn.png)
 
 ابتدا **فضا** را انتخاب کرده و **نام** باکت را وارد کنید:
-![Create Bucket: new bucket form 1](new-bucket-form_1.png)
+![Create Bucket: new bucket form 1](img/new-bucket-form_1.png)
 
 :::info[فضای پیش‌فرض]
 به صورت پیش‌فرض آخرین فضای ساخته شده در پروژه به عنوان فضای باکت جدید انتخاب می‌شود. می‌توانید از میان فضاهای موجود، فضای موردنظر خود را انتخاب کنید:
-![Create Bucket: new bucket space list](new-bucket-space-list.png)
+![Create Bucket: new bucket space list](img/new-bucket-space-list.png)
 :::
 
 :::info[پیشوند نام باکت]
@@ -25,13 +25,13 @@
   برای دسته‌بندی، کنترل منابع و مدیریت دسترسی باکت، می‌توانید برچسب‌های مختلفی را به باکت نسبت دهید.
 - **سرویس اکانت**:
   برای تخصیص دسترسی محدود شده به باکت، می‌توانید سرویس اکانت موردنظر خود را در این بخش انتخاب کنید.
-  ![Create Bucket: optional settings](optional-settings.png)
+  ![Create Bucket: optional settings](img/optional-settings.png)
 
 ### افزودن برچسب
 
 روی **افزودن برچسب** کلیک کنید تا فیلدهای خالی کلید-مقدار ایجاد شوند، سپس با مقادیر موردنظر آنها را پر کنید:
-![Create Bucket: new tag box](new-tag-box.png)
-![Create Bucket: new tag values](new-tag-values.png)
+![Create Bucket: new tag box](img/new-tag-box.png)
+![Create Bucket: new tag values](img/new-tag-values.png)
 
 ### انتخاب سرویس اکانت برای باکت
 
@@ -41,12 +41,12 @@
 
 برای انتخاب سرویس اکانت، دو حالت ممکن است پیش بیاید: یا سرویس اکانتی در فضای انتخاب شده وجود دارد یا ندارد. اگر لیستی از سرویس اکانت‌ها موجود باشد، می‌توانید یکی از آن‌ها را انتخاب کنید. در صورتی که سرویس اکانتی وجود نداشته باشد، می‌توانید گزینه **ساخت سرویس اکانت جدید** را انتخاب کنید تا به صورت خودکار یک سرویس اکانت جدید ساخته شود:
 
-![Create Bucket: sa lists](sa-lists.png)
+![Create Bucket: sa lists](img/sa-lists.png)
 
 :::tip[ساخت خودکار سرویس اکانت]
 در صورتی که تمایل به ساخت سرویس اکانت جدید داشته باشید، یک سرویس اکانت با دسترسی کامل به صورت خودکار ساخته شده و به این باکت تخصیص داده می‌شود:
-![Create Bucket: new automate sa](new-automate-sa.png)
-![Create Bucket: new automate sa msg](new-automate-sa-msg.png)
+![Create Bucket: new automate sa](img/new-automate-sa.png)
+![Create Bucket: new automate sa msg](img/new-automate-sa-msg.png)
 :::
 پس از انتخاب سرویس اکانت، روی **ایجاد باکت** کلیک کنید تا باکت موردنظر ساخته شود:
-![Create Bucket: create](create-bucket.png)
+![Create Bucket: create](img/create-bucket.png)

@@ -12,41 +12,41 @@ The only primary access to the ticket creation option is different, and when usi
 ## First Path: Main Panel Page
 
 From the main panel page, click on the **New Ticket** button to be directed to the ticket creation form:
-![Create Ticket: create ticket from panel](create-ticket-from-panel.png)
+![Create Ticket: create ticket from panel](img/create-ticket-from-panel.png)
 
 ## Second Path: Support Service Page
 
 From the Support service page, first access the Support service through the Kubit panel:
-![Create Ticket: tickets](ticketing.png)
+![Create Ticket: tickets](img/ticketing.png)
 
 Then click on the **New Ticket** button to be directed to the ticket creation form:
-![Create Ticket: create ticket](create-ticket.png)
+![Create Ticket: create ticket](img/create-ticket.png)
 
 ## Ticket Creation Form
 
 If you use any of the mentioned paths, you will be directed to the ticket creation form:
-![Create Ticket: new ticket form](new-ticket-form.png)
+![Create Ticket: new ticket form](img/new-ticket-form.png)
 
 Then, enter the ticket title:
-![Create Ticket: enter title](enter-title.png)
+![Create Ticket: enter title](img/enter-title.png)
 
 Select the priority and category from the list:
-![Create Ticket: priority list](priority-list.png)
+![Create Ticket: priority list](img/priority-list.png)
 
 :::info[Default Priority]
 When creating a ticket, the default priority is set to **Normal**, which you can change.
 :::
 
-![Create Ticket: category list](category-list.png)
+![Create Ticket: category list](img/category-list.png)
 
 Also, enter your ticket description:
-![Create Ticket: ticket desc](ticket-desc.png)
+![Create Ticket: ticket desc](img/ticket-desc.png)
 
 If you need to upload a file, in the **Attachments** section, click on the **Add Attachment** button and select the file you want to upload:
-![Create Ticket: add attach](add-attach.png)
+![Create Ticket: add attach](img/add-attach.png)
 
 At the end, click the **Send** button to send your ticket:
-![Create Ticket: submit ticket](submit-ticket.png)
+![Create Ticket: submit ticket](img/submit-ticket.png)
 
 After creating the ticket, you will be directed to the ticket list page, where you can view the new ticket:
-![Create Ticket: new ticket row](new-ticket-row.png)
+![Create Ticket: new ticket row](img/new-ticket-row.png)

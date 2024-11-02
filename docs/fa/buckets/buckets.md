@@ -4,12 +4,12 @@
 
 از صفحه سرویس باکت‌ها، پس از [انتخاب یک پروژه متصل](../bucket-settings#select-project)، به صفحه باکت‌های پروژه هدایت خواهید شد:
 
-![Bucket: bucket page](bucket-page.png)
+![Bucket: bucket page](img/bucket-page.png)
 
 ## لیست باکت‌ها
 
 در انتهای صفحه سرویس، لیست باکت‌های سازمان به همراه اطلاعاتی چون **نام**، **موقعیت/فضا**، **اندازه**، **زمان ایجاد** و **دسترسی عمومی** برای هر باکت، قابل مشاهده است:
-![Bucket: buckets list](buckets-list.png)
+![Bucket: buckets list](img/buckets-list.png)
 همچنین، با کلیک روی نام هر باکت به صفحه [مرورگر باکت](./#bucket-browser) هدایت خواهید شد.
 
 ### دسترسی عمومی
@@ -18,92 +18,92 @@
 
 #### فعال‌سازی دسترسی عمومی
 
-![Bucket: activate public access btn](activate-bucket-public-access-btn.png)
-![Bucket: activate public access](activate-bucket-public-access.png)
+![Bucket: activate public access btn](img/activate-bucket-public-access-btn.png)
+![Bucket: activate public access](img/activate-bucket-public-access.png)
 
 #### غیرفعال‌سازی دسترسی عمومی
 
-![Bucket: deactivate public access btn](deactivate-bucket-public-access-btn.png)
-![Bucket: deactivate public access](deactivate-bucket-public-access.png)
+![Bucket: deactivate public access btn](img/deactivate-bucket-public-access-btn.png)
+![Bucket: deactivate public access](img/deactivate-bucket-public-access.png)
 
 ### عملیات‌های هر باکت
 
 در ستون عملیات و از طریق دکمه سه نقطه، لیستی از عملیات‌های موجود برای هر باکت وجود دارد:
-![Bucket: bucket options](bucket-options.png)
+![Bucket: bucket options](img/bucket-options.png)
 
 #### ویرایش باکت
 
 روی **ویرایش باکت** کلیک کنید تا به **صفحه تنطیمات** هدایت شوید:
-![Bucket: edit bucket](edit-bucket.png)
-![Bucket: bucker settings](bucket-settings-details.png)
+![Bucket: edit bucket](img/edit-bucket.png)
+![Bucket: bucker settings](img/bucket-settings-details.png)
 
 برای مطالعه مراحل ویرایش باکت، به بخش [تنظیمات باکت](./#bucket-settings) مراجعه کنید.
 
 #### برچسب‌ها
 
 با کلیک روی گزینه **برچسب‌ها**، لیست برچسب‌های باکت و امکان افزودن برچسب جدید وجود دارد:
-![Bucket: tags](bucket-tags.png)
+![Bucket: tags](img/bucket-tags.png)
 
 علاوه بر برچسب‌های باکت، به صورت پیش‌فرض یک فیلد خالی کلید-مقدار برای ایجاد برچسب جدید، وجود دارد:
-![Bucket: tags modal](bucket-tag-modal.png)
+![Bucket: tags modal](img/bucket-tag-modal.png)
 
 ##### ایجاد برچسب جدید
 
 در صورت تمایل برای ایجاد برچسب جدید، می‌توانید مقادیر جدید را وارد کرده و روی **به‌روزرسانی** کلیک کنید:
-![Bucket: new tag](add-new-tag.png)
+![Bucket: new tag](img/add-new-tag.png)
 
 ##### حذف برچسب
 
 برای حذف برچسب نیز، تنها کافیست روی آیکون **سطل زباله** کنار کلید-مقدار مرتبط، کلیک کنید:
-![Bucket: remove tag](remove-tag.png)
+![Bucket: remove tag](img/remove-tag.png)
 
 #### تخلیه باکت
 
 برای تخلیه باکت (حذف تمام آبجکت‌های آپلود شده)، روی **تخلیه باکت** کلیک کنید:
-![Bucket: clear bucket](clear-bucket.png)
+![Bucket: clear bucket](img/clear-bucket.png)
 
 سپس برای انجام عملیات تخلیه، روی گزینه **تخلیه باکت** کلیک کنید:
-![Bucket: confirm clear bucket](confirm-clear-bucket.png)
+![Bucket: confirm clear bucket](img/confirm-clear-bucket.png)
 
 #### پاک کردن باکت
 
 برای حذف باکت (به همراه حذف تمام آبجکت‌های موجود در آن)، روی **پاک کردن باکت** کلیک کنید:
-![Bucket: remove bucket](remove-bucket.png)
+![Bucket: remove bucket](img/remove-bucket.png)
 
 سپس برای انجام عملیات حذف، روی گزینه **پاک کردن باکت** کلیک کنید:
-![Bucket: confirm remove bucket](confirm-remove-bucket.png)
+![Bucket: confirm remove bucket](img/confirm-remove-bucket.png)
 
 ## مرورگر باکت{#bucket-browser}
 
 در صفحه مرورگر باکت، **فایل‌های بارگذاری شده**، **ساخت پوشه جدید**، **بارگذاری فایل** و امکانات مرتبط به آبجکت‌ها وجود دارد:
-![Bucket: bucket details](bucket-details.png)
+![Bucket: bucket details](img/bucket-details.png)
 
 ### جزئیات آبجکت
 
 با کلیک روی هر آبجکت، اطلاعاتی درمورد آبجکت انتخاب شده شامل **نام**، **اندازه**، **آخرین ویرایش** و **مسیر** آبجکت، به همراه دکمه‌های **کپی لینک دانلود** و امکان **دانلود** مستقیم نمایش داده می‌شود:
-![Bucket: obj details](obj-details.png)
+![Bucket: obj details](img/obj-details.png)
 
 #### عملیات‌های پوشه
 
 روی دکمه سه نفطه روی کارت پوشه موردنظر کلیک کنید:
-![Bucket: folder options btn](folder-options-btn.png)
+![Bucket: folder options btn](img/folder-options-btn.png)
 
 سپس لیستی از عملیات‌های موجود چون **کپی** پوشه، **جابه‌جایی** پوشه و **پاک کردن** نمایش داده می‌شود:
-![Bucket: folder options](folder-options.png)
+![Bucket: folder options](img/folder-options.png)
 هر کدام از این عملیات‌ها، روی تمام آبجکت‌های پوشه اعمال می‌شود.
 
 #### عملیات‌های فایل
 
 روی دکمه سه نفطه روی کارت فایل موردنظر کلیک کنید:
-![Bucket: obj options btn](obj-options-btn.png)
+![Bucket: obj options btn](img/obj-options-btn.png)
 
 سپس لیستی از عملیات‌های موجود چون ایجاد **لینک زماندار**، **کپی**، **جابه‌جایی**، **برچسب‌ها**، **نسخه‌ها** و **پاک کردن** وجود دارد:
-![Bucket: obj options](obj-options.png)
+![Bucket: obj options](img/obj-options.png)
 
 ### بارگذاری فایل
 
 برای بارگذاری فایل، رو گزینه **بارگذاری فایل** کلیک کنید:
-![Bucket: upload file](upload-file.png)
+![Bucket: upload file](img/upload-file.png)
 پس از انتخاب فایل، فایل موردنظر بارگذاری شده و به لیست فایل‌های صفحه **مرورگر** اضافه خواهد شد.
 
 :::info[بارگذاری فایل در پوشه]
@@ -113,70 +113,70 @@
 ### ساخت پوشه
 
 برای ساخت پوشه جدید، روی گزینه **پوشه جدید** کلیک کنید:
-![Bucket: new folder](new-folder.png)
+![Bucket: new folder](img/new-folder.png)
 
 سپس **نام** پوشه را وارد کرده و روی **ایجاد** کیک کنید:
-![Bucket: new folder form](new-folder-form.png)
+![Bucket: new folder form](img/new-folder-form.png)
 در انتها پوشه جدید ساخته شده و به لیست آبجکت‌های صفحه **مرورگر** اضافه خواهد شد.
 
 ## نمای کلی
 
 در صفحه نمای کلی، به چارت گزارش باکت مربوطه دسترسی خواهید داشت:
-![Bucket: bucket overview](bucket-overview.png)
-![Bucket: bucket overview details](bucket-overview-details.png)
+![Bucket: bucket overview](img/bucket-overview.png)
+![Bucket: bucket overview details](img/bucket-overview-details.png)
 
 برای دریافت چارت‌های باکت در بازه‌های زمانی مختلف، می‌توانید روی گزینه **فیلتر** کلیک کرده و بازه موردنظر خود را انتخاب کنید:
-![Buckets: bucket overview chart](bucket-overview-chart.png)
+![Buckets: bucket overview chart](img/bucket-overview-chart.png)
 
 ## دسترسی
 
 در صفحه دسترسی، **دسترسی‌های فضا** و **دسترسی‌های سرویس اکانت** وجود دارد:
-![Bucket: bucket access](bucket-access.png)
+![Bucket: bucket access](img/bucket-access.png)
 
 ### دسترسی‌های فضا
 
 در این بخش، **آدرس** و **کلید** دسترسی به فضا، وجود دارد. هر کلید، شامل Access Key و Secret Key می‌باشد:
-![Bucket: bucket space access details](bucket-space-access-details.png)
+![Bucket: bucket space access details](img/bucket-space-access-details.png)
 
 ### دسترسی‌های سرویس اکانت
 
 در این بخش، لیست سرویس اکانت‌های تخصیص داده شده به باکت را مشاهده می‌کنید. همچنین می‌توانید سرویس اکانت جدید تخصیص دهید و یا سرویس اکانتی را از باکت، حذف کنید:
-![Bucket: bucket sa access details](bucket-sa-access-details.png)
+![Bucket: bucket sa access details](img/bucket-sa-access-details.png)
 
 #### تخصیص سرویس اکانت
 
 برای تخصیص سرویس اکانت، روی گزینه **تخصیص سریس اکانت** کلیک کنید:
-![Bucket: sa allocation](sa-allocation.png)
+![Bucket: sa allocation](img/sa-allocation.png)
 
 می‌توانید از میان سرویس اکانت‌های موجود، یک سرویس اکانت را انتخاب کنید و یا **ساخت سرویس اکانت جدید** را انتخاب کرده و یک سرویس اکانت جدید بسازید:
-![Bucket: sa allocation form](sa-allocation-form.png)
+![Bucket: sa allocation form](img/sa-allocation-form.png)
 
 - انتخاب از سرویس اکانت‌های موجود
 
 **سرویس اکانت** و سطح دسترسی آن در باکت را از لیست **دسترسی در باکت**، انتخاب کنید. در انتها روی دکمه **ایجاد** کلیک کنید.
-![Bucket: sa allocation sa lists](sa-allocation-sa-lists.png)
-![Bucket: allocate sa](allocate-sa.png)
+![Bucket: sa allocation sa lists](img/sa-allocation-sa-lists.png)
+![Bucket: allocate sa](img/allocate-sa.png)
 
 - ساخت سرویس اکانت جدید
 
   **نام** سرویس اکانت جدید را وارد کرده و سطح دسترسی آن در باکت را از لیست‌ **دسترسی در باکت** انتخاب کنید. در انتها روی **ایجاد** کلیک کنید تا سرویس اکانت ساخته و به باکت تخصیص داده شود.
-  ![Bucket: sa allocation new sa](sa-allocation-new-sa.png)
-  ![Bucket: create sa in allocation](create-sa-in-allocation.png)
+  ![Bucket: sa allocation new sa](img/sa-allocation-new-sa.png)
+  ![Bucket: create sa in allocation](img/create-sa-in-allocation.png)
 
 #### حذف سرویس اکانت از باکت
 
 - برای حذف، کافیست روی آیکون سطل زباله کنار نام سرویس اکانت، کلیک کنید.
 - سپس روی دکمه **پاک کردن سرویس اکانت** کلیک کنید.
-  ![Bucket: remove bucket sa](remove-bucket-sa.png)
-  ![Bucket: confirm remove bucket sa](confirm-remove-bucket-sa.png)
+  ![Bucket: remove bucket sa](img/remove-bucket-sa.png)
+  ![Bucket: confirm remove bucket sa](img/confirm-remove-bucket-sa.png)
 
 ## ویرایشگر Policy
 
 پالیسی، تعریف ُسیاست مبتنی بر منابع است که برای اعطای مجوزهای دسترسی باکت و آبجکت‌های درون آن به دیگران (کاربران) استفاده می‌شود. پالیسی‌ها در فرمت JSON بوده و با مشخص کردن سطح دسترسی، به شکل امن و بهینه فایل‌ها و باکت‌هایتان را مدیریت کنید.
 
 می‌توانید پالیسی را از صفحه **ویرایشگر پالیسی** باکت، مشاهده کنید:
-![Bucket: bucket policy](bucket-policy.png)
-![Bucket: bucket policy details](bucket-policy-details.png)
+![Bucket: bucket policy](img/bucket-policy.png)
+![Bucket: bucket policy details](img/bucket-policy-details.png)
 در ادامه به توضیح هر کدام از مقادیر پالیسی پرداخته شده است.
 
 ### مقادیر Policy
@@ -194,32 +194,32 @@
 ### ویرایش Policy
 
 برای ویرایش پالسی از **ویرایشگر Policy** می‌توانید استفاده کنید. به عنوان مثال، مقدار `"s3:ListBucket"` را به **Action** و `"arn:aws:s3:::testco-b2"` را به **Resource** اضافه کرده و روی **ذخیره** کلیک می‌کنیم:
-![Bucket: edit bucket policy](edit-bucket-policy.png)
+![Bucket: edit bucket policy](img/edit-bucket-policy.png)
 این تغییرات، اجازه دسترسی لیست کردن محتوا و خواندن آبجکت‌های باکت را به کاربر می‌دهد.
 
 ## چرخه عمر
 
 در صفحه چرخه عمر، لیستی از **قوانین تعریف شده** به همراه امکان **تعریف قانون جدید** فراهم شده است:
-![Bucket: bucket lifecycle](bucket-lifecycle.png)
+![Bucket: bucket lifecycle](img/bucket-lifecycle.png)
 
 در لیست قوانین، اطلاعاتی چون **نام**، **وضعیت**، **تعداد روزها**، **پیشوند** و **برچسب‌ها** موجود است:
-![Bucket: lifecycle rules](lifecycle-rules.png)
+![Bucket: lifecycle rules](img/lifecycle-rules.png)
 
 و با کلیک روی هر قانون، به صفحه جزئیات آن قانون هدایت خواهید شد:
-![Bucket: rule details](rule-details.png)
+![Bucket: rule details](img/rule-details.png)
 
 ### تعریف قانون جدید
 
 برای تعریف قانون، روی گزینه **تعریف قانون جدید** کلیک کنید:
-![Bucket: new lifecycle rule btn](new-lifecycle-rule-btn.png)
+![Bucket: new lifecycle rule btn](img/new-lifecycle-rule-btn.png)
 
 ابتدا **نام** قانون و **تعداد روزها** را وارد کنید:
-![Bucket: new lifecycle rule](new-lifecycle-rule.png)
+![Bucket: new lifecycle rule](img/new-lifecycle-rule.png)
 
 :::tip[مقادیر اختیاری]
 در یک قانون چرخه عمر، پیشوند مشخص می‌کند که ‌قانون بر روی کدام آبجکت‌ها اعمال می‌شود. این قانون فقط آبجکت‌هایی را تحت تاثیر قرار می‌دهد که کلید (نام) آنها با پیشوند مشخص شده شروع شود.
 به عنوان مثال برای اعمال قانون روی آبجکت‌های پوشه `imgs` در باکت موردنظر، مقدار پیشوند وارد شده باید برابر `imgs/` باشد.
-![Bucket: rule prefix](rule-prefix.png)
+![Bucket: rule prefix](img/rule-prefix.png)
 
 حتی می‌توان قانون را به یک آبجکت هم محدود کرد. برای این کار، تنها کافیست در فیلد **پیشوند** کلید (نام) آبجکت را هم وارد کنید، مانند `imgs/kubernetes.png`.
 :::
@@ -229,39 +229,39 @@
 :::
 
 در انتها پس از وارد کردن اطلاعات موردنیاز، روی **تعریف قانون جدید** کلیک کنید:
-![Bucket: create new rule](create-new-rule.png)
+![Bucket: create new rule](img/create-new-rule.png)
 
 ### عملیات‌های هر قانون
 
 در ستون عملیات و از طریق دکمه سه نقطه، لیستی از عملیات‌های موجود برای هر قانون وجود دارد:
-![Bucket: rule options](rule-options.png)
+![Bucket: rule options](img/rule-options.png)
 
 #### ویرایش قانون
 
 برای ویرایش دو مسیر وجود دارد: دکمه سه نقطه در ستون عملیات و صفحه جزئیات قانون.
 
 از طریق دکمه سه نقطه ستون عملیات، روی گزینه **ویرایش قانون** کلیک کنید و یا با کلیک روی قانون موردنظر از لیست قانون‌ها، به صفحه جزئیات آن قانون بروید:
-![Bucket: edit rule](edit-rule.png)
+![Bucket: edit rule](img/edit-rule.png)
 
 سپس متناسب با تغییرات موردنظر، ویرایش لازم را انجام داده و روی **به‌روزرسانی قانون** کلیک کنید:
-![Bucket: after edit rule](after-edit-rule.png)
+![Bucket: after edit rule](img/after-edit-rule.png)
 
 #### حذف قانون
 
 برای حذف، روی گزینه **پاک کردن قانون** کلیک کرده و در صورت اطمینان از انجام عملیات، مجدد روی **پاک کردن قانون** کلیک کنید:
-![Bucket: remove rule](remove-rule.png)
-![Bucket: confirm remove rule](confirm-remove-rule.png)
+![Bucket: remove rule](img/remove-rule.png)
+![Bucket: confirm remove rule](img/confirm-remove-rule.png)
 
 ## تنظیمات باکت{#bucket-settings}
 
 در صفحه تنظیمات، امکان تغییر گزینه‌های **دسترسی عمومی**، **نسخه‌نگاری** و **برچسب‌ها** فراهم شده است.
-![Bucket: bucket settings](bucket-settings.png)
-![Bucket: bucket settings details](bucket-settings-details.png)
+![Bucket: bucket settings](img/bucket-settings.png)
+![Bucket: bucket settings details](img/bucket-settings-details.png)
 
 :::caution[فیلدهای غیرقابل ویرایش]
 مقادیر **نام** و **فضا** غیرقابل ویرایش می‌باشند.
 :::
 
 تغییرات موردنظر خود را انجام داده و روی **به‌روزرسانی باکت** کلیک کنید:
-![Bucket: edit bucket settings](edit-bucket-settings.png)
+![Bucket: edit bucket settings](img/edit-bucket-settings.png)
 برای مقادیر دیگر چون **دسترسی عمومی** و **برچسب‌ها** نیز می‌توانید به همین صورت عمل کنید.

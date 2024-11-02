@@ -9,143 +9,143 @@
 ## نمای کلی {#overview}
 
 در این زیرصفحه، اطلاعات مربوط به ماشین مجازی نمایش داده می‌شود. این اطلاعات شامل **نام**، **سیستم‌عامل و نسخه آن**، اطلاعات **پردازنده**، **حافظه** و **دیسک** به همراه **IP عمومی** و **مانیتورینگ** ماشین، وجود دارد.
-![VM: overview](vm-overview.png)
+![VM: overview](img/vm-overview.png)
 
 ### هدایت به کنسول
 
-![VM: console](console.png)
+![VM: console](img/console.png)
 
 ### خاموش/روشن کردن
 
-![VM: shutdown/power on](shutdown.png)
+![VM: shutdown/power on](img/shutdown.png)
 
 ### عملیات‌های ماشین
 
-![VM: actions btn](vm-actions.png)
-![VM: actions list](vm-actions-list.png)
+![VM: actions btn](img/vm-actions.png)
+![VM: actions list](img/vm-actions-list.png)
 
 ## امنیت
 
 موارد مرتبط با امنیت ماشین‌ها چون، **رمز عبور**، **کلیدهای SSH** و **گروه‌های امنیتی** در این بخش قابل مشاهده است. در ادامه به شرح تنظیمات هرکدام می‌پردازیم.
-![VM: security](security.png)
+![VM: security](img/security.png)
 
 ### نمایش رمز عبور
 
 در صورتی که رمز عبوری برای ماشین تنظیم شده باشد، از طریق دکمه **نمایش رمز عبور** می‌توانید آن را مشاهده کنید.
-![VM: display pass](display-password.png)
-![VM: vm pass](vm-password.png)
+![VM: display pass](img/display-password.png)
+![VM: vm pass](img/vm-password.png)
 
 ### بازنشانی رمز عبور
 
 - برای تغییر رمز عبور، ابتدا از خاموش بودن ماشین، اطمینان حاصل کنید. سپس روی دکمه **بازنشانی رمز عبور** کلیک کنید.
 - در انتها در صورت اطمینان، روی گزینه **تایید** کلیک کنید.
 - پس از انجام موفقیت‌آمیز عملیات، اطلاعات رمز عبور جدید به ایمیل شما ارسال شده و نمایش داده می‌شود.
-  ![VM: reset pass](reset-password.png)
-  ![VM: confirm reset pass](confirm-reset-password.png)
+  ![VM: reset pass](img/reset-password.png)
+  ![VM: confirm reset pass](img/confirm-reset-password.png)
 
 ### افزودن کلید
 
 - برای افزودن کلید SSH، ابتدا از خاموش بودن ماشین، اطمینان حاصل کنید. سپس روی دکمه **افزودن کلید SSH** کلیک کنید.
 - کلید موردنظر را از میان کلیدهای موجود انتخاب کرده یا کلید جدید تعریف کنید.
 - در نهایت روی دکمه **افزودن** کلیک کنید.
-  ![VM: add ssh](add-sshkey-vm.png)
-  ![VM: select ssh](select-ssh-key.png)
+  ![VM: add ssh](img/add-sshkey-vm.png)
+  ![VM: select ssh](img/select-ssh-key.png)
 
 ### افزودن گروه امنیتی
 
 - برای افزودن گروه امنیتی، ابتدا روی دکمه **افزودن گروه امنیتی** کلیک کنید.
 - سپس گروه موردنظر را از میان گروه‌های موجود انتخاب کنید.
 - در نهایت روی دکمه **افزودن** کلیک کنید.
-  ![VM: add sec gp btn](add-sec-gp-to-vm.png)
-  ![VM: add sec gp](add-sec-gp.png)
+  ![VM: add sec gp btn](img/add-sec-gp-to-vm.png)
+  ![VM: add sec gp](img/add-sec-gp.png)
 
 ## دیسک‌ها
 
 در این زیرصفحه، اطلاعات مربوط به دیسک‌های ماشین مجازی نمایش داده می‌شود. این اطلاعات شامل **وضعیت**، **نام**، **نوع دیسک**، **ظرفیت** و ... به همراه عملیات‌هایی چون، **افزودن**، **حذف** و **تغییر اندازه** می‌باشد.
-![VM: disks](disks.png)
+![VM: disks](img/disks.png)
 
 ### افزودن دیسک
 
 - برای افزودن دیسک، ابتدا روی دکمه **افزودن دیسک جدید** کلیک کنید.
 - سپس مقدار **ظرفیت** دیسک، به همراه **نام** آن را وارد کنید.
 - در نهایت روی دکمه **ساخت دیسک** کلیک کنید.
-  ![VM: new disk btn](new-disk-btn.png)
-  ![VM: new disk](new-disk.png)
+  ![VM: new disk btn](img/new-disk-btn.png)
+  ![VM: new disk](img/new-disk.png)
 
 ### عملیات‌های دیسک
 
 عملیات‌‌های گوناگونی که برای یک دیسک وجود دارد، از طریق ستون **عملیات** در دسترس است:
-![VM: disk actions btn](disk-actions-btn.png)
-![VM: disk actions list](disk-actions.png)
+![VM: disk actions btn](img/disk-actions-btn.png)
+![VM: disk actions list](img/disk-actions.png)
 
 #### جدا کردن دیسک
 
 - برای جدا کردن دیسک، روی گزینه **جدا کردن** در ستون عملیات کلیک کنید.
 - سپس در صورت اطمینان، روی دکمه **جدا کردن** در دیالوگ باز شده کلیک کنید.
-  ![VM: detach disk btn](detach-disk-btn.png)
-  ![VM: detach disk](detach-disk.png)
+  ![VM: detach disk btn](img/detach-disk-btn.png)
+  ![VM: detach disk](img/detach-disk.png)
 
 #### ویرایش دیسک
 
 - برای ویرایش دیسک، ابتدا روی گزینه **ویرایش** در ستون عملیات کلیک کنید.
 - سپس متناسب با نیاز خود، سایز جدید و نام موردنظر خود را وارد کنید.
 - در نهایت بر روی دکمه **ویرایش** کلیک کنید.
-  ![VM: resize disk btn](disk-resize-btn.png)
-  ![VM: resize disk](disk-resize.png)
+  ![VM: resize disk btn](img/disk-resize-btn.png)
+  ![VM: resize disk](img/disk-resize.png)
 
 #### حذف
 
 - برای حذف یک دیسک، ابتدا روی گزینه **پاک کردن** در ستون عملیات کلیک کنید.
 - در صورت اطمینان از انجام عملیات، نام دیسک را به عنوان تاییدیه برای حذف، وارد کرده و روی **پاک کردن** کلیک کنید.
-  ![VM: remove disk btn](remove-disk-btn.png)
-  ![VM: remove disk](remove-disk-confirm.png)
+  ![VM: remove disk btn](img/remove-disk-btn.png)
+  ![VM: remove disk](img/remove-disk-confirm.png)
 
 ### عملیات گروهی
 
 برای سهولت انجام عملیات روی چند دیسک، برخی عملیات‌های فوق از طریق گزینه **عملیات گروهی** فراهم شده است. ابتدا یک یا چند دیسک را انتخاب کنید:
-![VM: select disks](select-multi-disks.png)
+![VM: select disks](img/select-multi-disks.png)
 پس از انتخاب دیسک‌ها، دکمه **عملیات گروهی** فعال می‌شود:
-![VM: disks options btn](disks-options-btn.png)
+![VM: disks options btn](img/disks-options-btn.png)
 با کلیک روی **عملیات گروهی**، لیستی از عملیات‌های موجود برای ماشین‌ها باز می‌شود:
-![VM: disks options](disks-options.png)
+![VM: disks options](img/disks-options.png)
 با کلیک روی هرکدام از گزینه‌ها، عملیات موردنظر بر روی تمام دیسک‌های انتخاب شده اعمال خواهد شد.
 
 ## شبکه
 
 در این زیرصفحه، اطلاعات مربوط به شبکه‌های ماشین مجازی نمایش داده می‌شود. این اطلاعات شامل **ساب‌نت‌ها**، **آدرس IP عمومی** و ... به همراه عملیات‌هایی چون، **افزودن کارت شبکه**، **حذف ساب‌نت** و **قطع اتصال IP عمومی** می‌باشد.
-![VM: network](network.png)
+![VM: network](img/network.png)
 
 ### افزودن کارت شبکه
 
 - برای افزودن کارت شبکه، روی دکمه **افزودن کارت شبکه** کلیک کنید.
 - سپس در دیالوگ باز شده، یک **ساب‌نت** از میان ساب‌نت‌های موجود انتخاب کرده و **آدرس IP** موردنظر را وارد کنید.
 - در نهایت روی دکمه **افزودن** کلیک کنید.
-  ![VM: add network btn](add-new-network-btn.png)
-  ![VM: new network to vm](new-network-to-vm.png)
+  ![VM: add network btn](img/add-new-network-btn.png)
+  ![VM: new network to vm](img/new-network-to-vm.png)
 
 ### قطع اتصال IP عمومی
 
 - برای قطع اتصال IP عمومی و اتصال ماشین از اینترنت، روی دکمه **قطع اتصال IP عمومی** کلیک کنید.
 - در صورت اطمینان از انجام عملیات، روی دکمه **تایید** کلیک کنید.
-  ![VM: unbind floating ip btn](unbind-floating-ip-btn.png)
-  ![VM: confirm unbind floating ip](unbind-floating-ip-from-vm.png)
+  ![VM: unbind floating ip btn](img/unbind-floating-ip-btn.png)
+  ![VM: confirm unbind floating ip](img/unbind-floating-ip-from-vm.png)
 
 ### عملیات‌های ساب‌نت
 
 لیستی از عملیات‌های موجود برای ساب‌نت‌ها از طریق دکمه سه نقطه در ستون **عملیات** قابل دسترسی می‌باشد:
-![VM: subnet actions](subnet-actions-btn.png)
-![VM: subnet actions](subnet-actions-list.png)
+![VM: subnet actions](img/subnet-actions-btn.png)
+![VM: subnet actions](img/subnet-actions-list.png)
 
 #### تبدیل به کارت شبکه اصلی
 
 - برای تبدیل یک ساب‌نت به کارت شبکه اصلی، روی گزینه **تبدیل به کارت شبکه اصلی** کلیک کنید.
 - در صورت اطمینان از انجام عملیات، روی دکمه **تایید** کلیک کنید.
-  ![VM: convert to primary](convert-to-primary.png)
-  ![VM: confirm convert to primary](confirm-convert-to-primary.png)
+  ![VM: convert to primary](img/convert-to-primary.png)
+  ![VM: confirm convert to primary](img/confirm-convert-to-primary.png)
 
 #### حذف ساب‌نت
 
 - برای حذف یک ساب‌نت، روی دکمه **حذف** کلیک کنید.
 - در صورت اطمینان از انجام عملیات، نام ساب‌نت را به عنوان تاییدیه برای حذف، وارد کرده و روی **حذف کن** کلیک کنید.
-  ![VM: remove subnet btn](remove-subnet-btn.png)
-  ![VM: remove subnet](remove-subnet-vm.png)
+  ![VM: remove subnet btn](img/remove-subnet-btn.png)
+  ![VM: remove subnet](img/remove-subnet-vm.png)

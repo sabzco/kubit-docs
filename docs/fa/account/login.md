@@ -7,18 +7,18 @@
 
 - ابتدا ایمیل یا شماره تلفن ثبت‌نام شده خود را به همراه رمز عبور وارد کنید.
 - سپس روی دکمه **ورود** کلیک کنید تا وارد حساب کاربری خود شوید.
-  ![Login: login with email/phone](login-with-email.png)
+  ![Login: login with email/phone](img/login-with-email.png)
 
 ## روش دوم: ورود سازمانی
 
 در صورت نیاز به دسترسی به پنل کوبیت سازمانی که در آن عضو هستید، در [صفحه ورود](https://panel.kubit.ir/fa/login/) ابتدا روی گزینه **ورود سازمانی** کلیک کنید:
-![Login: login with org](login-with-org.png)
+![Login: login with org](img/login-with-org.png)
 
 در این مرحله نام سازمان مربوطه را وارد کرده و گزینه **ادامه** را بزنید:
-![Login: login with org continue](login-with-org-continue.png)
+![Login: login with org continue](img/login-with-org-continue.png)
 
 در انتها، نام کاربری و رمز عبور خود را وارد کرده و گزینه **ورود** را بزنید:
-![Login: enter username](enter-username-in-org.png)
+![Login: enter username](img/enter-username-in-org.png)
 
 با دنبال کردن این مراحل، می‌توانید به پنل کوبیت وارد شوید.
 
@@ -39,11 +39,11 @@
 اگر به عنوان کاربر LDAP به سازمان افزوده شده‌اید، باید به [صفحه ورود](https://panel.kubit.ir/fa/login/) مراجعه کنید و از گزینه **بازیابی رمز عبور** برای تعیین رمز عبور جدید استفاده کنید.
 
 در صفحه ورود به حساب کاربری، روی **ورود سازمانی** کلیک کنید:
-![Login: login with org](login-with-org.png)
+![Login: login with org](img/login-with-org.png)
 
 در این مرحله نام سازمان مربوطه را وارد کرده و گزینه **ادامه** را بزنید:
-![Login: login with org continue](login-with-org-continue.png)
+![Login: login with org continue](img/login-with-org-continue.png)
 
 سپس روی **بازیابی** کلیک کنید:
-![Login: forgot ldap password](forgot-ldap-password.png)
+![Login: forgot ldap password](img/forgot-ldap-password.png)
 برای مطالعه ادامه مراحل فراموشی رمز عبور، به سند [فراموشی رمز عبور](../forgot-password) مراجعه کنید.

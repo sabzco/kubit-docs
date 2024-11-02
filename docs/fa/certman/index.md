@@ -122,7 +122,7 @@
 
 در ابتدا و پس از ثبت ایمیل و نام کاربری فرد توسط ادمین سازمان، مراحل تکمیل ثبت‌نام کاربر توسط خود او و با ورود به سامانه‌ی سرتمن انجام می‌گیرد. کاربر ابتدا باید به سامانه‌ی سرتمن رفته و «بازیابی رمز عبور» را انتخاب کند. سپس با وارد کردن نام کاربری خود، کدی به ایمیل ثبت‌شده کاربر توسط سامانه‌ی سرتمن ارسال می‌شود. در مرحله‌ی بعد کاربر کد ارسال شده را درون سامانه وارد نموده و پس از تایید کد توسط سرتمن، به مرحله‌ی انتخاب رمز عبور خواهیم رفت.
 
-![Certman: register](register.png)
+![Certman: register](img/register.png)
 
 <center> مراحل تکمیل ثبت‌نام در سرتمن </center>
 
@@ -153,7 +153,7 @@
 - از منوی سمت چپ گزینه‌ی Privacy and security را انتخاب کنید
 - مطابق شکل زیر وارد بخش Security شوید
 
-![Certman: chrome settings](chrome-security.png)
+![Certman: chrome settings](img/chrome-security.png)
 
 - در انتهای این بخش قسمت Manage certificates را انتخاب کنید
 - در تب Your certificates از طریق دکمه‌ی Import فایل گواهی دریافت شده از سرتمن را انتخاب کرده و پس از وارد کردن رمز عبور، نصب گواهی بر روی کروم به اتمام خواهد رسید.
@@ -166,7 +166,7 @@
 - از منوی سمت چپ گزینه‌ی Privacy & Security را انتخاب کنید
 - مطابق با تصویر زیر در انتهای این بخش بر روی دکمه‌ی View Certifiecates ذیل عنوان Security کلیک کنید
 
-![Certman: firefox options](firefox-security.png)
+![Certman: firefox options](img/firefox-security.png)
 
 - در دیالوگ باز شده از طریق دکمه‌ Import فایل گواهی دریافت شده از سرتمن را انتخاب کرده و پس از وارد کردن رمز عبور، نصب گواهی بر روی فایرفاکس به اتمام خواهد رسید.
 
@@ -176,13 +176,13 @@
 
 بعد از اتمام دانلود، فایل Certificate را باز کنید. سپس در پنجره باز شده، Password خود را وارد کنید و دکمه تایید را انتخاب کنید.
 
-![Certman: android password](android-pass.png)
+![Certman: android password](img/android-pass.png)
 
 #### تعیین یک نام و انتخاب نوع استفاده
 
 در مرحله بعد یک نام وارد نمایید و نوع استفاده را apps انتخاب کنید.
 
-![Certman: android name](android-name.png)
+![Certman: android name](img/android-name.png)
 
 #### ریستارت مرورگر
 
@@ -192,7 +192,7 @@
 
 اکنون وارد آدرس سرویس مورد نظر شوید و در پنجره باز شده Certificate را انتخاب کنید و دکمه Allow را بزنید.
 
-![Certman: android allow](android-allow.png)
+![Certman: android allow](img/android-allow.png)
 
 #### ورود به سرویس مورد نظر
 
@@ -204,15 +204,15 @@
 
 بعد از اتمام دانلود، فایل Certificate را باز کنید. سپس در پنجره باز شده، گزینه Allow را انتخاب کنید.
 
-![Certman: iphone allow](iphone-allow.jpg)
+![Certman: iphone allow](img/iphone-allow.jpg)
 
 #### انتخاب گزینه Install
 
 در صفحه ی باز شده گزینه Install را انتخاب کنید.
 
-![Certman: iphone identity](iphone-identity.jpg)
+![Certman: iphone identity](img/iphone-identity.jpg)
 
-![Certman: iphone install](iphone-install.jpg)
+![Certman: iphone install](img/iphone-install.jpg)
 
 #### وارد کردن رمز فایل Certificate
 
@@ -222,7 +222,7 @@
 
 با انتخاب گزینه Done مراحل نصب تمام می شود.
 
-![Certman: iphone done](iphone-done.jpg)
+![Certman: iphone done](img/iphone-done.jpg)
 
 #### ورود به سرویس مورد نظر
 

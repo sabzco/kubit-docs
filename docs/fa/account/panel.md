@@ -1,7 +1,7 @@
 # پنل کوبیت
 
 با [ورود به پنل کاربری کوبیت](https://panel.kubit.ir/fa/login) می‌توانید به تمامی سرویس‌های موجود و تنظیمات کاربری و سیستمی دسترسی پیدا کنید. این پنل امکان مدیریت و مشاهده جزئیات کامل سرویس‌ها، از جمله مدیریت کاربران و پروژه‌ها را فراهم می‌کند، به طوری که می‌توانید به‌راحتی تمام تنظیمات و قابلیت‌های موجود را مورد استفاده قرار دهید.
-![Panel: panel](panel.png)
+![Panel: panel](img/panel.png)
 
 :::info[توجه]
 تمام تنظیمات و مدیریت بخش‌های مختلف، تحت عنوان‌های مرتبط در زیرمجموعه سند حساب کاربری قابل دسترسی است.
@@ -12,39 +12,39 @@
 ## منوی سمت راست
 
 دسترسی سریع به لیست سرویس‌های موجود در پنل و پروفایل کاربری از طریق منوی سمت راست فراهم شده است. از قابلیت جستجو در کوبیت نیز می‌توانید برای جستجو میان سرویس‌ها استفاده کنید:
-![Panel: sidebar](sidebar.png)
+![Panel: sidebar](img/sidebar.png)
 
 ## تنطیمات پروفایل
 
 تمام تنظیمات مربوط به پروفایل و حساب کاربری، از بخش پروفایل در پنل کوبیت، قابل دسترسی می‌باشد. در سند [تنظیمات پروفایل کاربری](../profile-settings) به شرح تنظیمات پروفایل پرداخته شده است.
-![Panel: profile settings](profile-settings.png)
+![Panel: profile settings](img/profile-settings.png)
 
 ## تغییر قالب
 
 برای تغییر قالب پنل کاربری، ابتدا روی پروفایل کلیک کنید. سپس از منوی باز شده، گزینه **قالب** را انتخاب کرده و قالب موردنظر خود را از میان گزینه‌های موجود انتخاب نمایید:
-![Panel: theme](theme.png)
+![Panel: theme](img/theme.png)
 
 ## تغییر زبان
 
 برای تغییر زبان پنل کاربری، ابتدا روی پروفایل کلیک کنید. سپس از منوی باز شده، گزینه **زبان** را انتخاب کنید و زبان دلخواه خود را از میان زبان‌های موجود انتخاب نمایید:
-![Panel: lang](lang.png)
+![Panel: lang](img/lang.png)
 
 ## ساخت حساب شخصی {#create-organization}
 
 در صورتی که پیش از این تحت سازمان دیگری به پنل دسترسی داشته‌اید و حال می‌خواهید حساب شخصی (کوبیتی) خود را ایجاد کنید، ابتدا روی پروفایل کلیک کرده و سپس از منوی باز شده، گزینه **حساب خودت را بساز** را انتخاب کنید:
-![Panel: create personal account](create-personal-account.png)
+![Panel: create personal account](img/create-personal-account.png)
 
 به صفحه **ایجاد حساب کاربری** هدایت می‌شوید. مشخصات کاربری موردنیاز را وارد کرده و روی **ثبت‌نام** کلیک کنید:
-![Panel: personal account form](register-form.png)
+![Panel: personal account form](img/register-form.png)
 
 سپس باید کد ۶ رقمی ارسال‌شده به ایمیل یا شماره تلفن خود را برای احراز هویت و تأیید ثبت‌نام وارد کرده و روی **ارسال** کلیک کنید:
-![Panel: enter confirm code](enter-confirm-code-register.png)
+![Panel: enter confirm code](img/enter-confirm-code-register.png)
 
 در نهایت پس از ارسال کد تأیید، فرآیند ثبت‌نام شما تکمیل شده و حساب کاربری کوبیتی شما ایجاد می‌شود.
 
 پس از این، به فرم ساخت سازمان مرتبط با حساب کاربری هدایت می‌شوید. همانطور که در توضیح [مفهوم سازمان](../..#organization) ذکر شد، برای دسترسی به امکانات پنل، باید سازمانی منتسب به حساب کاربری وجود داشته باشد.
 با وارد کردن اطلاعات خواسته‌شده (نام و کلید سازمان)، می‌توانید سازمان خود را ایجاد کنید:
-![Panel: create org after register](create-org-after-register.png)
+![Panel: create org after register](img/create-org-after-register.png)
 
 در انتها به پنل وارد شده و به پنل سازمان شخصی خود دسترسی خواهید داشت.
 
@@ -55,41 +55,41 @@
 ## سوییچ کردن بین سازمان
 
 برای مدیریت چندین سازمان مختلف در پنل کاربری، ابتدا روی پروفایل کلیک کرده و سپس گزینه **ورود به سازمان دیگر** را انتخاب کنید:
-![Panel: other organization](other-organization.png)
+![Panel: other organization](img/other-organization.png)
 
 نام سازمان موردنظر را وارد کرده و روی گزینه **ادامه** کلیک کنید:
-![Panel: login another org](enter-org-name.png)
+![Panel: login another org](img/enter-org-name.png)
 
 سپس با نام کاربری خود در آن سازمان، لاگین کنید:
-![Panel: login username in org](enter-username-in-org.png)
+![Panel: login username in org](img/enter-username-in-org.png)
 
 از این طریق می‌توانید سازمان‌های دیگری که در آن عضو هستید را به پنل خود اضافه کرده و تنها با کلیک بر روی نام سازمان، بین سازمان‌ها جابه‌جا شوید:
-![Panel: switch organization](switch-organization.png)
+![Panel: switch organization](img/switch-organization.png)
 
 ## صفحات مورد علاقه‌ی شما
 
 بخش صفحات مورد علاقه در صفحه اصلی پنل، دسترسی سریع به سرویس‌های مورد علاقه کاربران را فراهم می‌کند:
-![Panel: favorite pages](favorite-pages.png)
+![Panel: favorite pages](img/favorite-pages.png)
 
 :::tip[افزودن سرویس به لیست موردعلاقه‌ها]
 با کلیک روی آیکون ستاره در نوار بالایی صفحه هر سرویس، می‌توانید سرویس موردنظر خود را با نام دلخواه به موردعلاقه‌ها اضافه کنید:
-![Panel: add favorite](add-favorite.png)
-![Panel: add fav page name](favorite-page-name.png)
+![Panel: add favorite](img/add-favorite.png)
+![Panel: add fav page name](img/favorite-page-name.png)
 :::
 
 ## سرویس‌های کوبیت
 
 علاوه بر منوی سمت راست پنل، می‌توانید از صفحه اصلی پنل نیز به لیست سرویس‌های کوبیت دسترسی داشته باشید:
-![Panel: services](services.png)
+![Panel: services](img/services.png)
 
 ## رویدادها و تیکت‌های اخیر
 
 ### رویدادها
 
 از طریق بخش **رویدادهای اخیر** می‌توانید به اعلانات کوبیت دسترسی پیدا کنید. در این بخش، اعلانات سازمانی (به تفکیک هر سازمان) و اعلانات عمومی قابل مشاهده هستند:
-![Panel: recent notices](recent-notices.png)
+![Panel: recent notices](img/recent-notices.png)
 
 ### تیکت‌ها
 
 آخرین تیکت‌های ثبت شده در [سرویس پشتیبانی ](../../ticketing) از طریق بخش **تیکت‌های اخیر** قابل دسترسی هستند:
-![Panel: recent tickets](recent-tickets.png)
+![Panel: recent tickets](img/recent-tickets.png)

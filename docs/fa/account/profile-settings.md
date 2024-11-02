@@ -1,15 +1,15 @@
 # تنظیمات پروفایل کاربری
 
 برای تغییر اطلاعات کاربری شامل ایمیل، شماره تلفن، نام و نام خانوادگی عکس پروفایل، همچنین تغییر رمز عبور و ویرایش کانال‌های اطلاع‌رسانی، می‌توانید از بخش **تنظیمات پروفایل** اقدام کنید.
-![Profile: profile settings](profile-settings.png)
+![Profile: profile settings](img/profile-settings.png)
 
 ### ویرایش اطلاعات کاربری
 
 وارد بخش **اطلاعات کاربر** در **تنظیمات پروفایل** شوید و روی سه نقطه سمت چپ جدول اطلاعات کاربر کلیک کرده و گزینه **ویرایش** را انتخاب کنید:
-![Profile: edit profile info btn](edit-user-info-btn.png)
+![Profile: edit profile info btn](img/edit-user-info-btn.png)
 
 امکان انتخاب و تغییر عکس پروفایل نیز از این بخش فراهم است. پس از وارد کردن اطلاعات جدید، تغییرات خود را **ذخیره** کنید:
-![Profile: edit user form](edit-user-form.png)
+![Profile: edit user form](img/edit-user-form.png)
 
 :::caution[توجه]
 توجه داشته باشید که **نام کاربری**، **ایمیل** و **شماره تلفن** غیرقابل تغییر می‌باشند.
@@ -22,13 +22,13 @@
 :::
 
 وارد بخش **اطلاعات کاربر** در **تنظیمات پروفایل** شده و روی سه نقطه سمت چپ جدول اطلاعات کاربر کلیک کرده و گزینه **تغییر رمز عبور** را انتخاب کنید:
-![Profile: change password btn](change-password-btn.png)
+![Profile: change password btn](img/change-password-btn.png)
 
 سپس رمز عبور قبلی و رمز عبور جدید را در فرم تغییر رمز عبور وارد کرده و روی دکمه **ارسال** کلیک کنید:
-![Profile: change password form](change-password-form.png)
+![Profile: change password form](img/change-password-form.png)
 
 ### ویرایش کانال‌های اطلاع‌رسانی
 
 در بخش **اطلاع‌رسانی**، لیستی از کانال‌های مختلف جهت دریافت اعلان‌های سرویس‌های کوبیت موجود است. برای هر سرویسی که سیستم اطلاع‌رسانی آن تنظیم شده باشد، می‌توانید کانال‌های مرتبط را مشاهده کرده و به صورت جداگانه فعال یا غیرفعال نمایید:
-![Profile: profile notices](profile-notices.png)
-![Profile: notices list](notices-list.png)
+![Profile: profile notices](img/profile-notices.png)
+![Profile: notices list](img/notices-list.png)

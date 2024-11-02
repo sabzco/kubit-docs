@@ -1,34 +1,34 @@
 # پروژه‌ها
 
 از بخش **سازماندهی** وارد قسمت **پروژه‌ها** شوید:
-![Project: projects](projects.png)
+![Project: projects](img/projects.png)
 
 در این قسمت می‌توانید لیست پروژه‌های سازمان به همراه سرویس‌های متصل به آنها را مشاهده کنید:
-![Project: projects list](projects-list.png)
+![Project: projects list](img/projects-list.png)
 
 با کلیک روی نام هر پروژه از لیست، به صفحه جزئیات آن پروژه هدایت می‌شوید. در این صفحه **تنظیمات** و مدیریت **دسترسی اعضا** وجود دارد:
-![Project: project settings](project-settings.png)
+![Project: project settings](img/project-settings.png)
 
 ## ساخت پروژه{#create-project}
 
 برای ساخت پروژه جدید، روی دکمه‌ **پروژه جدید** کلیک کنید:
-![IAM: create project btn](create-project-btn.png)
+![IAM: create project btn](img/create-project-btn.png)
 
 :::info[کلید یکتا برای هر پروژه]
 در انتخاب مقدار کلید دقت نمایید، زیرا این فیلد به عنوان شناسه یکتا برای پروژه‌ها عمل می‌کند و پس از ساخت پروژه، قابل ویرایش نخواهد بود.
 :::
 سپس **عنوان** و **کلید** پروژه را وارد کرده و روی **ایجاد** کلیک کنید:
-![IAM: create project form](create-project-form.png)
+![IAM: create project form](img/create-project-form.png)
 
 با انجام مراحل ذکر شده، پروژه ساخته می‌شود و از طریق لیست پروژه‌ها قابل دسترس است.
 
 ## ویرایش اطلاعات پروژه
 
 ابتدا روی عنوان پروژه کلیک کنید تا به صفحه پروژه موردنظر وارد شوید:
-![Project: project settings](project-settings.png)
+![Project: project settings](img/project-settings.png)
 
 سپس می‌توانید عنوان پروژه را تغییر داده و برای اعمال ویرایش، روی **ذخیره** کلیک کنید:
-![Project: edit project info](edit-project-info.png)
+![Project: edit project info](img/edit-project-info.png)
 در این صفحه نیز به مدیریت سرویس‌های پروژه دسترسی خواهید داشت. در ادامه به توضیح مدیریت سرویس‌ها پرداخته شده است.
 
 ### اتصال سرویس به پروژه
@@ -38,7 +38,7 @@
 #### قطع اتصال سرویس از پروژه
 
 برای قطع اتصال سرویس از پروژه، روی دکمه سه نقطه سرویس موردنظر کلیک کرده و از دکمه **قطع اتصال** استفاده کنید:
-![Project: disconnect service btn](disconnect-service-btn.png)
+![Project: disconnect service btn](img/disconnect-service-btn.png)
 
 ### حذف پروژه
 
@@ -47,42 +47,42 @@
 #### شیوه اول: لیست پروژه‌ها
 
 روی دکمه سه نقطه پروژه موردنظر کلیک کرده و گزینه **پاک کردن** را انتخاب کنید:
-![Project: remove project from list](remove-project-from-list.png)
+![Project: remove project from list](img/remove-project-from-list.png)
 سپس روی **پاک کردن** کلیک کنید تا پروژه حذف شود:
-![Project: confirm remove project from list](confirm-remove-project-from-list.png)
+![Project: confirm remove project from list](img/confirm-remove-project-from-list.png)
 
 #### شیوه دوم: صفحه جزئیات پروژه
 
 با کلیک روی نام پروژه از لیست پروژه‌ها، به صفحه جزئیات وارد شوید و روی دکمه **حذف پروژه** کلیک کنید:
-![Project: remove project](remove-project.png)
+![Project: remove project](img/remove-project.png)
 سپس روی **پاک کردن** کلیک کنید پروژه حذف شود:
-![Project: confirm remove project](confirm-remove-project.png)
+![Project: confirm remove project](img/confirm-remove-project.png)
 
 ## دسترسی اعضا
 
 در بخش **دسترسی اعضا** لیستی از اعضای پروژه به همراه نقش در پروژه قابل مشاهده است:
-![Project: manage project users](manage-project-users.png)
+![Project: manage project users](img/manage-project-users.png)
 
 همچنین از طریق این بخش می‌توانید جهت افزودن دسترسی به پروژه در دو سطح **کاربر** و **گروه** اقدام کنید.
 
 از طریق دکمه **افزودن دسترسی** میتوانید گزینه های موجود برای دسترسی را مشاهده کنید:
 
-![Project: add user access btn](add-user-access-btn.png)
-![Project: project access choices](project-access-choices.png)
+![Project: add user access btn](img/add-user-access-btn.png)
+![Project: project access choices](img/project-access-choices.png)
 
 ### افزودن دسترسی به کاربر
 
 برای افزودن دسترسی به کاربران، روی گزینه **افزودن دسترسی به کاربر** کلیک کنید:
-![Project: add user to project](add-user-to-project.png)
+![Project: add user to project](img/add-user-to-project.png)
 
 با انتخاب کاربر از میان کاربران سازمان و نقش موردنظر از لیست نقش‌ها، دسترسی به پروژه را به کاربر اضافه کنید:
-![Project: add user to project form](add-user-to-project-form.png)
+![Project: add user to project form](img/add-user-to-project-form.png)
 
 ### افزودن دسترسی به گروه
 
 برای افزودن دسترسی به گروه، روی گزینه **افزودن دسترسی به گروه** کلیک کنید:
 
-![Project: add gp to project](add-gp-to-project.png)
+![Project: add gp to project](img/add-gp-to-project.png)
 
 با انتخاب گروه از میان گروه‌های سازمان و نقش موردنظر از لیست نقش‌ها، دسترسی به پروژه را به گروه کاربری اضافه کنید:
-![Project: add gp to project form](add-gp-to-project-form.png)
+![Project: add gp to project form](img/add-gp-to-project-form.png)

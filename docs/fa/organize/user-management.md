@@ -8,42 +8,42 @@
 :::
 
 برای افزودن کاربر، از بخش **کاربران** در **سازماندهی** روی دکمه **کاربر جدید** کلیک کنید:
-![User: invite user btn](invite-user-btn.png)
+![User: invite user btn](img/invite-user-btn.png)
 
 سپس گزینه‌های مختلف افزودن کاربر را مشاهده می‌کنید:
-![User: invitation choices](add-user-to-org-choices.png)
+![User: invitation choices](img/add-user-to-org-choices.png)
 در ادامه به توضیح مراحل هر کدام از این شیوه‌ها پرداخته شده است.
 
 #### افزودن کاربر کوبیت
 
 روی گزینه **کاربر کوبیت** کلیک کنید:
-![User: add kubit user](add-kubit-user.png)
+![User: add kubit user](img/add-kubit-user.png)
 
 اطلاعات خواسته شده را برای دعوت کاربر وارد کرده و روی **ارسال دعوت‌نامه** کلیک کنید:
-![User: add kubit user form](add-kubit-user-form.png)
+![User: add kubit user form](img/add-kubit-user-form.png)
 علاوه بر ارسال لینک دعوت‌نامه برای کاربر، لینک مربوطه نیز برای شما نمایش داده می‌شود:
-![User: invitation link](invitation-link.png)
+![User: invitation link](img/invitation-link.png)
 
 نمونه لینک ارسال شده برای کاربر:
-![User: invitation email](invitation-email.png)
+![User: invitation email](img/invitation-email.png)
 با کلیک روی لینک ارسال شده، کاربر به سازمان شما افزوده می‌شود.
 
 #### افزودن کاربر LDAP
 
 روی گزینه **LDAP** کلیک کنید:
-![User: add ldap user](add-ldap-user.png)
+![User: add ldap user](img/add-ldap-user.png)
 
 سپس اطلاعات خواسته شده کاربر را وارد کنید:
-![User: add ldap user form](add-ldap-user-form.png)
+![User: add ldap user form](img/add-ldap-user-form.png)
 
 پس از تایید اطلاعات و کلیک روی **افزودن کاربر LDAP** کاربر به سازمان افزوده خواهد شد.
 
 ##### ویرایش و حذف کاربر LDAP
 
 برای ویرایش اطلاعات کاربر کافی است که در قسمت **کاربران** بخش **سازماندهی**، روی کاربر موردنظر را انتخاب و روی دکمه‌ی **ویرایش** کلیک کنید. ویرایش موردنظر را انجام دهید و سپس روی دکمه‌ی **تایید** کلیک کنید:
-![User: edit user info btn](edit-user-info-btn.png)
+![User: edit user info btn](img/edit-user-info-btn.png)
 
 :::caution[توجه]
 توجه داشته باشید که **نام کاربری** و **نوع وضعیت ورود** کاربر را نمی‌توانید تغییر دهید.
 :::
-![User: confirm edit user info](confirm-edit-user-info.png)
+![User: confirm edit user info](img/confirm-edit-user-info.png)

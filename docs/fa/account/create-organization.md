@@ -7,21 +7,21 @@
 پس از تایید [ثبت‌نام](https://panel.kubit.ir/fa/register) در کوبیت توسط کد تاییدیه ارسال شده و قبل از ورود به پنل، به فرم ساخت سازمان هدایت می‌شوید.
 
 اطلاعات موردنیاز در فرم ساخت سازمان شامل **نام سازمان** و **کلید سازمان** را وارد کرده و روی **ساخت** کلیک کنید:
-![Organization: create org after register](create-org-after-register.png)
+![Organization: create org after register](img/create-org-after-register.png)
 
 در انتها، تحت سازمان ساخته شده وارد پنل کوبیت می‌شوید:
-![Organization: panel after register](panel-after-register.png)
+![Organization: panel after register](img/panel-after-register.png)
 
 ## شیوه دوم: پس از ایجاد حساب کاربری{#after-register}
 
 در صورتی که پس از ثبت‌نام کوبیتی نسبت به ساخت سازمان خود اقدام نکرده باشید، درصورت ورود به پنل با پیغام زیر روبه‌رو می‌شوید:
-![Organization: no org user](no-org-page.jpeg)
+![Organization: no org user](img/no-org-page.jpeg)
 
 همانطور که در توضیح [مفهوم سازمان](../..#organization) ذکر شد، برای دسترسی به امکانات پنل، باید سازمانی منتسب به حساب کاربری وجود داشته باشد. برای این کار، روی دکمه **سازمان خودت را بساز** کلیک کنید:
-![Organization: create org btn](create-org-btn.jpeg)
+![Organization: create org btn](img/create-org-btn.jpeg)
 
 اطلاعات موردنیاز در فرم ساخت سازمان شامل **نام سازمان** و **کلید سازمان** را وارد کرده و روی **ساخت** کلیک کنید:
-![Organization: create owned org](create-org-after-register.png)
+![Organization: create owned org](img/create-org-after-register.png)
 
 در انتها ذیل سازمان ساخته شده وارد پنل خواهید شد.
 
@@ -32,19 +32,19 @@
 ## شیوه سوم: از طریق پنل کوبیت
 
 در صورتی که پیش از این تحت سازمان دیگری به پنل دسترسی داشته‌اید و می‌خواهید سازمان خود را ایجاد کنید، ابتدا روی پروفایل کلیک کرده و سپس از منوی باز شده، گزینه **حساب خودت را بساز** را انتخاب کنید:
-![Organization: create personal account](create-personal-account.png)
+![Organization: create personal account](img/create-personal-account.png)
 
 سپس به صفحه **ایجاد حساب کاربری** هدایت می‌شوید. مشخصات کاربری موردنیاز را وارد کرده و روی **ثبت‌نام** کلیک کنید:
-![Panel: personal account form](register-form.png)
+![Panel: personal account form](img/register-form.png)
 
 سپس باید کد ۶ رقمی ارسال‌شده به ایمیل یا شماره تلفن خود را برای احراز هویت و تأیید ثبت‌نام وارد کرده و روی **ارسال** کلیک کنید:
-![Panel: enter confirm code](enter-confirm-code-register.png)
+![Panel: enter confirm code](img/enter-confirm-code-register.png)
 
 در نهایت پس از ارسال کد تأیید، فرآیند ثبت‌نام شما تکمیل شده و حساب کاربری کوبیتی شما ایجاد می‌شود.
 
 پس از این، به فرم ساخت سازمان مرتبط با حساب کاربری هدایت می‌شوید. همانطور که در توضیح [مفهوم سازمان](../#organization) ذکر شد، برای دسترسی به امکانات پنل، باید سازمانی منتسب به حساب کاربری وجود داشته باشد.
 با وارد کردن اطلاعات خواسته‌شده (نام و کلید سازمان)، می‌توانید سازمان خود را ایجاد کنید:
-![Panel: create org after register](create-org-after-register.png)
+![Panel: create org after register](img/create-org-after-register.png)
 
 :::info[توجه]
 در صورت عدم تمایل به ساخت سازمان، می‌توانید روی **بعدا** کلیک کرده و از بخش [شیوه دوم: پس از ایجاد حساب کاربری](./#after-register) برای ساخت سازمان استفاده کنید.

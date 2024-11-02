@@ -1,25 +1,25 @@
 # نقش‌ها {#roles}
 
 از بخش **سازماندهی** وارد قسمت **نقش‌ها** شوید:
-![Roles: roles](roles.png)
+![Roles: roles](img/roles.png)
 
 در این قسمت می‌توانید لیست نقش‌های موجود را مشاهده کنید:
-![Roles: roles list](roles-list.png)
+![Roles: roles list](img/roles-list.png)
 
 با کلیک روی نام هر نقش، به صفحه جزئیات نقش هدایت می‌شوید:
-![Roles: role details](role-details.png)
+![Roles: role details](img/role-details.png)
 
 ## ساخت نقش
 
 برای ساخت نقش جدید، روی دکمه‌ **نقش جدید** کلیک کنید:
 
-![Roles: create role btn](create-role-btn.png)
+![Roles: create role btn](img/create-role-btn.png)
 
 سپس نام نقش و توضیحات مربوطه را وارد کرده و روی **ایجاد** کلیک کنید:
-![Roles: create role form](create-role-form.png)
+![Roles: create role form](img/create-role-form.png)
 
 بعد از این مرحله به صفحه جزئیات نقش هدایت می‌شوید:
-![Roles: new role details](new-role-details.png)
+![Roles: new role details](img/new-role-details.png)
 
 اما این نقش تنها یک نقش خالی است و باید مجوزهای مورد نظر را به آن اضافه کنید. در ادامه به افزودن نقش پایه و اعطای مجوز به نقش ایجاد شده می‌پردازیم.
 
@@ -30,17 +30,17 @@
 :::
 
 برای این کار باید در تب **نقش‌های پایه**، روی دکمه **افزودن به نقش‌های پایه** کلیک کنید:
-![Roles: assign role ro role](assign-role-to-role.png)
+![Roles: assign role ro role](img/assign-role-to-role.png)
 
 سپس از لیست نقش‌های پایه، نقش موردنظر را انتخاب کنید:
-![Roles: add basic role](add-basic-role.png)
-![Roles: basic roles](basic-roles.png)
+![Roles: add basic role](img/add-basic-role.png)
+![Roles: basic roles](img/basic-roles.png)
 
 پس از تایید و کلیک روی **افزودن نقش پایه**، این نقش به لیست نقش‌های سازمان اضافه خواهد شد.
-![Roles: add basic role btn](add-basic-role-btn.png)
+![Roles: add basic role btn](img/add-basic-role-btn.png)
 
 همان‌طور که مشاهده می‌شود، با افزودن نقش پایه به نقش جاری، مجوزهای آن نقش پایه نیز به مجوزهای نقش جاری افزوده می‌شوند:
-![Roles: after add basic role](after-add-basic-role.png)
+![Roles: after add basic role](img/after-add-basic-role.png)
 
 :::tip[انتساب مجوز به نقش]
 علاوه بر مجوزهایی که از طریق نقش پایه به نقش جاری افزوده می‌شوند، می‌توانید به صورت جداگانه نیز مجوزهای مورد نظر خود را به نقش اضافه کنید.
@@ -49,16 +49,16 @@
 ### انتساب مجوز به نقش
 
 برای افزودن مجوز به نقش، روی دکمه **اعطای مجوز جدید** کلیک کنید:
-![Roles: add per ro role btn](assign-per-to-role.png)
+![Roles: add per ro role btn](img/assign-per-to-role.png)
 
 سپس از لیست مجوزهای موجود، مجوز موردنظر را انتخاب کنید:
-![Roles: add per to role](add-per-to-role.png)
-![Roles: permissions list](permissions-list.png)
+![Roles: add per to role](img/add-per-to-role.png)
+![Roles: permissions list](img/permissions-list.png)
 
 پس از تایید و کلیک روی اعطای مجوز جدید، مجوز انتخاب شده به مجوزهای نقش جاری اضافه خواهد شد:
-![Roles: add per to role btn](add-per-to-role-btn.png)
+![Roles: add per to role btn](img/add-per-to-role-btn.png)
 
-![Roles: after add per to role](after-add-per-to-role.png)
+![Roles: after add per to role](img/after-add-per-to-role.png)
 
 :::tip[توجه]
 هر نقش، تمام مجوزهای همه نقش‌های پایه‌ی خود را به ارث می‌برد.
@@ -68,8 +68,8 @@
 
 :::caution[محدودیت در حذف مجوز]
 توجه داشته باشید که مجوزهایی که به واسطه افزودن نقش پایه به نقش جاری شما افزوده شده‌اند، قابل حذف نمی‌باشند و تنها می‌توانید مجوزهایی را که خودتان افزوده‌اید، از نقش حذف کنید. این کار با کلیک کردن روی آیکون **سطل زباله** کنار نام مجوز، امکان‌پذیر است:
-![Roles: remove per from role](remove-per-from-role.png)
-![Roles: remove per from role btn](remove-per-from-role-btn.png)
+![Roles: remove per from role](img/remove-per-from-role.png)
+![Roles: remove per from role btn](img/remove-per-from-role-btn.png)
 
 :::
 
@@ -80,26 +80,26 @@
 ### شیوه اول: لیست نقش‌ها
 
 روی دکمه سه نقطه نقش موردنظر کلیک کرده و گزینه **پاک کردن** را انتخاب کنید:
-![Roles: remove role from list](remove-role-from-list.png)
+![Roles: remove role from list](img/remove-role-from-list.png)
 
 سپس روی **پاک کردن** کلیک کنید تا نقش حذف شود:
-![Roles: confirm remove role](confirm-remove-role.png)
+![Roles: confirm remove role](img/confirm-remove-role.png)
 
 ### شیوه دوم: صفحه جزئیات نقش
 
 با کلیک روی نام نقش از لیست نقش‌ها، به صفحه جزئیات وارد شوید و روی دکمه **پاک کردن نقش** کلیک کنید:
-![Roles: remove role from details](remove-role-from-details.png)
+![Roles: remove role from details](img/remove-role-from-details.png)
 
 سپس روی **بله، پاک کن** کلیک کنید تا نقش حذف شود:
-![Roles: confirm remove role details](confirm-remove-role-details.png)
+![Roles: confirm remove role details](img/confirm-remove-role-details.png)
 
 ## ویرایش اطلاعات نقش
 
 برای ویرایش نام و توضیحات نقش، روی دکمه **ویرایش اطلاعات نقش** کلیک کنید و اطلاعات جدید را وارد کنید:
-![Roles: edit role btn](edit-role-btn.png)
+![Roles: edit role btn](img/edit-role-btn.png)
 
 با کلیک روی دکمه **ویرایش** تغییرات شما اعمال می‌شوند:
-![Roles: edit role info](edit-role-info.png)
+![Roles: edit role info](img/edit-role-info.png)
 
 :::tip[ویرایش لیست نقش‌های پایه و مجوزها]
 برای حذف و اضافه نقش‌های پایه و مجوزهای نسبت داده شده به هر نقش نیز، از طریق صفحه جزئیات نقش می‌توانید اقدام کنید.

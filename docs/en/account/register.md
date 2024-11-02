@@ -6,19 +6,19 @@ To use any of Kubit's products, you first need a user account. If you have alrea
 
 - First, go to the [registration page](https://panel.kubit.ir/en/register).
 - Then, enter your information into the relevant fields and create a strong password according to the provided instructions.
-  ![Register: register form](register-form.png)
+  ![Register: register form](img/register-form.png)
 
 :::caution[Attention!]
 Please ensure that you provide either a **phone number** or an **email address**, as it is mandatory for account creation and sending the verification code.
 :::
 
 Then, enter the 6-digit code sent to your email or phone number for authentication and to confirm your registration, and click **Submit**.
-![Register: enter confirm code](enter-confirm-code-register.png)
+![Register: enter confirm code](img/enter-confirm-code-register.png)
 
 Finally, after submitting the verification code, your registration process will be completed and your Kubit account will be created.
 
 After this, you will be directed to the form for creating an organization associated with your user account. As mentioned in the explanation of the [concept of an organization](../#organization), to access the panel's features, an organization must be linked to your account. By entering the requested information (organization title and slug), you can create your organization:
-![Organization: create org after register](create-org-after-register.png)
+![Organization: create org after register](img/create-org-after-register.png)
 
 At the end, you will be logged into your user account and will have access to the organization panel.
 
@@ -29,13 +29,13 @@ If you choose not to create an organization immediately after registration (by s
 ## Receiving an Invitation Code
 
 To receive an invitation code for creating a user account, first go to the [Kubit website](https://kubit.ir/en/) and click on the **Request a demo** option:
-![Register: demo btn](demo-btn.png)
+![Register: demo btn](img/demo-btn.png)
 
 Complete the requested information in the **Request a demo** form:
-![Register: demo form](demo-form.png)
+![Register: demo form](img/demo-form.png)
 
 Finally, click the **Send** button to send your request:
-![Register: submit demo form](demo-form-submit.png)
+![Register: submit demo form](img/demo-form-submit.png)
 
 After your request has been reviewed by the Kubit support team, an invitation code will be sent to you. You can use this code to create your user account.
 

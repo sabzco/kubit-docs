@@ -3,46 +3,46 @@
 گروه‌ها برای دسته‌بندی کاربران و مدیریت دسترسی‌ها تعریف شده‌اند. در حال حاضر در کوبیت فقط می‌توان به یک گروه نقش‌های مشخصی تخصیص داد. در صورت اتصال سازمان به [LDAP](../#ldap)، امکانات دیگری از جمله سینک با گروه‌های LDAP، فراهم خواهد شد.
 
 از بخش **سازماندهی** وارد قسمت **گروه‌ها** شوید:
-![Groups: groups](groups.png)
+![Groups: groups](img/groups.png)
 
 در این قسمت می‌توانید لیست گروه‌های سازمان را مشاهده کنید:
-![Groups: groups list](groups-list.png)
+![Groups: groups list](img/groups-list.png)
 
 با کلیک روی نام هر گروه، به صفحه جزئیات گروه هدایت می‌شوید:
-![Groups: group details](group-details.png)
+![Groups: group details](img/group-details.png)
 
 ## ساخت گروه{#create-group}
 
 با کلیک روی دکمه‌ **گروه جدید**، می‌توانید یک گروه جدید تعریف کنید:
-![Groups: create group btn](create-group-btn.png)
+![Groups: create group btn](img/create-group-btn.png)
 
 :::info[مقادیر اختیاری]
 مقادیر **توضیحات**، **کاربران** و **نقش‌ها** اختیاری می‌باشند و تنها با وارد کردن **نام** می‌توانید گروه خود را ایجاد کنید. این سند با فرض وارد کردن تمام اطلاعات موردنیاز نوشته شده است.
 :::
 
 **نام** و توضیحات را وارد کرده و کاربران را از لیست کاربران سازمان انتخاب کنید:
-![Groups: initial gp data](initial-gp-data.png)
+![Groups: initial gp data](img/initial-gp-data.png)
 
 برای افزودن نقش به گروه، روی دکمه **افزودن نقش** کلیک کنید:
-![Groups: add role btn](add-role-btn.png)
+![Groups: add role btn](img/add-role-btn.png)
 
 سپس نقش موردنظر خود را از لیست نقش‌های موجود انتخاب کرده و سطح دسترسی در پروژه را تعیین کنید:
-![Groups: add roles list in gp](add-roles-list-in-gp.png)
-![Groups: select role in gp](select-role-in-gp.png)
+![Groups: add roles list in gp](img/add-roles-list-in-gp.png)
+![Groups: select role in gp](img/select-role-in-gp.png)
 
 در انتها روی دکمه **ساخت گروه جدید** کلیک کنید:
-![Groups: enter gp info](enter-gp-info.png)
+![Groups: enter gp info](img/enter-gp-info.png)
 
 گروه ایجاد شده و به صفحه لیست گروه‌ها هدایت می‌شوید:
-![Groups: new gp in list](new-gp-in-list.png)
+![Groups: new gp in list](img/new-gp-in-list.png)
 
 ## حذف گروه
 
 برای حذف گروه، به لیست گروه‌ها رفته و روی دکمه سه نقطه گروه موردنظر کلیک کرده و گزینه **پاک کردن** را انتخاب کنید:
-![Groups: remove group from list](remove-group-from-list.png)
+![Groups: remove group from list](img/remove-group-from-list.png)
 
 سپس با انتخاب گزینه **پاک کردن**، گروه حذف می‌شود:
-![Groups: confirm remove group](confirm-remove-group.png)
+![Groups: confirm remove group](img/confirm-remove-group.png)
 
 ## ویرایش گروه
 
@@ -52,7 +52,7 @@
 
 - برای ویرایش نام و توضیحات گروه، فقط کافیست اطلاعات جدید را وارد کنید.
 - سپس با کلیک روی دکمه **به‌روزرسانی گروه** تغییرات شما اعمال می‌شوند.
-  ![Groups: edit gp info](edit-gp-info.png)
+  ![Groups: edit gp info](img/edit-gp-info.png)
 
 ### حذف/اضافه کاربر
 
@@ -60,30 +60,30 @@
 
 - برای افزودن کاربر به گروه کاربری، از قسمت **کاربران‌**، کاربران موردنظر را از لیست کاربران سازمان انتخاب کنید.
 - سپس با کلیک روی دکمه **به‌روزرسانی گروه** کاربر انتخاب شده به گروه اضافه می‌شود.
-  ![Groups: new user in gp](new-user-in-gp.png)
+  ![Groups: new user in gp](img/new-user-in-gp.png)
 
 #### حذف کاربر
 
 - برای حذف کاربر از گروه، کافیست روی علامت **ضربدر** کنار نام کاربر کلیک کنید:
 - سپس با کلیک روی دکمه **به‌روزرسانی گروه** تغییرات اعمال شده را ثبت کنید:
-  ![Groups: remove user from gp](remove-user-from-gp.png)
+  ![Groups: remove user from gp](img/remove-user-from-gp.png)
 
 ### حذف/اضافه نقش
 
 #### افزودن نقش
 
 برای افزودن نقش به گروه کاربری، از قسمت **نقش‌ها**، روی **افزودن نقش** کلیک کنید:
-![Groups: add role ro gp btn](add-role-to-gp-btn.png)
+![Groups: add role ro gp btn](img/add-role-to-gp-btn.png)
 
 نقش موردنظر به همراه سطح دسترسی در پروژه را انتخاب کنید:
-![Groups: new role section](new-role-section.png)
-![Groups: select role in edit gp](select-role-in-edit-gp.png)
+![Groups: new role section](img/new-role-section.png)
+![Groups: select role in edit gp](img/select-role-in-edit-gp.png)
 
 سپس با کلیک روی دکمه **به‌روزرسانی گروه** نقش انتخاب شده به گروه اضافه می‌شود:
-![Groups: submit edit gp](submit-edition-gp.png)
+![Groups: submit edit gp](img/submit-edition-gp.png)
 
 #### حذف نقش
 
 - برای حذف نقش از گروه، کافیست روی آیکون **سطل زباله** نقش مربوطه کلیک کنید.
 - سپس با کلیک روی دکمه **به‌روزرسانی گروه** تغییرات اعمال شده را ثبت کنید.
-  ![Groups: remove role from gp](remove-role-from-gp.png)
+  ![Groups: remove role from gp](img/remove-role-from-gp.png)

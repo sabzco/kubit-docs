@@ -122,7 +122,7 @@ Access to each of the Cubit's sub-systems and services behind the security layer
 
 Initially, after registering the email and username by the organization's admin, the user's registration completion stages are done by the user themselves by logging into the Sertman system. First, the user needs to go to the Sertman system and select "Password Recovery". Then, by entering their username, a code will be sent to the user's registered email by the Sertman system. In the next step, the user enters the sent code into the system and after verification by Sertman, we will proceed to the password selection stage.
 
-![Certman: register](register.png)
+![Certman: register](img/register.png)
 
 <center> Completion stages of registration in Sertman </center>
 
@@ -153,7 +153,7 @@ To install a certificate on Chrome, follow these steps:
 - Select the Privacy and security option from the left menu
 - Navigate to the Security section as shown in the image below
 
-![Certman: chrome settings](chrome-security.png)
+![Certman: chrome settings](img/chrome-security.png)
 
 - At the bottom of this section, select the Manage certificates section
 - In the Your certificates tab, select the certificate file received from Sertman via the Import button, and after entering the password, the certificate will be installed on Chrome.
@@ -166,7 +166,7 @@ To install a certificate on Firefox, follow these steps:
 - Select the Privacy & Security option from the left menu
 - As shown in the image below, at the bottom of this section, click on View Certificates under the Security title
 
-![Certman: firefox options](firefox-security.png)
+![Certman: firefox options](img/firefox-security.png)
 
 - In the dialog box that opens, via the Import button, select the certificate file received from Sertman, and after entering the password, the certificate will be installed on Firefox.
 
@@ -176,13 +176,13 @@ To install a certificate on Firefox, follow these steps:
 
 After downloading, open the Certificate file. Then, in the opened window, enter your Password and select the Confirm button.
 
-![Certman: android password](android-pass.png)
+![Certman: android password](img/android-pass.png)
 
 #### Assigning a Name and Selecting the Type of Usage
 
 In the next step, enter a name and select the usage type as apps.
 
-![Certman: android name](android-name.png)
+![Certman: android name](img/android-name.png)
 
 #### Restart the Browser
 
@@ -192,7 +192,7 @@ Then, completely close and reopen your browser.
 
 Now, go to the address of the desired service and in the opened window, select the Certificate and click Allow.
 
-![Certman: android allow](android-allow.png)
+![Certman: android allow](img/android-allow.png)
 
 #### Accessing the Desired Service
 
@@ -204,15 +204,15 @@ Now the desired address is available to you.
 
 After downloading, open the Certificate file. Then, in the opened window, select the Allow option.
 
-![Certman: iphone allow](iphone-allow.jpg)
+![Certman: iphone allow](img/iphone-allow.jpg)
 
 #### Selecting the Install Option
 
 On the opened page, select the Install option.
 
-![Certman: iphone identity](iphone-identity.jpg)
+![Certman: iphone identity](img/iphone-identity.jpg)
 
-![Certman: iphone install](iphone-install.jpg)
+![Certman: iphone install](img/iphone-install.jpg)
 
 #### Entering the Certificate File Password
 
@@ -222,7 +222,7 @@ In the next step, enter your Certificate file Password.
 
 By selecting the Done option, the installation process is completed.
 
-![Certman: iphone done](iphone-done.jpg)
+![Certman: iphone done](img/iphone-done.jpg)
 
 #### Accessing the Desired Service
 

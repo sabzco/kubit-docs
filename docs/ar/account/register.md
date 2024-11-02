@@ -6,19 +6,19 @@
 
 - أولاً، انتقل إلى صفحة [التسجيل](https://panel.kubit.ir/en/register).
 - ثم، أدخل معلوماتك في الحقول المخصصة وابتكر كلمة مرور قوية وفقًا للتعليمات المقدمة.
-  ![Register: register form](register-form.png)
+  ![Register: register form](img/register-form.png)
 
 :::caution[تنبیه!]
 يرجى التأكد من إدخال **رقم هاتف** أو **عنوان بريد إلكتروني**، حيث أنه إلزامي لإنشاء الحساب وإرسال رمز التحقق.
 :::
 
 ثم، أدخل رمز التحقق المكون من 6 أرقام المرسل إلى بريدك الإلكتروني أو رقم هاتفك لتوثيق وتأكيد التسجيل، ثم اضغط على **Submit**.
-![Register: enter confirm code](enter-confirm-code-register.png)
+![Register: enter confirm code](img/enter-confirm-code-register.png)
 
 أخيرًا، بعد إرسال رمز التحقق، ستكتمل عملية التسجيل الخاصة بك وسيتم إنشاء حسابك في كوبيت.
 
 بعد ذلك، سيتم توجيهك إلى نموذج إنشاء منظمة مرتبطة بحساب المستخدم الخاص بك. كما ذُكر في [شرح مفهوم المنظمة](../#organization)، للوصول إلى ميزات اللوحة، يجب أن تكون هناك منظمة مرتبطة بحسابك. من خلال إدخال المعلومات المطلوبة (اسم المنظمة ومفتاحها)، يمكنك إنشاء منظمتك:
-![Organization: create org after register](create-org-after-register.png)
+![Organization: create org after register](img/create-org-after-register.png)
 
 في النهاية، ستقوم بتسجيل الدخول إلى حساب المستخدم الخاص بك وستتمكن من الوصول إلى لوحة المنظمة.
 
@@ -29,13 +29,13 @@
 ## استلام رمز الدعوة
 
 لتلقي رمز دعوة لإنشاء حساب مستخدم، انتقل أولاً إلى [موقع ويب كوبيت](https://kubit.ir/en/) وانقر على خيار **Request a demo**:
-![Register: demo btn](demo-btn.png)
+![Register: demo btn](img/demo-btn.png)
 
 أكمل المعلومات المطلوبة في نموذج **Request a demo**:
-![Register: demo form](demo-form.png)
+![Register: demo form](img/demo-form.png)
 
 أخيرًا، انقر على زر **Send** لإرسال طلبك:
-![Register: submit demo form](demo-form-submit.png)
+![Register: submit demo form](img/demo-form-submit.png)
 
 بعد مراجعة طلبك من قبل فريق دعم كوبيت، سيتم إرسال رمز دعوة إليك. يمكنك استخدام هذا الرمز لإنشاء حساب المستخدم الخاص بك.
 

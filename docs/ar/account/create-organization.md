@@ -7,21 +7,21 @@
 بعد تأكيد التسجيل في كوبيت بواسطة رمز التحقق المرسل إليك وقبل الدخول إلى اللوحة، سيتم توجيهك إلى نموذج إنشاء المنظمة.
 
 أدخل المعلومات المطلوبة في نموذج إنشاء المنظمة، بما في ذلك **اسم المنظمة** و**مفتاح المنظمة**، وانقر على **Create**.
-![Organization: create org after register](create-org-after-register.png)
+![Organization: create org after register](img/create-org-after-register.png)
 
 أخيراً، ستدخل إلى لوحة كوبيت تحت المنظمة التي تم إنشاؤها:
-![Organization: panel after register](panel-after-register.png)
+![Organization: panel after register](img/panel-after-register.png)
 
 ## الطريقة الثانية: بعد إنشاء الحساب{#after-register}
 
 إذا لم تقم بإنشاء منظمتك بعد التسجيل في كوبيت، ستواجه الرسالة التالية عند الدخول إلى اللوحة:
-![Organization: no org user](no-org-page.png)
+![Organization: no org user](img/no-org-page.png)
 
 كما ذكر في [شرح مفهوم المنظمة](../#organization)، للوصول إلى ميزات اللوحة، يجب أن تكون هناك منظمة مرتبطة بحساب المستخدم. للقيام بذلك، انقر على زر **Create Organization**:
 ![Organization: create org btn](create-org-btn.jpeg)
 
 أدخل المعلومات المطلوبة في نموذج إنشاء المنظمة، بما في ذلك **اسم المنظمة** و**مفتاح المنظمة**، وانقر على **Create**:
-![Organization: create owned org](create-org-after-register.png)
+![Organization: create owned org](img/create-org-after-register.png)
 
 في النهاية، ستدخل إلى اللوحة تحت المنظمة التي تم إنشاؤها.
 
@@ -35,15 +35,15 @@
 ![Organization: create personal account](create-personal-account.png)
 
 ثم سيتم توجيهك إلى صفحة إنشاء الحساب. أدخل التفاصيل المطلوبة للمستخدم وانقر على **Sign Up**:
-![Panel: personal account form](register-form.png)
+![Panel: personal account form](img/register-form.png)
 
 ثم يجب عليك إدخال الرمز المكون من 6 أرقام المرسل إلى بريدك الإلكتروني أو رقم هاتفك للتحقق والتأكيد على التسجيل، ثم انقر على **Submit**:
-![Panel: enter confirm code](enter-confirm-code-register.png)
+![Panel: enter confirm code](img/enter-confirm-code-register.png)
 
 في النهاية، بعد إرسال رمز التحقق، سيتم إكمال عملية التسجيل الخاصة بك وإنشاء حسابك في كوبيت.
 
 بعد ذلك، سيتم توجيهك إلى نموذج إنشاء المنظمة المرتبطة بحساب المستخدم الخاص بك. كما ذكر في [شرح مفهوم المنظمة](../#organization)، للوصول إلى ميزات اللوحة، يجب أن تكون هناك منظمة مرتبطة بحساب المستخدم. من خلال إدخال المعلومات المطلوبة (اسم المنظمة ومفتاح المنظمة)، يمكنك إنشاء منظمتك الخاصة:
-![Panel: create org after register](create-org-after-register.png)
+![Panel: create org after register](img/create-org-after-register.png)
 
 :::info[تنبيه!]
 إذا كنت لا ترغب في إنشاء منظمة، يمكنك النقر على "لاحقًا" واستخدام [الطريقة الثانية: بعد إنشاء الحساب](./#after-register) لإنشاء منظمة.

@@ -1,7 +1,7 @@
 # لوحة تحكم کوبیت
 
 عند [تسجيل الدخول إلى لوحة تحكم مستخدم کوبیت](https://panel.kubit.ir/en/login)، يمكنك الوصول إلى جميع الخدمات المتاحة وإعدادات المستخدم والنظام. تتيح لك هذه اللوحة إدارة وعرض تفاصيل الخدمة الكاملة، بما في ذلك إدارة المستخدمين والمشاريع، مما يمكنك من استخدام جميع الإعدادات والميزات المتاحة بسهولة.
-![Panel: panel](panel.png)
+![Panel: panel](img/panel.png)
 
 :::caution[تنبيه]
 جميع الإعدادات وإدارة الأقسام المختلفة يمكن الوصول إليها تحت العناوين ذات الصلة في مستند حساب المستخدم.
@@ -12,22 +12,22 @@
 ## القائمة الجانبية اليمنى
 
 يوفر الوصول السريع إلى قائمة الخدمات المتاحة في اللوحة والملف الشخصي للمستخدم من خلال القائمة الجانبية اليمنى. يمكنك أيضًا استخدام ميزة البحث في کوبیت للبحث بين الخدمات:
-![Panel: sidebar](sidebar.png)
+![Panel: sidebar](img/sidebar.png)
 
 ## إعدادات الملف الشخصي
 
 جميع الإعدادات المتعلقة بالملف الشخصي وحساب المستخدم يمكن الوصول إليها من قسم الملف الشخصي في لوحة تحكم کوبیت. يوضح مستند [إعدادات الملف الشخصي](../profile-settings) تفاصيل إعدادات الملف الشخصي.
-![Panel: profile settings](profile-settings.png)
+![Panel: profile settings](img/profile-settings.png)
 
 ## تغيير القالب
 
 لتغيير قالب لوحة المستخدم، قم أولاً بالنقر على الملف الشخصي. ثم، من القائمة المنسدلة، اختر خيار **Theme** واختر القالب المفضل لديك من الخيارات المتاحة:
-![Panel: theme](theme.png)
+![Panel: theme](img/theme.png)
 
 ## تغيير اللغة
 
 لتغيير لغة لوحة المستخدم، قم أولاً بالنقر على الملف الشخصي. ثم، من القائمة المنسدلة، اختر خيار **Language** واختر اللغة المفضلة لديك من الخيارات المتاحة:
-![Panel: lang](lang.png)
+![Panel: lang](img/lang.png)
 
 ## إنشاء حساب شخصي
 
@@ -35,15 +35,15 @@
 ![Panel: create personal account](create-personal-account.png)
 
 سيتم توجيهك إلى صفحة إنشاء الحساب. قم بإدخال التفاصيل المطلوبة واضغط على **Sign Up**:
-![Panel: personal account form](register-form.png)
+![Panel: personal account form](img/register-form.png)
 
 ثم يجب عليك إدخال الرمز المرسل إلى بريدك الإلكتروني أو رقم هاتفك والذي يتكون من 6 أرقام من أجل التحقق وتأكيد التسجيل، ثم النقر على **Submit**:
-![Panel: enter confirm code](enter-confirm-code-register.png)
+![Panel: enter confirm code](img/enter-confirm-code-register.png)
 
 أخيراً، بعد إرسال رمز التحقق، ستكتمل عملية التسجيل الخاصة بك وسيتم إنشاء حسابك في کوبیت.
 
 بعد ذلك، ستتم توجيهك إلى نموذج إنشاء المنظمة المرتبط بحسابك. كما ذُكر في [شرح مفهوم المنظمة](../#organization)، للوصول إلى ميزات اللوحة، يجب أن يكون هناك منظمة مرتبطة بحسابك. من خلال إدخال المعلومات المطلوبة (اسم المنظمة والمفتاح)، يمكنك إنشاء منظمتك:
-![Panel: create org after register](create-org-after-register.png)
+![Panel: create org after register](img/create-org-after-register.png)
 
 أخيراً، ستتمكن من تسجيل الدخول إلى اللوحة والوصول إلى لوحة المنظمة الشخصية الخاصة بك.
 
@@ -54,13 +54,13 @@
 ## تبديل بين المنظمات
 
 لإدارة منظمات متعددة في لوحة المستخدم، أولاً انقر على ملفك الشخصي ثم اختر خيار **Login to another organization**.
-![Panel: other organization](other-organization.png)
+![Panel: other organization](img/other-organization.png)
 
 ادخل اسم المنظمة المطلوبة ثم انقر على **Continue**.
-![Panel: login another org](enter-org-name.png)
+![Panel: login another org](img/enter-org-name.png)
 
 ثم، سجّل الدخول باستخدام اسم المستخدم الخاص بك في تلك المنظمة.
-![Panel: login username in org](enter-username-in-org.png)
+![Panel: login username in org](img/enter-username-in-org.png)
 
 من خلال القيام بذلك، يمكنك إضافة المنظمات الأخرى التي أنت عضو فيها إلى لوحتك والتبديل بين المنظمات عن طريق النقر على اسم المنظمة فقط.
 ![Panel: switch organization](switch-organization.png)
@@ -68,27 +68,27 @@
 ## الصفحات المفضلة
 
 يوفر قسم الصفحات المفضلة في الصفحة الرئيسية للوحة الوصول السريع إلى الخدمات المفضلة لدى المستخدمين.
-![Panel: favorite pages](favorite-pages.png)
+![Panel: favorite pages](img/favorite-pages.png)
 
 :::tip[إضافة خدمة إلى قائمة المفضلة]
 يمكنك إضافة الخدمة التي تريدها إلى المفضلة بالنقر على أيقونة النجمة في الشريط العلوي لكل صفحة خدمة.
-![Panel: add favorite](add-favorite.png)
-![Panel: add fav page name](favorite-page-name.png)
+![Panel: add favorite](img/add-favorite.png)
+![Panel: add fav page name](img/favorite-page-name.png)
 :::
 
 ## خدمات كوبيت
 
 بالإضافة إلى قائمة الجانب الأيمن من اللوحة، يمكنك أيضًا الوصول إلى قائمة خدمات كوبيت من الصفحة الرئيسية للوحة.
-![Panel: services](services.png)
+![Panel: services](img/services.png)
 
 ## الأحداث والتذاكر الأخيرة
 
 ### الأحداث
 
 من خلال قسم **Recent events**، يمكنك الوصول إلى إعلانات كوبيت. في هذا القسم، تكون الإعلانات التنظيمية (مفصولة حسب كل منظمة) والإعلانات العامة مرئية.
-![Panel: recent notices](recent-notices.png)
+![Panel: recent notices](img/recent-notices.png)
 
 ### التذاكر
 
 يمكن الوصول إلى أحدث التذاكر المقدمة في خدمة الدعم من خلال قسم **Recent tickets**.
-![Panel: recent tickets](recent-tickets.png)
+![Panel: recent tickets](img/recent-tickets.png)

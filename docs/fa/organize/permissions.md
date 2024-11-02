@@ -3,7 +3,7 @@
 در کوبیت به ازای هر سرویس، خدمات و دسترسی به آنها، مجوزهای مشخصی تعریف شده‌اند.
 
 از بخش **سازماندهی** وارد قسمت **مجوزها** شوید:
-![Permission: permission](permission.png)
+![Permission: permission](img/permission.png)
 
 در این قسمت می‌توانید لیست مجوزهای موجود به ازای هر سرویس به همراه توضیحات آنها را مشاهده کنید:
-![Permission: permissions](permissions.png)
+![Permission: permissions](img/permissions.png)

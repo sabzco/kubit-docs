@@ -1,11 +1,11 @@
 # ساخت فضای جدید
 
 در صفحه سرویس باکت‌ها، پس از [انتخاب یک پروژه متصل](../bucket-settings#select-project)، به صفحه **فضاها** رفته و روی **ساخت فضای جدید** کلیک کنید:
-![Space: new space btn](new-space-btn.png)
+![Space: new space btn](img/new-space-btn.png)
 
 ابتدا **مکان** را از لیست مکان‌های موجود انتخاب کرده و **نام** فضا را وارد کنید:
-![Space: new space form](new-space-form.png)
-![Space: new space location list](new-space-location-list.png)
+![Space: new space form](img/new-space-form.png)
+![Space: new space location list](img/new-space-location-list.png)
 
 ## تنظیمات پیشرفته (اختیاری)
 
@@ -19,5 +19,5 @@
 با فعال‌سازی این گزینه، باکت‌هایی که در این فضا ساخته می‌شوند، باید حداقل یک سرویس اکانت داشته باشند.
 برای اطلاعات بیشتر درباره سرویس اکانت، می‌توانید به سند مفاهیم پایه، بخش [سرویس اکانت](../#service-account) مراجعه کنید.
 
-![Space: space advanced settings](space-advanced-settings.png)
+![Space: space advanced settings](img/space-advanced-settings.png)
 در انتها روی **ساخت فضای جدید** کلیک کنید تا فضای موردنظر ایجاد شود.

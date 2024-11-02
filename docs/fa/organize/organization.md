@@ -1,7 +1,7 @@
 # تنظیمات سازمان
 
 تنظیمات اصلی سازمان شامل مدیریت پروژه‌ها، کاربران، گروه‌ها، نقش‌ها، مجوزها و سرویس‌ها می‌باشد.
-![Organization: org settings](org-settings.png)
+![Organization: org settings](img/org-settings.png)
 
 ## سرویس‌ها
 
@@ -29,7 +29,7 @@
 :::
 
 در انتهای صفحه **تنظیمات سازمان**، لیست تمام سرویس‌های کوبیت وجود دارد و وضعیت هر سرویس در سازمان فعلی قابل مشاهده می‌باشد:
-![Organization services list](services-list.png)
+![Organization services list](img/services-list.png)
 
 در ادامه به توضیحات سرویس‌ها و نحوه فعال‌سازی/غیرفعال‌سازی آن‌ها می‌پردازیم.
 
@@ -43,45 +43,45 @@
 
 ### فعال‌سازی
 
-![Organizatoin: activate service](activate-service.png)
-![Organizatoin: activate service confirm](activate-service-confirm.png)
+![Organizatoin: activate service](img/activate-service.png)
+![Organizatoin: activate service confirm](img/activate-service-confirm.png)
 
 ### غیرفعال‌سازی
 
-![Organizatoin: deactivate service](deactivate-service.png)
-![Organizatoin: deactivate service confirm](deactivate-service-confirm.png)
+![Organizatoin: deactivate service](img/deactivate-service.png)
+![Organizatoin: deactivate service confirm](img/deactivate-service-confirm.png)
 
 با مراجعه به صفحه سرویس پشتیبانی، می‌توانید تیکت ساخته شده متناسب با درخواست خود را مشاهده کنید:
-![Organizatoin: activate service ticket](activate-service-ticket.png)
+![Organizatoin: activate service ticket](img/activate-service-ticket.png)
 
 ## پروژه‌ها
 
 از بخش **پروژه‌ها** دسترسی سریع به **لیست پروژه‌‌ها** و **ایجاد پروژه جدید** فراهم شده است.
-![Organization: projects](projects-in-organize.png)
+![Organization: projects](img/projects-in-organize.png)
 
 با کلیک روی **پروژه‌ها** به لیست پروژه‌ها هدایت می‌شوید:
-![Organization: projects list](projects-list.png)
+![Organization: projects list](img/projects-list.png)
 
 با کلیک روی **پروژه جدید** در کارت **پروژه‌ها**، می‌توانید یک پروژه جدید ایجاد کنید:
-![Organization: new project](new-project.png)
+![Organization: new project](img/new-project.png)
 
 **عنوان** و **کلید** پروژه را وارد کرده و روی **ایجاد** کلیک کنید:
-![Organization: create project form](create-project-form.png)
+![Organization: create project form](img/create-project-form.png)
 برای توضیح بیشتر ساخت پروژه، می‌توانید به سند [ساخت پروژه](../projects#create-project) مراجعه کنید.
 
 ## کاربران
 
 از بخش **کاربران** دسترسی سریع به **لیست کاربران** و **افزودن کاربران جدید** فراهم شده است.
-![Organization: users](users-in-organize.png)
+![Organization: users](img/users-in-organize.png)
 
 با کلیک روی **کاربران** به لیست کاربران هدایت می‌شوید:
-![Organization: users list](users-list.png)
+![Organization: users list](img/users-list.png)
 
 با کلیک روی **کاربر جدید** در کارت **کاربران**، می‌توانید کاربر جدید به سازمان اضافه کنید:
-![Organization: new user](new-user.png)
+![Organization: new user](img/new-user.png)
 
 سپس گزینه‌های مختلف افزودن کاربر را مشاهده می کنید:
-![IAM: users type](users-type.png)
+![IAM: users type](img/users-type.png)
 در ادامه به توضیح مراحل هر کدام از این شیوه‌ها پرداخته شده است.
 
 :::info[افزودن کاربر]
@@ -93,28 +93,28 @@
 در صورت افزودن کاربری کوبیتی، روی گزینه **کاربر کوبیت** کلیک کنید تا به فرم ارسال دعوت‌نامه هدایت شوید.
 
 سپس اطلاعات خواسته شده را برای دعوت کاربر وارد کنید و روی **ارسال دعوت‌نامه** کلیک کنید:
-![Organization: add kubit user form](add-kubit-user-form.png)
+![Organization: add kubit user form](img/add-kubit-user-form.png)
 
 #### افزودن کاربر LDAP
 
 در صورت افزودن کاربر LDAP، روی گزینه **کاربر LDAP** کلیک کنید تا به فرم ساخت کاربر هدایت شوید.
 
 سپس اطلاعات خواسته شده کاربر را وارد کنید و روی **افزودن کاربر LDAP** کلیک کنید:
-![Organization: add ldap user form](add-ldap-user-form.png)
+![Organization: add ldap user form](img/add-ldap-user-form.png)
 
 ## گروه‌ها
 
 از بخش **گروه‌ها** دسترسی سریع به **لیست گروه‌ها** و **ایجاد گروه جدید** فراهم شده است.
-![Organization: groups](groups-in-organize.png)
+![Organization: groups](img/groups-in-organize.png)
 
 با کلیک روی **گروه‌ها** به لیست گروه‌ها هدایت می‌شوید:
-![Organization: gp list](groups-list.png)
+![Organization: gp list](img/groups-list.png)
 
 با کلیک روی **گروه جدید** در کارت **کاربران**، می‌توایند یک گروه جدید ایجاد کنید:
-![Organization: new gp](new-gp.png)
+![Organization: new gp](img/new-gp.png)
 
 سپس اطلاعات مورد نیاز برای ساخت گروه را وارد کرده و روی **ساخت گروه جدید** کلیک کنید:
-![Organization: create gp form](create-gp-form.png)
+![Organization: create gp form](img/create-gp-form.png)
 
 :::info[توجه]
 اضافه کردن مقادیری مانند کاربران و نقش‌ها، اختیاری بوده و در آینده نیز می‌توانید این مقادیر را به گروه ساخته شده، اضافه کنید.

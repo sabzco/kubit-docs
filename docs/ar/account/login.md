@@ -6,18 +6,18 @@
 
 - أولاً، أدخل بريدك الإلكتروني أو رقم هاتفك المسجل مع كلمة المرور الخاصة بك.
 - ثم، انقر على زر **Login** للوصول إلى حساب المستخدم الخاص بك.
-  ![Login: login with email/phone](login-with-email.png)
+  ![Login: login with email/phone](img/login-with-email.png)
 
 ## الطريقة الثانية: تسجيل الدخول التنظيمي
 
 إذا كنت بحاجة إلى الوصول إلى لوحة كوبيت الخاصة بالمنظمة التي أنت عضو فيها، انقر أولاً على خيار **Single Sign-On** على [صفحة تسجيل الدخول](https://panel.kubit.ir/en/login/):
-![Login: login with org](login-with-org.png)
+![Login: login with org](img/login-with-org.png)
 
 في هذه المرحلة، أدخل اسم المنظمة المعنية وانقر على زر **Continue**:
-![Login: login with org continue](login-with-org-continue.png)
+![Login: login with org continue](img/login-with-org-continue.png)
 
 أخيرًا، أدخل اسم المستخدم وكلمة المرور الخاصة بك، ثم انقر على زر **Login**:
-![Login: enter username](enter-username-in-org.png)
+![Login: enter username](img/enter-username-in-org.png)
 
 باتباع هذه الخطوات، يمكنك تسجيل الدخول إلى لوحة كوبيت.
 
@@ -38,12 +38,12 @@
 إذا تمت إضافتك إلى المنظمة كمستخدم LDAP، تحتاج إلى الانتقال إلى [صفحة تسجيل الدخول](https://panel.kubit.ir/en/login/) واستخدام خيار **Forgot Password** لتعيين كلمة مرور جديدة.
 
 في صفحة تسجيل الدخول، انقر على **Single Sing-On**:
-![Login: login with org](login-with-org.png)
+![Login: login with org](img/login-with-org.png)
 
 في هذه الخطوة، أدخل اسم المنظمة المعنية وانقر على زر **Continue**:
-![Login: login with org continue](login-with-org-continue.png)
+![Login: login with org continue](img/login-with-org-continue.png)
 
 ثم انقر على **Reset**:
-![Login: forgot ldap password](forgot-ldap-password.png)
+![Login: forgot ldap password](img/forgot-ldap-password.png)
 
 للاطلاع على الخطوات المتبقية لاستعادة كلمة المرور، راجع مستند [استعادة كلمة المرور](../forgot-password).

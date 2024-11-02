@@ -4,7 +4,7 @@
 همانطور که در [مفاهیم پایه](../#concepts) ذکر شد، باکت‌ها با فضا و فضاها با پروژه‌ها معنی پیدا می‌کنند. بنابراین، باکت‌های یک سازمان توسط پروژه‌ها تفکیک می‌شوند. برای شروع کار با باکت‌ها، ابتدا باید یکی از پروژه‌هایی که قبلا در قسمت سازماندهی ساخته‌اید را به این سرویس متصل کنید، یا یکی از پروژه‌های متصل به باکت را انتخاب کنید.
 
 ابتدا از پنل کوبیت، وارد سرویس **باکت‌ها** شوید:
-![Buckets: bucket](bucket.png)
+![Buckets: bucket](img/bucket.png)
 
 ## اتصال پروژه به سرویس باکت
 
@@ -12,44 +12,44 @@
 - از میان پروژه‌ها، پروژه موردنظر خود را انتخاب کنید.
 - سپس خطای عدم اتصال پروژه ظاهر می‌شود. برای اتصال پروژه، روی دکمه **اتصال** کلیک کنید.
 
-![Buckets: empty project list](empty-project-list.png)
-![Buckets: project lists](project-lists.png)
-![Buckets: bind project](bind-project.png)
+![Buckets: empty project list](img/empty-project-list.png)
+![Buckets: project lists](img/project-lists.png)
+![Buckets: bind project](img/bind-project.png)
 
 در انتها، پروژه به سرویس باکت متصل شده و به صفحه باکت‌های پروژه هدایت می‌شوید.
 
 ## انتخاب پروژه{#select-project}
 
 در صفحه اول سرویس، لیستی از پروژه‌های متصل قابل مشاهده است. ابتدا باید پروژه موردنظر را از میان این لیست انتخاب کنید:
-![Buckets: select project](select-project.png)
+![Buckets: select project](img/select-project.png)
 در انتها به صفحه اطلاعات باکت‌ها هدایت خواهید شد.
 
 ### لیست باکت‌ها
 
 پس از انتخاب پروژه، لیستی از باکت‌های پروژه، نمایش داده می‌شوند:
-![Buckets: buckets chart](buckets_1.png)
+![Buckets: buckets chart](img/buckets_1.png)
 
 برای دریافت چارت‌های باکت در بازه‌های زمانی مختلف، می‌توانید روی گزینه **فیلتر** کلیک کنید:
-![Buckets: filter chart btn](filter-chart-btn.png)
+![Buckets: filter chart btn](img/filter-chart-btn.png)
 
 سپس بازه زمانی موردنظر خود را انتخاب کنید تا چارت‌ها بر اساس بازه انتخاب شده به‌روزرسانی شوند:
-![Buckets: filter chart options](filter-chart-options.png)
+![Buckets: filter chart options](img/filter-chart-options.png)
 
 در انتهای صفحه نیز، لیست باکت‌های پروژه و مشترک در سازمان وجود دارد:
-![Buckets: buckets list](buckets_2.png)
+![Buckets: buckets list](img/buckets_2.png)
 
 برای توضیحات بیشتر به مستندات [مدیریت باکت‌ها](../bucket) و [مدیریت فضاها](../space) مراجعه کنید.
 
 :::tip[ساخت پروژه]
 همچنین اگه تمایل به ایجاد پروژه جدید دارید، می‌توانید از طریق گزینه **ایجاد پروژه جدید** اقدام کنید:
-![Buckets: new project](new-project.png)
+![Buckets: new project](img/new-project.png)
 سپس **عنوان** و **کلید** پروژه را وارد کرده و روی **ایجاد** کلیک کنید:
-![Buckets: create project form](../organize/create-project-form.png)
+![Buckets: create project form](../organize/img/create-project-form.png)
 :::
 
 ## قطع اتصال پروژه
 
 - برای قطع اتصال پروژه از سرویس باکت، می‌توانید از آیکون قطع اتصال روی کارت پروژه موردنظر اقدام کنید.
 - سپس در صورت اطمینان، روی دکمه **تایید** دیالوگ باز شده کلیک کنید.
-  ![Buckets: unbind project](unbind-project.png)
-  ![Buckets: conform unbind project](confirm-unbind-project.png)
+  ![Buckets: unbind project](img/unbind-project.png)
+  ![Buckets: conform unbind project](img/confirm-unbind-project.png)

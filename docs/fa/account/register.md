@@ -8,20 +8,20 @@
 - ابتدا به صفحه‌ی [ثبت‌نام](https://panel.kubit.ir/fa/register) بروید.
 - سپس، اطلاعات خود را در فیلدهای مربوطه وارد کرده و یک رمز عبور قوی مطابق با دستورالعمل‌های موجود تعیین کنید.
 
-![Register: register form](register-form.png)
+![Register: register form](img/register-form.png)
 
 :::caution[توجه]
 دقت کنید که وارد کردن یکی از مقادیر **شماره تلفن** و **آدرس ایمیل** برای ساخت حساب و ارسال کد تایید هویت الزامی می‌باشد.
 :::
 
 سپس باید کد ۶ رقمی ارسال‌شده به ایمیل یا شماره تلفن خود را برای احراز هویت و تأیید ثبت‌نام وارد کرده و روی **ارسال** کلیک کنید:
-![Register: enter confirm code](enter-confirm-code-register.png)
+![Register: enter confirm code](img/enter-confirm-code-register.png)
 
 در نهایت پس از ارسال کد تأیید، فرآیند ثبت‌نام شما تکمیل شده و حساب کاربری کوبیتی شما ایجاد می‌شود.
 
 پس از این، به فرم ساخت سازمان مرتبط با حساب کاربری هدایت می‌شوید. همانطور که در توضیح [مفهوم سازمان](../..#organization) ذکر شد، برای دسترسی به امکانات پنل، باید سازمانی منتسب به حساب کاربری وجود داشته باشد.
 با وارد کردن اطلاعات خواسته‌شده (نام و کلید سازمان)، می‌توانید سازمان خود را ایجاد کنید:
-![Organization: create org after register](create-org-after-register.png)
+![Organization: create org after register](img/create-org-after-register.png)
 
 در انتها به حساب کاربری وارد شده و به پنل سازمان دسترسی خواهید داشت.
 
@@ -33,13 +33,13 @@
 
 برای دریافت کد دعوت برای جهت ایجاد حساب کاربری، ابتدا به [صفحه وبسایت کوبیت](https://kubit.ir/fa/) رفته و روی گزینه **درخواست نسخه آزمایشی** کلیک کنید:
 
-![Register: demo btn](demo-btn.png)
+![Register: demo btn](img/demo-btn.png)
 
 اطلاعات خواسته شده در فرم **درخواست نسخه آزمایشی** را تکمیل کنید:
-![Register: demo form](demo-form.png)
+![Register: demo form](img/demo-form.png)
 
 در انتها روی دکمه **ارسال** کلیک کنید تا درخواست شما ارسال شود:
-![Register: submit demo form](demo-form-submit.png)
+![Register: submit demo form](img/demo-form-submit.png)
 
 پس از بررسی درخواست شما توسط تیم پشتیبانی کوبیت، کد دعوت برای شما ارسال خواهد شد و با استفاده از این کد می‌توانید نسبت به ایجاد حساب کاربری اقدام کنید.
 
