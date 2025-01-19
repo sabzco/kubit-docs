@@ -1,10 +1,10 @@
 ---
 subDocuments:
   - getting-started
-  - spaces
-  - create-space
   - buckets
+  - spaces
   - create-bucket
+  - create-space
 ---
 
 # باکت‌ها (فضای ذخیره‌سازی ابری)
