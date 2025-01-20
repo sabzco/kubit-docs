@@ -5,7 +5,7 @@ subDocuments:
   - policy
   - lifecycle
   - cors
-  - static-website9
+  - static-website
 ---
 
 # مدیریت باکت‌ها
