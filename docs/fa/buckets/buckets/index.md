@@ -14,78 +14,78 @@ subDocuments:
 
 از صفحه سرویس باکت‌ها، پس از [اتصال](../getting-started#bind-project) / [انتخاب](../getting-started#select-project) پروژه، به صفحه باکت‌های پروژه هدایت خواهید شد:
 
-![Bucket: bucket page](../img/bucket-page.png)
+![Buckets: bucket page](../img/bucket-page.png)
 
 ## لیست باکت‌ها
 
 در انتهای صفحه سرویس، لیست باکت‌های سازمان به همراه اطلاعاتی چون **نام**، **موقعیت/فضا**، **اندازه**، **زمان ایجاد** و **دسترسی عمومی** برای هر باکت، قابل مشاهده است:
-![Bucket: buckets list](../img/buckets-list.png)
+![Buckets: buckets list](../img/buckets-list.png)
 همچنین، با کلیک روی نام هر باکت به صفحه [مرورگر باکت](./browser) هدایت خواهید شد.
 
-### دسترسی عمومی
+### دسترسی عمومی{#bucket-public-access}
 
 ‌از طریق گزینه **دسترسی عمومی** می‌‌توانید تنطیمات دسترسی به باکت را تغییر داده و نسبت به فعال‌سازی/غیرفعال‌سازی آن اقدام کنید. در صورت فعال شدن این گزینه، امکان دسترسی به باکت و دانلود آبجکت‌های آن برای عموم، فراهم می‌شود.
 
-![Bucket: activate public access btn](../img/activate-bucket-public-access-btn.png)
+![Buckets: activate public access btn](../img/activate-bucket-public-access-btn.png)
 
 ### عملیات‌های هر باکت
 
 در ستون عملیات و از طریق دکمه سه نقطه، لیستی از عملیات‌های موجود برای هر باکت وجود دارد. با کلیک روی هرکدام به صفحه/دیالوگ مربوطه هدایت خواهید شد:
-![Bucket: bucket options](../img/bucket-options.png)
+![Buckets: bucket options](../img/bucket-options.png)
 
 #### ویرایش باکت
 
 از طریق **ویرایش باکت** می‌توانید نسبت به ویرایش تنظیمات باکت از قبیل تغییر وضعیت **دسترسی عمومی**، **نسخه‌نگاری** و **برچسب‌ها** اقدام کنید. پس از کلیک روی **ویرایش باکت** به صفحه **تنظیمات باکت** هدایت خواهید شد:
-![Bucket: bucker settings](../img/edit-bucket.png)
-![Bucket: bucker settings](../img/bucket-settings-details.png)
+![Buckets: bucker settings](../img/edit-bucket.png)
+![Buckets: bucker settings](../img/bucket-settings-details.png)
 
 :::caution[فیلدهای غیرقابل ویرایش]
 توجه داشته باشید که مقادیر **نام** و **فضا** غیرقابل ویرایش می‌باشند.
 :::
 
-![Bucket: bucket settings details](../img/bucket-settings-details.png)
+![Buckets: bucket settings details](../img/bucket-settings-details.png)
 
 تغییرات موردنظر خود را انجام داده و روی **به‌روزرسانی باکت** کلیک کنید:
-![Bucket: edit bucket settings](../img/edit-bucket-settings.png)
+![Buckets: edit bucket settings](../img/edit-bucket-settings.png)
 برای مقادیر دیگر چون **دسترسی عمومی** و **برچسب‌ها** نیز می‌توانید به همین صورت عمل کنید.
 
 #### برچسب‌ها
 
 با کلیک روی گزینه **برچسب‌ها**، لیست برچسب‌های باکت و امکان افزودن برچسب جدید وجود دارد:
-![Bucket: tags](../img/bucket-tags.png)
-![Bucket: tags modal](../img/bucket-tag-modal.png)
+![Buckets: tags](../img/bucket-tags.png)
+![Buckets: tags modal](../img/bucket-tag-modal.png)
 
 ##### ایجاد برچسب جدید
 
 در صورت تمایل برای ایجاد برچسب جدید، می‌توانید مقادیر جدید را وارد کرده و روی **به‌روزرسانی** کلیک کنید:
-![Bucket: new tag](../img/add-new-tag.png)
+![Buckets: new tag](../img/add-new-tag.png)
 
 ##### حذف برچسب
 
 برای حذف برچسب نیز، تنها کافیست روی آیکون **سطل زباله** کنار کلید-مقدار مرتبط، کلیک کنید:
-![Bucket: remove tag](../img/remove-tag.png)
+![Buckets: remove tag](../img/remove-tag.png)
 
 #### تخلیه باکت
 
 برای تخلیه باکت (حذف تمام آبجکت‌های موجود)، روی **تخلیه باکت** کلیک کنید:
-![Bucket: clear bucket](../img/clear-bucket.png)
+![Buckets: clear bucket](../img/clear-bucket.png)
 
 سپس برای انجام عملیات تخلیه، روی گزینه **تخلیه باکت** کلیک کنید:
-![Bucket: confirm clear bucket](../img/confirm-clear-bucket.png)
+![Buckets: confirm clear bucket](../img/confirm-clear-bucket.png)
 
 #### پاک کردن باکت
 
 برای حذف باکت (به همراه حذف تمام آبجکت‌های موجود)، روی **پاک کردن باکت** کلیک کنید:
-![Bucket: remove bucket](../img/remove-bucket.png)
+![Buckets: remove bucket](../img/remove-bucket.png)
 
 سپس برای انجام عملیات حذف، روی گزینه **پاک کردن باکت** کلیک کنید:
-![Bucket: confirm remove bucket](../img/confirm-remove-bucket.png)
+![Buckets: confirm remove bucket](../img/confirm-remove-bucket.png)
 
 ## نمای کلی
 
 در صفحه نمای کلی، به چارت گزارش باکت مربوطه دسترسی خواهید داشت:
-![Bucket: bucket overview](../img/bucket-overview.png)
-![Bucket: bucket overview details](../img/bucket-overview-details.png)
+![Buckets: bucket overview](../img/bucket-overview.png)
+![Buckets: bucket overview details](../img/bucket-overview-details.png)
 
 برای دریافت چارت‌های باکت در بازه‌های زمانی مختلف، می‌توانید روی گزینه **فیلتر** کلیک کرده و بازه موردنظر خود را انتخاب کنید:
 ![Buckets: bucket overview chart](../img/bucket-overview-chart.png)

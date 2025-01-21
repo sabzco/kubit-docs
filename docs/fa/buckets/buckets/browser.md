@@ -1,12 +1,12 @@
 # مرورگر باکت
 
 در صفحه مرورگر باکت، **فایل‌های بارگذاری شده**، **پوشه‌ها**، **ساخت پوشه جدید**، **بارگذاری فایل** و امکانات مرتبط به آبجکت‌ها وجود دارد:
-![Bucket: bucket details](../img/bucket-details.png)
+![Browser: bucket details](../img/bucket-details.png)
 
 ## بارگذاری فایل
 
 برای بارگذاری فایل، رو گزینه **بارگذاری فایل** کلیک کنید:
-![Bucket: upload file](../img/upload-file.png)
+![Browser: upload file](../img/upload-file.png)
 پس از انتخاب فایل، فایل موردنظر بارگذاری شده و به لیست فایل‌های صفحه **مرورگر** اضافه خواهد شد.
 
 :::info[بارگذاری فایل در پوشه]
@@ -16,24 +16,24 @@
 ## ساخت پوشه
 
 برای ساخت پوشه جدید، روی گزینه **پوشه جدید** کلیک کنید:
-![Bucket: new folder](../img/new-folder.png)
+![Browser: new folder](../img/new-folder.png)
 
 سپس **نام** پوشه را وارد کرده و روی **ایجاد** کیک کنید:
-![Bucket: new folder form](../img/new-folder-form.png)
+![Browser: new folder form](../img/new-folder-form.png)
 در انتها پوشه جدید ساخته شده و به لیست آبجکت‌های صفحه **مرورگر** اضافه خواهد شد.
 
 ## جزئیات آبجکت
 
 با کلیک روی هر آبجکت، اطلاعاتی درمورد آبجکت انتخاب شده شامل **نام**، **اندازه**، **آخرین ویرایش** و **مسیر** آبجکت، به همراه امکان **کپی لینک دانلود** و **دانلود** مستقیم آبجکت نمایش داده می‌شود:
-![Bucket: obj details](../img/obj-details.png)
+![Browser: obj details](../img/obj-details.png)
 
 به ازای آبجکت‌های مختلف، عملیات‌های مختلفی از طریق مرورگر فراهم شده است که در ادامه به توضیح آنها می‌پردازیم.
 
 ### عملیات‌های فایل
 
 عملیات‌های مرتبط با یک فایل، شامل **لینک زماندار**، **کپی**، **جابه‌جایی**، **برچسب‌ها**، **نسخه‌ها** و **پاک کردن** می‌باشد. دسترسی به هرکدام از این عملیات‌ها از طریق دکمه سه نقطه روی کارت فایل فراهم شده است:
-![Bucket: obj options btn](../img/obj-options-btn.png)
-![Bucket: obj options](../img/obj-options.png)
+![Browser: obj options btn](../img/obj-options-btn.png)
+![Browser: obj options](../img/obj-options.png)
 
 :::info[غیرفعال بودن نسخه‌ها]
 در صورتی که امکان **نسخه‌نگاری** برای باکت غیرفعال باشد، این گزینه در لیست عملیات‌ها نیز غیرفعال خواهد بود.
@@ -42,5 +42,5 @@
 ### عملیات‌های پوشه
 
 عملیات‌های مرتبط با یک پوشه، شامل **کپی**، **جابه‌جایی** و **پاک کردن** می‌باشد. دسترسی به هرکدام از این عملیات‌ها از طریق دکمه سه نقطه روی کارت پوشه فراهم شده است:
-![Bucket: folder options btn](../img/folder-options-btn.png)
-![Bucket: folder options](../img/folder-options.png)
+![Browser: folder options btn](../img/folder-options-btn.png)
+![Browser: folder options](../img/folder-options.png)
