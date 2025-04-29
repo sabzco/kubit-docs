@@ -73,7 +73,8 @@ It's the installed version of a chart (release) managed by the Kubit system in K
 
 - Entering YAML
 - Filling out the Pack Form
-  :::
+
+:::
 
 Now let's start installing:
 

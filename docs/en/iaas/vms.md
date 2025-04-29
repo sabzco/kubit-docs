@@ -17,7 +17,8 @@ Please note that some operations depend on the machine's power state. If the req
 
 - Shutdown Requirement: Operations such as **Delete** and **Edit**.
 - Power On Requirement: Operations such as **Restart** and **Power Off**.
-  :::
+
+:::
 
 :::info[Job Creation for Each Operation]
 Every operation performed on a machine generates a corresponding **Job**, which shows the operation's status. An operation is considered successful if its job completes successfully and reaches the **Success** status. You can view the job statuses by accessing the machine’s job list:
