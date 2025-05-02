@@ -10,6 +10,7 @@ subDocuments:
   - resmon
   - zereshk
   - resan
+  - pricing
 ---
 
 # مستندات کوبیت
