@@ -38,7 +38,7 @@ To view the available operations for a subnet, click the three-dot button in the
 ![Subnets: options btn](img/subnet-actions-btn.png)
 ![Subnets: options](img/subnet-actions.png)
 
-### Edite
+### Edit
 
 - To edit the subnet, click **Edit**.
 - In the opened dialog, you can only modify the **name** and **sharing status** of the subnet. After entering your desired changes, click **Update Subnet**.
