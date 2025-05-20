@@ -4,19 +4,19 @@
 
 أولاً، ادخل إلى **خدمة الدعم** من لوحة کوبیت:
 
-![Settings: tickets](ticketing.png)
+![Settings: tickets](img/ticketing.png)
 
 في الصفحة الرئيسية لخدمة الدعم، سيكون لديك الوصول إلى قائمة التذاكر:
-![Ticketing: tickets list](tickets-list.png)
+![Ticketing: tickets list](img/tickets-list.png)
 
 من خلال الشريط العلوي للقائمة، يمكنك ترتيب أو تصفية أو إخفاء قائمة التذاكر بناءً على كل عمود وفقًا لاحتياجاتك:
-![Ticketing: ticket list bar](ticket-list-bar.png)
+![Ticketing: ticket list bar](img/ticket-list-bar.png)
 
 لعرض الخيارات، انقر على زر النقاط الثلاث بجانب اسم كل عمود:
-![Ticketing: ticket list options](ticket-list-options.png)
+![Ticketing: ticket list options](img/ticket-list-options.png)
 
 بالإضافة إلى ذلك، يمكنك عرض تفاصيل التذكرة بالنقر على التذكرة:
-![Ticketing: ticket details](ticket-details.png)
+![Ticketing: ticket details](img/ticket-details.png)
 
 ## إغلاق التذكرة بواسطة المستخدم
 
@@ -24,13 +24,13 @@
 
 ### الطريقة الأولى: قائمة التذاكر
 
-![Ticketing: close ticket](close-ticket.png)
-![Ticketing: close ticket confirm](close-ticket-confirm.png)
+![Ticketing: close ticket](img/close-ticket.png)
+![Ticketing: close ticket confirm](img/close-ticket-confirm.png)
 
 ### الطريقة الثانية: تفاصيل التذكرة
 
-![Ticketing: close ticket btn](close-ticket-btn.png)
-![Ticketing: close ticket details confirm](close-ticket-details-confirm.png)
+![Ticketing: close ticket btn](img/close-ticket-btn.png)
+![Ticketing: close ticket details confirm](img/close-ticket-details-confirm.png)
 
 :::tip[إشعار حالة التذكرة عبر الرسائل القصيرة]
 في كل مرحلة من مراحل تغيير حالة التذكرة، يتم إرسال رسالة تحتوي على التغيير إلى رقم هاتف العميل المحمول (منشئ التذكرة).
@@ -40,10 +40,10 @@
 
 عن طريق توصيل روبوت تيليجرام بلوحة کوبیت، يمكنك الوصول إلى خدمة الدعم عبر تيليجرام واستخدام الروبوت لإرسال التذاكر وتتبع تذاكرك.
 لعرض إعدادات روبوت تيليجرام، اختر خيار **Telegram Bot** من صفحة الدعم:
-![Ticketing: ticketing bot](ticketing-bot.png)
+![Ticketing: ticketing bot](img/ticketing-bot.png)
 
 - اتبع الخطوات المذكورة لإضافة روبوت تيليجرام، [@KubitSupportBot](https://t.me/KubitSupportBot)، إلى مجموعة تيليجرام التي ترغب بها.
 - ثم أدخل **Group ID** الذي تلقيته من الروبوت في قسم معرف المجموعة واختر **Activate**:
-  ![Ticketing: add ticketing bot](add-ticketing-bot.png)
+  ![Ticketing: add ticketing bot](img/add-ticketing-bot.png)
 
 لذا، من خلال المجموعة المعنية، يمكنك إجراء عمليات مثل **إنشاء تذكرة**، **حذف معرف تيليجرام**، **وإلغاء عملية إنشاء التذكرة**.
