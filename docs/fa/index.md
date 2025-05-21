@@ -10,6 +10,7 @@ subDocuments:
   - resmon
   - zereshk
   - resan
+  - ai-assistant
   - pricing
 ---
 

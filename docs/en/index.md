@@ -9,6 +9,7 @@ subDocuments:
   - ticketing
   - resmon
   - resan
+  - ai-assistant
 ---
 
 # Introduction
