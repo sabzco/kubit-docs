@@ -40,7 +40,7 @@ Kubit AI Assistant utilizes a combination of advanced technologies to deliver ac
 ### From the User Panel
 
 1. Log in to [https://panel.kubit.cloud](https://panel.kubit.cloud)
-2. Click the chatbot icon at the bottom-right corner
+2. Click the chatbot icon at the top bar
 3. Type your question in Persian or English
 4. Receive a personalized response within seconds
 
