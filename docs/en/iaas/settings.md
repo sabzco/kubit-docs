@@ -44,7 +44,7 @@ For more information and details, refer to the [Virtual Machines](../vms) docume
 If you wish to create a new project, you can do so by selecting the **Create New Project** option:
 Then enter the **Title** and **Key** of the project and click on **Create**:
 ![IaaS: new project](img/new-project.png)
-![IaaS: create project form](../organize/img/create-project-form.png)
+![IaaS: create project form](../organization/img/create-project-form.png)
 :::
 
 ### Unbinding a Project

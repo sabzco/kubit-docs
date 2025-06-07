@@ -47,7 +47,7 @@
 همچنین اگه تمایل به ایجاد پروژه جدید دارید، می‌توانید از طریق گزینه **ایجاد پروژه جدید** اقدام کنید:
 سپس **عنوان** و **کلید** پروژه را وارد کرده و روی **ایجاد** کلیک کنید:
 ![IaaS: new project](img/new-project.png)
-![IaaS: create project form](../organize/img/create-project-form.png)
+![IaaS: create project form](../organization/img/create-project-form.png)
 :::
 
 ## قطع اتصال پروژه

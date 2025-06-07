@@ -5,7 +5,7 @@ subDocuments:
   - kubchi
   - certman
   - account
-  - organize
+  - organization
   - ticketing
   - resmon
   - resan
@@ -18,7 +18,7 @@ subDocuments:
 ## البدء
 
 - [حساب المستخدم](account)
-- [التنظيم](organize)
+- [التنظيم](organization)
 - [لدعم](ticketing)
 
 ## المستندات الفنية

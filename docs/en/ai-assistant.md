@@ -102,5 +102,3 @@ Not entirely. The assistant is designed to enhance and accelerate the response p
 ### Is the assistant free to use?
 
 Yes, it is currently free for all Kubit users.
-
----

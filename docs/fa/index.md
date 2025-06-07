@@ -5,7 +5,7 @@ subDocuments:
   - kubchi
   - certman
   - account
-  - organize
+  - organization
   - ticketing
   - resmon
   - zereshk
@@ -23,7 +23,7 @@ subDocuments:
 ## شروع به کار
 
 - [حساب کاربری](account)
-- [سازماندهی](organize)
+- [سازماندهی](organization)
 - [پشتیبانی](ticketing)
 
 ## مستندات فنی

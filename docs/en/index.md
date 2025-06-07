@@ -5,7 +5,7 @@ subDocuments:
   - kubchi
   - certman
   - account
-  - organize
+  - organization
   - ticketing
   - resmon
   - resan
@@ -19,7 +19,7 @@ Welcome to the comprehensive [Kubit](https://panel.kubit.ir/en/) documentation! 
 ## Getting Started
 
 - [User Account](account)
-- [Organize](organize)
+- [Organize](organization)
 - [Support](ticketing)
 
 ## Technical Documentation

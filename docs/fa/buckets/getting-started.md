@@ -33,7 +33,7 @@
 همچنین اگه تمایل به ایجاد پروژه جدید دارید، می‌توانید از طریق گزینه **ایجاد پروژه جدید** اقدام کنید:
 ![Buckets: new project](img/new-project.png)
 سپس **عنوان** و **کلید** پروژه را وارد کرده و روی **ایجاد** کلیک کنید:
-![Buckets: create project form](../organize/img/create-project-form.png)
+![Buckets: create project form](../organization/img/create-project-form.png)
 :::
 
 ## قطع اتصال پروژه
