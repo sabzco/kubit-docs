@@ -1,11 +1,11 @@
-# ساخت فضای جدید
+# ساخت فضای جدید (گام اول)
 
 در صفحه سرویس باکت‌ها، پس از [اتصال](../getting-started#bind-project) / [انتخاب](../getting-started#select-project) پروژه، به صفحه **فضاها** رفته و روی **ساخت فضای جدید** کلیک کنید:
 ![Space: new space btn](img/new-space-btn.png)
 
 ## گام اول: انتخاب مکان و نام
 
-ابتدا **مکان** را از لیست مکان‌های موجود انتخاب کرده و **نام** فضا را وارد کنید:
+ابتدا **موقعیت فضا** را از لیست مکان‌های موجود انتخاب کرده و **نام فضا** را وارد کنید:
 ![Space: new space form](img/new-space-form.png)
 ![Space: new space location list](img/new-space-location-list.png)
 
