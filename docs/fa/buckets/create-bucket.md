@@ -1,4 +1,4 @@
-# ساخت باکت جدید
+# ساخت باکت جدید (گام دوم)
 
 در صفحه سرویس باکت‌ها، پس از [اتصال](../getting-started#bind-project) / [انتخاب](../getting-started#select-project)، روی **ساخت باکت جدید** کلیک کنید تا به فرم ساخت باکت هدایت شوید:
 ![Create Bucket: new bucket btn](img/new-bucket-btn.png)
