@@ -2,6 +2,7 @@
 subDocuments:
   - iaas
   - buckets
+  - saas
   - kubchi
   - certman
   - account
