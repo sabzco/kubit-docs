@@ -26,7 +26,6 @@
 برای تعریف قانون جدید، با کلیک روی دکمه **تعریف قانون جدید** به زیرصفحه **قانون جدید** هدایت خواهید شد. فرمی شامل اطلاعات موردنیاز برای ایجاد قانون (که در بالا توضیح داده شد)، نمایش داده می‌شود.
 ![Lifecycle: new lifecycle rule btn](../img/new-lifecycle-rule-btn.png)
 ![Lifecycle: lifecycle rule form 1](../img/lifecycle-rule-form.png)
-![Lifecycle: lifecycle rule form 2](../img/lifecycle-rule-form2.png)
 
 ## ویرایش قانون
 
@@ -43,9 +42,11 @@
 
 ## ویرایشگر چرخه عمر
 
+می‌توان از ویرایشگر گرافیکی برای تغییرات مد نظر خود استفاده و سپس بروزرسانی کنید.
+![Lifecycle: editor](../img/lifecycle-editor.png)
+![Lifecycle: editor](../img/lifecycle-editor-page.png)
 همچنین امکان تعریف و ویرایش قوانین چرخه عمر از طریق ویرایشگر JSON وجود دارد که لیستی از قوانین موجود در باکت می‌باشد.
 ![Lifecycle: editor](../img/lifecycle-rules-editor.png)
-![Lifecycle: editor](../img/lifecycle-editor.png)
 
 - نمونه یک قانون چرخه عمر
 
