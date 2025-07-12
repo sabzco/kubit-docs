@@ -57,5 +57,4 @@
 ![Create Bucket: new automate sa](img/new-automate-sa.png)
 ![Create Bucket: new automate sa msg](img/new-automate-sa-msg.png)
 :::
-پس از انتخاب سرویس اکانت، روی **ایجاد باکت** کلیک کنید تا باکت موردنظر ساخته شود:
-![Create Bucket: create](img/create-bucket.png)
+پس از انتخاب سرویس اکانت، روی **تایید و ساخت باکت** کلیک کنید تا باکت موردنظر ساخته شود:
