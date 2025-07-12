@@ -9,7 +9,7 @@ subDocuments:
 
 از صفحه سرویس باکت‌ها، پس از [اتصال](../getting-started#bind-project) / [انتخاب](../getting-started#select-project) پروژه، روی **فضاها** کلیک کنید:
 ![Create Space: spaces](../img/spaces.png)
-
+![Create Space: spaces](../img/space-details-3.png)
 همانطور که مشاهده می‌کنید، در صفحه فضاها چارت گزارش در بازه‌های زمانی مختلف وجود دارد:
 ![Create Space: space page](../img/space-page.png)
 
@@ -41,5 +41,5 @@ subDocuments:
 لیست باکت‌های فضا:
 ![Create Space: space details 2](../img/space-details-2.png)
 
-با کلیک روی نام هر باکت، به صفحه [مرورگر باکت](../browser) هدایت خواهید شد:
+با کلیک روی نام هر باکت، به صفحه [مرورگر باکت](../buckets/browser) هدایت خواهید شد:
 ![Create Space: bucket overview](../img/bucket-details.png)
