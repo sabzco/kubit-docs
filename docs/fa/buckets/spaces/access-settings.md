@@ -17,7 +17,6 @@
 
 **نام** را وارد کرده و نوع **دسترسی** را نیز انتخاب کنید:
 ![Create Space: new service account form](../img/new-space-service-account-form.png)
-![Create Space: new sa access list](../img/new-space-sa-access-list.png)
 
 در صورت تمایل برای به اشتراک گذاری سرویس اکانت در سطح سازمان، گزینه **مشترک در سازمان** را انتخاب کرده و روی **ایجاد** کلیک کنید:
 ![Create Space: create new sa](../img/create-new-space-sa.png)
@@ -43,7 +42,6 @@
   ![Create Space: edit sa level](../img/edit-sa-access-level.png)
   ![Create Space: edit sa level 2](../img/edit-sa-access-level-2.png)
   ![Create Space: edit sa level 3](../img/edit-sa-access-level-3.png)
-  ![Create Space: edit sa level 4](../img/edit-sa-access-level-4.png)
 
 #### ایجاد دوباره کلیدها
 
@@ -52,7 +50,6 @@
 - ابتدا روی گزینه **ایجاد دوباره کلیدها** کلیک کنید.
 - در صورت اطمینان برای انجام این عملیات، روی گزینه **ایجاد دوباره‌ی کلیدها** کلیک کنید.
   ![Create Space: regenerate sa keys](../img/regenerate-sa-keys.png)
-  ![Create Space: regenerate sa keys 2](../img/regenerate-sa-keys-2.png)
 
 #### حذف سرویس اکانت
 
