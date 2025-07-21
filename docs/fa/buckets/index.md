@@ -16,8 +16,6 @@ subDocuments:
 
 ![Buckets: bucket](img/bucket.png)
 
-![Buckets: bucket](img/bucket.png)
-
 ### دسترسی سریع:
 
 | [**استفاده از مرورگر تحت‌وب**](buckets/browser)                                              | [**استفاده از مروگر S3**](buckets/browser#s3_Browser)                                      |
