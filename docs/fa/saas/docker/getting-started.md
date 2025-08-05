@@ -37,9 +37,21 @@
 2. دسترسی **FULL_ACCESS**: از این بخش **نام کاربری** username و **توکن** (token) را برای اتصال با دسترسی کامل بردارید.
 3. دسترسی **READ_ONLY**: از این بخش می‌توانید دسترسی محدودی به کاربران بدهید.
 
-دستور زیر را در ترمینال وارد کنید: ( می‌توانید از ترمینال **Docker Desktop** نیز استفاده کنید)
+دستور زیر را در ترمینال وارد کنید (می‌توانید از ترمینال **Docker Desktop** نیز استفاده کنید):
 
-`echo YOUR_USERNAME | docker login YOUR_REGISTRY_ADDRESS --username YOUR_PASSWORD --password-stdin`
+```bash
+echo "YOUR_PASSWORD" | docker login YOUR_REGISTRY_ADDRESS --username YOUR_USERNAME --password-stdin
+```
+
+یا:
+
+```bash
+docker login YOUR_REGISTRY_ADDRESS -u YOUR_USERNAME -p YOUR_PASSWORD
+```
+
+:::warning[in-line login]
+**توجه:** لاگین به صورت in-line راهکاری امن برای ورود به حساب کاربری نیست. اجرای این دستور موجب ثبت لاگ در سیستم می‌شود و در صورت دسترسی افراد غیرمجاز، احتمال وقوع رخدادهای امنیتی وجود خواهد داشت. برای اطلاعات بیشتر [کلیک](https://docs.docker.com/reference/cli/docker/login/) کنید.
+:::
 
 ![App Install: docker-cli-login](../img/docker-cli-login.png)
 
