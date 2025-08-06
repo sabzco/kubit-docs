@@ -1,8 +1,8 @@
-# گروه‌های امنیتی
+# گروه‌های امنیتی (Security Groups)
 
 در این بخش، به لیست گروه‌های امنیتی پروژه و مدیریت آنها از جمله **ایجاد**، **افزودن قانون**، **مشاهده وضعیت گروه** و **حذف**، دسترسی خواهید داشت.
 
-![Security Group: sec gps](img/security-groups.png)
+![Security Group: sec gps](img/iaas-securitygroups-overview.png)
 
 :::info[گروه پیش‌فرض]
 پس از اتصال پروژه به سرویس، یک گروه امنیتی پیش‌فرض توسط کوبیت برای پروژه ایجاد می‌شود که این گروه، از طریق ستون **پیش‌فرض** با دیگر گروه‌ها، قابل تفکیک می‌باشد.
@@ -16,46 +16,40 @@
 
 - برای تعریف گروه امنیتی جدید، روی دکمه **ساخت گروه جدید** کلیک کنید.
 - سپس **نام** و **توضیحات** گروه را وارد کرده و روی دکمه **ایجاد** کلیک کنید.
-  ![Security Group: new sec gp btn](img/new-sec-gp-btn.png)
-  ![Security Group: new sec gp](img/new-security-gp.png)
+  ![Security Group: new sec gp btn](img/iaas-securitygroups-new-group.png)
 
 پس از ایجاد گروه جدید، می‌توانید برای آن قوانین خود را تعریف کنید یا به ماشین مجازی و ساب‌نت، تخصیص دهید.
 
 ## مشاهده جزئیات و وضعیت
 
-با کلیک روی آیکون مشخص شده هر گروه، لیستی از قوانین گروه و جزئیات آنها نمایش داده می‌شود:
-![Security Group: details](img/sec-gp-details.png)
-![Security Group: sec rules](img/sec-rules.png)
+با کلیک روی آیکون (▼) هر گروه، لیستی از قوانین گروه و جزئیات آنها نمایش داده می‌شود:
+![Security Group: sec gps](img/iaas-securitygroups-overview2.png)
 
 ### حذف قانون از گروه
 
 - برای حذف قانون از گروه، تنها کافیست روی آیکون **سطل زباله** مرتبط با قانون، کلیک کنید.
 - سپس در صورت اطمینان از حذف، روی دکمه **تایید** در دیالوگ باز شده کلیک کنید.
-  ![Security Group: remove rule](img/remove-rule.png)
-  ![Security Group: confirm remove rule](img/confirm-remove-rule.png)
 
 ## عملیات‌های یک گروه
 
-![Security Group: options](img/sec-gps-options.png)
+![Security Group: options](img/iaas-securitygroups-options.png)
 
 ### افزودن قانون جدید
 
-قانون‌های هر گروه، تعیین‌کننده سطح دسترسی و نوع دسترسی می‌باشند. برای تخصیص قانون جدید، روی **افزودن قانون جدید** کلیک کنید:
-![Security Group: add new sec rule](img/add-new-rule.png)
-سپس باید اطلاعات موردنیاز برای قانون را تعریف کنید:
+قانون‌های هر گروه، تعیین‌کننده سطح دسترسی و نوع دسترسی می‌باشند. برای تخصیص قانون جدید، روی **افزودن قانون جدید** کلیک کنید. سپس باید اطلاعات موردنیاز برای قانون را تعریف کنید:
 
 - **ورودی/خروجی**: تعیین جهت ترافیک
 - **نسخه IP**: تعیین نسخه IP
 - **CIDR**: بازه IP ای که از طریق این قانون، به منابع دسترسی پیدا می‌کند.
 - **پورت پروتکل**: انتخاب پورت پروتکلی که قصد باز کردن دسترسی برای آن را دارید. در این بخش لیستی از پورت پروتکل‌های پرکاربرد وجود دارد و در صورت نیاز به تعریف پروتکل دیگر، می‌توانید گزینه **سفارشی** را انتخاب کنید و اطلاعات موردنظر خود را وارد کنید.
-  ![Security Group: new rule form](img/new-rule-form.png)
-  ![Security Group: new rule options](img/new-rule-options.png)
+  ![Security Group: new rule form](img/iaas-securitygroups-new-rule.png)
 
 در نهایت با کلیک روی **افزودن** قانون ایجاد شده و به گروه موردنظر تخصیص داده می‌شود.
 
 ### پاک کردن
 
-- برای حذف گروه امنیتی، روی دکمه سه نقطه در ستون **عملیات** کلیک کرده و گزینه **پاک کردن** را انتخاب کنید.
+- برای حذف گروه امنیتی/قانون، روی دکمه سه نقطه در ستون **عملیات** کلیک کرده و گزینه **پاک کردن / سطل زباله** را انتخاب کنید.
 - سپس در صورت اطمینان از حذف، روی دکمه **پاک کردن** در دیالوگ باز شده کلیک کنید.
-  ![Security Group: remove sec gp](img/remove-sec-gp.png)
-  ![Security Group: confirm remove sec gp](img/confirm-remove-sec-gp.png)
+-
+
+![Security Group: options](img/iaas-securitygroups-options.png)

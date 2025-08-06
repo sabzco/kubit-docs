@@ -1,8 +1,8 @@
-# IPهای شناور
+# IPهای شناور (Floating IPs)
 
 در این بخش، لیست IPهای شناور موجود در پروژه، مدیریت آنها از قبیل **تخصیص**، **حذف** و **قطع اتصال** وجود دارد.
 
-![Floating IP: floating ip](img/floating-ips.png)
+![Floating IP: floating ip](img/iaas-floating-ips-overview.png)
 
 ## تخصیص IP شناور
 
@@ -10,8 +10,8 @@
 - در دیالوگ باز شده، یک **نام معتبر و غیرتکراری** وارد کنید.
 - سپس روی **تخصیص IP شناور** کلیک کنید. همچنین یک **کار** مرتبط با تخصیص IP شناور ایجاد می‌شود که وضعیت این درخواست را نشان می‌دهد.
 - پس از اتمام موفقیت‌آمیز کار ایجاد شده، می‌توانید از IP شناور جدید خود، استفاده کنید.
-  ![Floating IP: new btn](img/new-floating-ips-btn.png)
-  ![Floating IP: assign new](img/assign-new-floating-ip.png)
+
+  ![Floating IP: assign new](img/iaas-floating-ip-assign-new.png)
 
 :::caution[توجه!]
 توجه داشته باشید که تخصیص IP شناور مادامی که رزرو شده باشد، برای شما هزینه خواهد داشت.
@@ -20,19 +20,28 @@
 ## عملیات‌های یک IP شناور
 
 برای مشاهده عملیات‌های ممکن برای یک IP شناور، روی دکمه سه نقطه در ستون **عملیات** کلیک کنید تا لیستی از عملیات‌ها نمایش داده شود:
-![Floating IP: options btn](img/floating-ips-options-btn.png)
-![Floating IP: options list](img/floating-ip-options.png)
+
+![Floating IP: options list](img/iaas-floating-ips-options.png)
+
+### ویرایش نام
+
+- برای ویرایش نام، روی دکمه سه نقطه در ستون **عملیات** کلیک کرده و گزینه **ویرایش نام** را انتخاب کنید.
+- در دیالوگ باز شده نام جدید را انتخاب کنید و در نهایت روی دکمه **ویرایش نام** بزنید.
+  ![Floating IP: options list](img/iaas-floating-ips-rename.png)
 
 ### قطع اتصال
 
 - برای قطع اتصال از تمام منابع، روی دکمه سه نقطه در ستون **عملیات** کلیک کرده و گزینه **پاک کردن** را انتخاب کنید.
 - سپس در صورت اطمینان از حذف، روی دکمه **تایید** در دیالوگ باز شده کلیک کنید.
-  ![Floating IP: unbind](img/unbind-floating-ip.png)
-  ![Floating IP: confirm unbind](img/confirm-unbind-floating-ip.png)
+
+### اتصال به گروه امنیتی
+
+- برای افزودن یک گروه امنیتی به این آدرس IP ابتدا روی دکمه سه نقطه در ستون **عملیات** کلیک کرده و گزینه **افرودن به گروه امنیتی** را انتخاب کنید.
+- از لیست گروه‌های امنیتی موجود، مورد مناسب را انتخاب کنید.
+  ![Floating IP: options list](img/iaas-floating-ips-securitygroups-list.png)
+  ![Floating IP: options list](img/iaas-floating-ips-securitygroups-add.png)
 
 ### حذف IP شناور
 
 - برای حذف، روی دکمه سه نقطه در ستون **عملیات** کلیک کرده و گزینه **پاک کردن** را انتخاب کنید.
 - سپس در صورت اطمینان از حذف، روی دکمه **پاک کردن** در دیالوگ باز شده کلیک کنید.
-  ![Floating IP: remove](img/remove-floating-ip.png)
-  ![Floating IP: confirm remove](img/confirm-remove-floating-ip.png)
