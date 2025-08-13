@@ -11,6 +11,7 @@ subDocuments:
   - resmon
   - accounting
   - kubit-packs
+  - postgresqlha
   - zereshk
   - organization
   - resan
