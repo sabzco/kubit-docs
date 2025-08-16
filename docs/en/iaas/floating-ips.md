@@ -1,38 +1,47 @@
 # Floating IPs
 
-In this section, you can view the list of available floating IPs in the project and manage them, including **allocation**, **deletion**, and **disconnection**.
+In this section, you can access the list of floating IPs available in the project and manage them, including **assignment**, **deletion**, and **disconnection**.
 
-![Floating IP: floating ip](img/floating-ips.png)
+![Floating IP: floating ip](img/iaas-floating-ips-overview.png)
 
-## Allocate a Floating IP
+## Assigning a Floating IP
 
-- Click on the **Assign New Floating IP option**.
+- Click on the **Assign New Floating IP** option.
 - In the opened dialog, enter a **valid and unique name**.
-- Then, click on **Allocate Floating IP**. A **job** related to the floating IP assignment will be created, showing the status of the request.
-- After the successful completion of the job, you can start using your new floating IP.
-  ![Floating IP: new btn](img/new-floating-ips-btn.png)
-  ![Floating IP: assign new](img/assign-new-floating-ip.png)
+- Then, click on **Assign Floating IP**. A **job** related to the floating IP assignment will also be created, showing the status of this request.
+- Upon successful completion of the created job, you can use your new floating IP.
+
+  ![Floating IP: assign new](img/iaas-floating-ip-assign-new.png)
 
 :::caution[Note!]
-Please note that as long as the floating IP is reserved, it will incur costs for you.
+Note that assigning a floating IP will incur costs as long as it remains reserved.
 :::
 
-## Floating IP Actions
+## Floating IP Operations
 
-To view the possible operations for a floating IP, click the three-dot button in the **Actions** column to display a list of actions:
-![Floating IP: options btn](img/floating-ips-options-btn.png)
-![Floating IP: options list](img/floating-ip-options.png)
+To view possible operations for a floating IP, click on the three-dot button in the **Operations** column to display a list of operations:
 
-### Disconnect
+![Floating IP: options list](img/iaas-floating-ips-options.png)
 
-- To disconnect from all resources, click the three-dot button in the **Actions** column and select **Disconnect**.
-- Then, if confirmed, click the **Confirm** button in the opened dialog.
-- ![Floating IP: unbind](img/unbind-floating-ip.png)
-  ![Floating IP: confirm unbind](img/confirm-unbind-floating-ip.png)
+### Editing the Name
 
-## Deleting a Floating IP
+- To edit the name, click on the three-dot button in the **Operations** column and select the **Edit Name** option.
+- In the opened dialog, choose the new name and click the **Edit Name** button.
+  ![Floating IP: options list](img/iaas-floating-ips-rename.png)
 
-- To delete a floating IP, click the three-dot button in the **Actions** column and select **Delete**.
-- Then, if confirmed, click the **Delete** button in the opened dialog.
-  ![Floating IP: remove](img/remove-floating-ip.png)
-  ![Floating IP: confirm remove](img/confirm-remove-floating-ip.png)
+### Disconnecting
+
+- To disconnect from all resources, click on the three-dot button in the **Operations** column and select the **Delete** option.
+- Then, if you are sure about the deletion, click the **Confirm** button in the opened dialog.
+
+### Connecting to a Security Group
+
+- To add a security group to this IP address, first click on the three-dot button in the **Operations** column and select the **Add to Security Group** option.
+- Choose the appropriate security group from the list of available security groups.
+  ![Floating IP: options list](img/iaas-floating-ips-securitygroups-list.png)
+  ![Floating IP: options list](img/iaas-floating-ips-securitygroups-add.png)
+
+### Deleting a Floating IP
+
+- To delete, click on the three-dot button in the **Operations** column and select the **Delete** option.
+- Then, if you are sure about the deletion, click the **Delete** button in the opened dialog.

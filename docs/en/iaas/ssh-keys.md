@@ -1,35 +1,30 @@
 # SSH Keys
 
-On the SSH Keys page, there is a list of the keys for the selected project and the shared keys in the organization, along with the ability to add new keys and delete current keys.
-![SSH: ssh keys list](img/sshkeys-list.png)
+In the SSH Keys page, a list of SSH keys for the selected project and organization-shared keys is displayed, along with options to add a new key and delete existing keys.
+![SSH: ssh keys list](img/iaas-ssh-overview.png)
 
-## Add SSH Key
+## Adding an SSH Key
 
 To add a new key, click on the **Add New SSH Key** button:
-![SSH: add ssh key](img/add-sshkey.png)
 
-Then enter your key in the **SSH Public Key** section along with a name, and click on **Add Key**:
-
-:::tip[Share Key in All Projects]
-To use this key and share it across the organization (in all projects), select the option **Use this SSH Key in all projects**.
+Then, enter the value of your key in the **SSH Public Key** field along with a name, and click on **Add Key**:
+:::tip[Sharing the Key Across All Projects]
+To use this key and share it across the organization (in all projects), select the **Use this SSH Key in all projects** option.
 :::
-
-![SSH: add ssh key form](img/add-sshkey-form.png)
+![SSH: add ssh key form](img/iaas-ssh-add.png)
 Finally, the new key will be added, and you will be redirected to the SSH keys list.
 
-### Copy Key
+### Copying a Key
 
-To copy the SSH key value, simply click on the **Public Key** value of your desired key:
-![SSH: copy ssh key](img/copy-sshkey.png)
+To copy the value of an SSH key, simply click on the **Public Key** value of the desired key:
+![SSH: copy ssh key](img/iaas-ssh-copy.png)
 
-### Delete Key
+### Deleting a Key
 
-- To delete a key, click on the three-dot button in the **Actions** column and select the **Delete** option.
-- Then, if you are sure about the deletion, click on the **Delete** button in the dialog that appears.
-  ![SSH: ssh key options](img/sshkey-actions.png)
-  ![SSH: remove ssh key](img/remove-sshkey.png)
-  ![SSH: confirm remove ssh key](img/confirm-remove-sshkey.png)
+- To delete a key, click on the three-dot button in the **Operations** column and select the **Delete** option.
+- Then, if you are sure about the deletion, click the **Delete** button in the opened dialog.
+  ![SSH: remove ssh key](img/iaas-ssh-options.png)
 
-:::caution[No Access to Delete Shared SSH Keys in the Organization]
-Please note that SSH keys that are shared across the organization and used among all projects can only be deleted by the key creator.
-:::
+  :::caution[Lack of Access to Delete Organization-Shared SSH Keys]
+  Note that SSH keys shared across the organization and used in all projects can only be deleted by the key’s creator.
+  :::

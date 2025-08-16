@@ -1,43 +1,56 @@
 ---
 subDocuments:
+  - concepts
   - settings
-  - create-vm
-  - vms
+  - getting-started
   - vm
   - ssh-keys
   - subnets
   - floating-ips
+  - disks
   - snapshots
+  - backup
   - security-groups
 ---
 
 # Infrastructure (Cloud Computing)
 
-The Infrastructure Services section of Kubit is responsible for providing cloud computing resources such as processors, memory, disks, and network, based on demand and on a pay-as-you-go basis for the user. In this section, you will be able to create your virtual machines under different projects by selecting the type of operating system, CPU and memory capacity, disk size and number, network settings, and security features such as SSH keys.
-![IaaS: iaas](img/iaas.png)
+## Introduction to Kubit Cloud Infrastructure Services (Kubit IaaS)
 
-## Basic Concepts
+**Kubit Cloud Infrastructure** provides cloud computing resources **on-demand** with a **pay-as-you-go** model. These resources include:
 
-### Virtual Machine
+- **Processor (CPU)**
+- **Memory**
+- **Storage**: Selectable by type, size, and number
+- **Networking**: Includes IP configurations, firewall, and security settings
 
-A Virtual Machine (VM) is a software simulation of a physical computer. Each virtual machine runs its own operating system and applications in isolation from other software on the same physical hardware. This isolation allows multiple virtual machines to coexist on a single physical machine, sharing resources such as CPU, memory, and storage space. Virtual machines are used to optimize hardware utilization, test software in controlled environments, and run applications that require different operating systems on a single device. They provide flexibility and efficiency in managing computing resources.
+Users can create virtual machines (Virtual Machines) with desired configurations within various projects. Configurable options include:
 
-### SSH Key
+- Selecting the **operating system** (e.g., Linux or Windows)
+- Specifying the **number and capacity of CPU cores**
+- Determining the **amount of RAM (Memory)**
+- Choosing the **size and type of disks** (e.g., SSD or HDD)
+- Configuring **network and firewall settings**
+- Adding **SSH keys** for secure access
 
-An SSH key is a critical security feature used for authentication and access to virtual machines (VMs). This key consists of an encryption key pair: a public key stored on the server and a private key held by the user. This key pair enables secure, passwordless access to virtual machines and ensures that only authorized users with the correct private key can gain access.
+## Quick Access to Infrastructure Service Features and Capabilities:
 
-### Subnet
+| [Infrastructure Service Prerequisites (Step Zero)](settings)                                                                         | [Setting Up a Virtual Machine (Step One)](getting-started)                                            |
+| ------------------------------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------- |
+| Prerequisites for using cloud resources, including connecting the project to the infrastructure service and enabling basic settings. | After connecting the project, you can create and manage resources such as virtual machines and disks. |
 
-A subnet refers to a logical subdivision of an IP network within a virtual private cloud (VPC). These subnets divide the VPC into distinct segments, each with its own specific IP address range, to manage and isolate different resources. Subnets are essential for organizing network architecture, implementing security controls, and optimizing traffic management in a cloud environment, enabling efficient resource allocation and enhanced security.
+[**Virtual Machines**](vm): Cloud hosts used to run services, applications, and operating systems
 
-### Floating IP
+[**SSH Keys**](ssh-keys): Tools for secure, encrypted connections to machines without the need for a password
 
-Floating IP addresses are public IPv4 addresses that can be attached to any cloud server in the same region. They direct traffic to a server at any time and can be moved to another server in the same region without downtime and without needing to reboot the server.
+[**Subnets**](subnets): Subnetworks with specific IP ranges that separate resources in the network architecture
 
-### Snapshot
+[**Floating IPs**](floating-ips): Transferable public addresses that can be moved between machines without interruption
 
-A snapshot is a saved state of a virtual machine or volume at a specific point in time. This snapshot captures the configuration and data of the resource, allowing for quick restoration in case of data loss or other issues. Snapshots are used for backup, disaster recovery, and cloning virtual machines for scaling or testing, providing a reliable mechanism for managing data and system states in a cloud environment.
+[**Snapshots**](snapshots): Instantaneous copies of a machine or disk’s state for quick restoration or creating test versions
 
-### Security Group
+[**Backup**](backup): Periodic storage of virtual machine versions for recovery in critical situations
 
-A security group acts as a virtual firewall, defining rules that control incoming and outgoing network traffic to and from virtual machines or other resources. These rules specify allowed protocols, ports, and IP ranges, thereby controlling access to resources.
+[**Security Groups**](security-groups): A set of network access rules that control inbound and outbound traffic
+
+[**Detachable Disks**](disks): Independent storage disks that can be moved between different machines

@@ -1,155 +1,175 @@
-# Getting Started
+# Getting Started (Step One)
 
-## Logging into Kubit Panel
+:::warning[Infrastructure Cluster]
 
-After receiving your Kubit login credentials:
-
-- Go to your organization's Kubit panel address. For example: `https://panel.kubit.ir/-/your-org`
-- Select the SAML option.
-- Log in with the username and password provided to you in the LDAP system.
-
-## Getting Started with Kubit
-
-To manage tools and cloud applications in the Kubechi system, you need to perform the following tasks:
-
-- [Create a Project](#create-simple-project):
-  All applications and tools must be placed within projects.
-  So the first step is defining a project. ([More details](../create-project))
-- [Create Users](#create-a-user):
-  Create users and optionally set up user groups. ([More details](../manage-user))
-- [Assign User Accesses](#give-access):
-  Users you create must have the necessary accesses to use Kubechi. ([More details](../manage-access))
-- [Install a Pack](#create-pack):
-  Install your applications and tools in the form of packs. ([More details](../manage-pack))
-
-### Creating the First Project {#create-simple-project}
-
-To get started, you need to define a project:
-
-- From the side menu, select the project option in the organization section.
-- Click on the "New Project" button.
-- Enter the title and key of your desired project and click "Confirm."
-  For example, enter both as the word "default."
-- Navigate to the Kubechi section by selecting from the side menu.
-- Click on the "Connect Project to Kubechi" option.
-- First, select the desired project from the list.
-- Also, select your main cluster from the list of clusters.
-- Click on the "Connect" option.
-
-### Creating a New User {#create-a-user}
-
-To allow other team members to use the Kubit panel, you need to create a user account for them. Here's how:
-
-- From the side menu, go to the Users section under Organization.
-- Click on the "New User" button.
-- Fill out the LDAP user creation form and confirm.
-
-### Setting User Accesses {#give-access}
-
-To set user accesses, you need to assign roles directly or through group memberships. Follow these steps:
-
-- From the side menu and in the Organization section, go to Users.
-- Select one of the users to enter their user settings page.
-- Choose the "Roles" tab and click on "Assign Role."
-- Select a role from the list of roles. For example, choose the kubchi-devops option.
-- Click on the "Add" button.
-  By doing this, the corresponding role accesses will be granted to that user across all organization projects.
-
-#### Setting User Access in a Project
-
-You can also assign each role to a user for each project separately. To do this, simply select the desired project instead of "All Projects" in the role assignment menu.
-
-### Installing the First Application via Pack {#create-pack}
-
-First, let's get familiar with some concepts:
-
-**What is a Chart?**
-A chart in the Kubit system is the Helm Chart, and some of them are customized for the Kubechi UI.
-
-**What is a Pack?**
-It's the installed version of a chart (release) managed by the Kubit system in Kubernetes.
-
-:::info[Installation Methods]
-
-- Entering YAML
-- Filling out the Pack Form
+**Kubchi service** can be activated on various Kubernetes clusters. If you are using **clusters managed by Kubit**, this service is ready for use by default. If you are using other clusters, contact [support](../../ticketing) to connect this service to your cluster.
 
 :::
 
-Now let's start installing:
+The content of this page includes an introduction to the details of the packs page and how to install a pack.
 
-- Go to the "Kubechi" section from the side menu and select your desired project.
-- Choose the "Install Pack" button.
-- In this section, select the pack chart you want to install.
-  For example, find Redis-HA from the chart list and click on "Install."
+## Installing a Pack
 
-#### Installation with Form
+Go to the [**Packs**](../concepts/#pack) section and click on the **Install Pack** option to install a new pack. You can install packs in two ways.
 
-- Select the chart version you want your pack to be installed from. For example, redis-ha 4.15.1.
-- Enter the pack name. For example, test-redis.
-- Choose the namespace where you want to install the pack.
-  - If you don't have a namespace yet, click on "Create New Namespace" and enter something like test-ns, then confirm.
-- Enter the pack information. For Redis pack, you can enter the following:
+To install ready-made packs through the UI form, select a ready package, enter the package form section, and modify its specifications as needed.
 
-  - In the Redis form section:
+Alternatively, you can enter the required specifications through a text editor or a `yml` file, and the [**pack-operator**](../concepts/#pack-operator) system will automatically read the file and install and set up your package.
 
-  ```
-  Redis image tag = 6.2.5-alpine
-  Redis image repository = docker.sabz.dev/redis
-  Persist storage class = zfs-ssd # or similar storage class
-  ```
+![Packs: pack install](img/pack-install.png)
 
-  - In the Redis Configs section:
+### Installing via Form
 
-  ```
-  mexmemory = 50mb
-  ```
+Find your pack through the search and category section. A list of ready-made packs along with their descriptions is displayed.
 
-- Click on the "Install" button.
+![Packs: pack install](img/pack-install-form.png)
+After selecting the desired pack in this section:
 
-#### Installation with YAML Editor
+![Packs: pack install](img/pack-install-form-details.png)
 
-Enter the code below in the YAML Editor section and click on the "Install" button.
+- Specify the pack name
 
-```yaml
-apiVersion: k8s.kubit.ir/v1alpha1
-kind: Pack
-metadata:
-  name: test-redis
-  namespace: test-ns
-spec:
-  chart:
-    repository:
-      kind: ClusterPackRepository
-      name: kubit-packs
-    name: redis-ha
-    version: 4.15.2
-  vars: {}
-  values:
-    image:
-      tag: 6.4.5-alpine
-      repository: doceker.sabz.dev/redis
-    redis:
-      resources: {}
-      config:
-        maxmemory: 50mb
-    persistentVolume:
-      storageClass: zfs-ssd
-    haproxy: {}
-```
+- Specify the [namespace](../namespace) of the project. You can also define a new one.
 
-## Obtaining and Installing Client Certificates
+- Select the pack installation version or install the latest available version.
 
-Since using systems under security layers requires client certificates, it is recommended to follow these steps.
+:::info[Storage in Kubernetes]
 
-After receiving your Kubit login information, each user needs to obtain and install a client certificate suitable for their organization.
-Below is a summary of these steps. ([More details](../5.certman))
+In Kubernetes, memory allocation for containers is defined in **bytes** and can be specified with a number or suffix.
 
-- Log into your organization's cert manager, for example: `https://cert.kubit.ir/-/your-org`
-- Complete the registration in this system, which is done by verifying your mobile number. ([More details](../5.certman#complete-registeration))
-- Log into the cert manager panel and obtain the client certificate. ([More details](../5.certman#get-client-cert))
-- Install the certificate in your preferred browser according to the [certificate installation guide](../5.certman#installCertificate).
+#### Types of Suffixes:
 
-:::caution[Note]
-You are solely responsible for the use of the Certificate file and its password. Therefore, do not share it with anyone under any circumstances.
+- **Decimal (base 10):**  
+   `k`, `M`, `G`, `T`, `P`, `E`  
+   Example: `400M` means 400 megabytes
+- **Binary (base 2):**  
+   `Ki`, `Mi`, `Gi`, `Ti`, `Pi`, `Ei`  
+   Example: `400Mi` means 400 mebibytes (approximately 420 megabytes)
+
+#### Important Note:
+
+:::warning[Case Sensitivity]
+
+Units are **case-sensitive**. For example:
+
+- `400m` means 0.4 bytes
+- `400M` or `400Mi` represents the actual memory value
+
+For greater accuracy, use binary units like `Mi` and `Gi`, and always pay attention to case sensitivity.
+
 :::
+
+- By default, Kubit assumes suffixes are base 2 (e.g., gib). However, you can manually specify values, such as 1000mb (where mb is base 10).
+- Enter the RAM amount according to the standard mentioned (default values are in bits).
+- Specify the allocated cores. (Each 1000 milli-core equals one core, and the core type is determined by your infrastructure.)
+- By enabling the Ingress option, connect your domains to the [ingress](../domains) service to access your applications.
+
+:::info[Domain Connection]
+
+To connect to a domain, retrieve the required values from your DNS panel and enter them here.
+
+:::
+
+- Select the Docker repository for installing your containers.
+
+:::info[Custom Repository Setup]
+
+Kubchi uses Docker Hub by default to retrieve Docker images. Docker repositories configured in this project under the [cloudware]() section are automatically enabled and accessible here. To set up a dedicated repository, go to the [Docker Registry Credentials](../docker) tab.
+
+:::
+
+- Other specifications will vary depending on the package being installed.
+
+In other tabs, you can view the Helm chart output and configuration (manifest):
+
+- YAML Editor Tab: Manually edit the manifest file and add values if the operation cannot be performed through the form.
+
+:::info[Kubit Editor]
+
+Kubit uses the web version of the VS Code editor. Hotkeys are similar to VS Code and provide its capabilities.
+
+:::
+
+- Helm Template Tab: The final Helm template (release Helm chart) that this application is installed based on.
+
+:::info[Helm Template]
+
+Using the "Helm Changes" tab, you can view the final Helm files created by the **pack operator** based on the settings you applied. Review this section before installation to ensure your pack configuration is correct.
+
+:::
+
+- ReadMe Tab: The readme file for each application
+
+### Installing with YAML
+
+:::info[Kubit Editor]
+
+Kubit uses the web version of the VS Code editor. Hotkeys are similar to VS Code and provide its capabilities.
+
+:::
+
+Since not all charts have forms, you can install any chart by writing the corresponding YAML in Kubit.
+
+To do this, create the pack YAML file according to the following pattern:
+
+- Select the "Install Pack via Editor" option.
+
+  - If you want a new namespace, create the desired namespace from the Namespace tab.
+
+![Packs: pack install](img/pack-install-yaml.png)
+
+- Enter your pack YAML in the displayed editor.
+
+- For convenience, the general pack structure is pre-displayed in that section.
+
+- For the namespace tag, enter your namespace name, with autocomplete available. Use the **Create New Namespace** option to create a new namespace.
+
+- In the repositories tag, select the registered repository name to connect and retrieve the Helm chart.
+
+![Packs: pack install](img/pack-install-yaml-editor.png)
+
+:::info[Helm Template]
+
+Using the "Helm Changes" tab, you can view the final Helm files created by the **pack operator** based on the settings you applied. Review this section before installation to ensure your pack configuration is correct.
+
+:::
+
+## Packs Page in Kubchi
+
+By selecting the Kubchi service, the list of packs for a project is displayed on its specific page. This page contains various information about the packs, organized in tabs.
+
+### Important Pack Operations
+
+![Packs: pack](img/pack-packs.png)
+
+- **Restart Pack**
+
+By pressing the "Restart Pack" button, all workloads of the pack are restarted, and their current version in the cluster is removed.
+
+- **Reinstall Pack**
+
+Selecting "Reinstall Pack" recreates the pack and updates the chart specifications based on the pack's configuration (manifest).
+
+This applies the chart changes and configuration settings in Kubchi to the cluster.
+
+- **Refresh Pack Information**
+
+By pressing the "Synchronize Pack" button, the pack information is updated based on the latest data and pack status in the cluster.
+
+The above operations can also be performed collectively on packs.
+
+![Packs: pack](img/pack-packs-multi.png)
+
+#### Pack Overview
+
+By clicking on each pack, the first tab of this page provides general information, including the pack name, namespace, and chart.
+
+- Next, you can view the list of workloads and pods of the pack, along with brief information about each.
+- Recent alerts and a quick access button to alerts
+- Information about the installed chart version (chart release) and options for updating and modifying the configuration
+- Information about the pack's Helm chart, which is available in the [Configuration > Helm](../config) tab.
+- Links to [monitoring](../monitoring) pages for CPU and RAM usage and their types
+- Links to [GitOps](../gitops) and connection status
+- Links to how to [set up CI/CD](../CI/#setup-cicd) for the project
+
+![Packs: pack overview](img/pack-overview.png)

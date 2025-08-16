@@ -1,32 +1,48 @@
 ---
 subDocuments:
+  - account
   - iaas
   - buckets
+  - saas
+  - cdndns
   - kubchi
   - certman
-  - account
-  - organization
   - ticketing
   - resmon
+  - accounting
+  - kubit-packs
+  - zereshk
+  - organization
   - resan
   - ai-assistant
+  - pricing
 ---
 
-# Introduction
+# Welcome to Kubit's Comprehensive Documentation
 
-Welcome to the comprehensive [Kubit](https://panel.kubit.ir/en/) documentation! These documents are designed to guide you in using Kubit services and tools, from basic to advanced stages. On these pages, you can get acquainted with the details of each product and learn step-by-step how to use and manage cloud services. Our goal is to provide you with a simple and efficient experience working with Kubit.
+The documentation is designed to provide complete guidance on using the services and tools offered by Kubit. Whether you are just starting with cloud services or managing advanced infrastructure, this guide will help you become familiar with the key features of each product and implement and configure them step-by-step.
 
-## Getting Started
+In these pages, product documentation is organized by service and function to allow you to quickly access the information you need. Our goal is to provide a simple, cohesive, and efficient experience in using the Kubit platform.
 
-- [User Account](account)
-- [Organize](organization)
-- [Support](ticketing)
+---
 
-## Technical Documentation
+## Quick Start
 
-- [Infrastructure](iaas): Cloud Computing
-- [Buckets](buckets): Buckets (Cloud Storage Space)
-- [Kubchi](kubchi): Management of Cloud Tools and Applications
-- [Certman](certman): Cloud Security Using Client-side Certificates
-- [Resmon](resmon): Resource Monitoring with Appropriate Granularity
-- [Resan](resan): Message Reception and Management Center
+- [Creating and Managing a User Account](account)
+- [Setting Up and Managing Organizational Structure](organization)
+- [Receiving Support via Tickets](ticketing)
+
+---
+
+## Technical Product Documentation
+
+- [**Infrastructure (IaaS):**](iaas) Full access to virtual machines, networking, storage, and computational resources with real-time scalability
+- [**Buckets:**](buckets) Secure, scalable, S3-compatible cloud storage for storing files, application data, backups, media content, and even as a direct source for CDN
+- [**Cloud Software (SaaS):**](saas) Ready-to-use, managed, and always-accessible software for immediate organizational or development team needs, without the hassle of installation and maintenance
+- **[DNS and CDN:](cdndns)** Two key components for professional website performance; **DNS** translates domain names to IP addresses, ensuring correct user access to the website. **CDN** distributes website content across various geographical locations, enhancing load speed and user experience
+- [**Kubchi:**](kubchi) A cloud platform (PaaS) for quickly launching services, databases, containers, and applications with just a few clicks, without the need for complex configuration
+- [**Certman:**](certman) Kubit’s centralized certificate management service; includes automatic issuance and renewal of **ClientCert** certificates, **OpenVPN** connections, and **Kubeconfig** access for Kubernetes, with support for advanced validation and integrated encryption
+- [**Resmon:**](resmon) A monitoring system for tracking infrastructure and service resources, featuring live charts, real-time alerts, and detailed system status reports
+- **[Accounting:](accounting)** This service allows you to monitor and manage all transactions, **service usage**, and **financial status** in Kubit with clear and detailed visibility
+- [**Zereshk:**](zereshk) A reverse proxy and intelligent routing system for advanced traffic routing management, load balancing, domain connections, and applying security policies
+- [**Resan:**](resan) A centralized system for managing message sending and receiving

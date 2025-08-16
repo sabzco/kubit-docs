@@ -1,60 +1,54 @@
 # Security Groups
 
-In this section, you will have access to the list of the project's security groups and manage them, including **creating**, **adding rules**, **viewing group status**, and **deleting** them.
-![Security Group: sec gps](img/security-groups.png)
+In this section, you can access the list of security groups for the project and manage them, including **creating**, **adding rules**, **viewing group status**, and **deleting**.
+
+![Security Group: sec gps](img/iaas-securitygroups-overview.png)
 
 :::info[Default Group]
-After connecting the project to the service, a default security group is created by Kubit for the project. This group can be distinguished from other groups via the **default** column.
+After connecting the project to the service, a default security group is created by Kubit for the project, which can be distinguished from other groups through the **Default** column.
 :::
 
 ## Security Group Rules
 
-Before learning about security groups, it's essential to first examine their rules. Rules are a set of criteria and actions that determine what traffic is allowed to pass through the firewall. These rules are typically defined based on criteria like IP addresses, protocols, ports, and traffic direction (inbound or outbound).
+Before discussing security groups, we must first examine their rules. Rules are a set of criteria and actions that determine which traffic is allowed to pass through the firewall. These rules are typically defined based on criteria such as IP addresses, protocols, ports, and traffic direction (inbound or outbound).
 
 ## Creating a New Group
 
-- To create a new security group, click the **Create new group** button.
-- Then, enter the group's **name** and **description**, and click the **Create** button.
-- ![Security Group: new sec gp btn](img/new-sec-gp-btn.png)
-  ![Security Group: new sec gp](img/new-security-gp.png)
+- To define a new security group, click on the **Create New Group** button.
+- Then, enter the **Name** and **Description** of the group and click the **Create** button.
+  ![Security Group: new sec gp btn](img/iaas-securitygroups-new-group.png)
 
-After creating the new group, you can define its rules or assign it to a virtual machine and subnet.
+After creating the new group, you can define rules for it or assign it to a virtual machine or subnet.
 
 ## Viewing Details and Status
 
-By clicking on the specified icon for each group, a list of the group's rules and their details will be displayed:
-![Security Group: details](img/sec-gp-details.png)
-![Security Group: sec rules](img/sec-rules.png)
+By clicking on the (▼) icon for each group, a list of the group’s rules and their details is displayed:
+![Security Group: sec gps](img/iaas-securitygroups-overview2.png)
 
 ### Deleting a Rule from a Group
 
-- To delete a rule from the group, simply click on the **trash** icon associated with the rule.
-- Then, if confirmed, click the **Confirm** button in the opened dialog.
-  ![Security Group: remove rule](img/remove-rule.png)
-  ![Security Group: confirm remove rule](img/confirm-remove-rule.png)
+- To delete a rule from a group, simply click on the **Trash Can** icon associated with the rule.
+- Then, if you are sure about the deletion, click the **Confirm** button in the opened dialog.
 
 ## Group Operations
 
-![Security Group: options](img/sec-gps-options.png)
+![Security Group: options](img/iaas-securitygroups-options.png)
 
 ### Adding a New Rule
 
-The rules of each group determine the level and type of access. To assign a new rule, click **Add new rule**:
-![Security Group: add new sec rule](img/add-new-rule.png)
-You will then need to define the necessary information for the rule:
+The rules of each group determine the level and type of access. To assign a new rule, click on **Add New Rule**. Then, you need to define the required information for the rule:
 
-- **Inbound/Outbound**: Determines the traffic direction.
+- **Inbound/Outbound**: Specifies the traffic direction.
 - **IP Version**: Specifies the IP version.
-- **CIDR**: The IP range that will access the resources through this rule.
-- **Protocol Port**: Select the protocol port for which you intend to open access. A list of commonly used protocol ports is available, and if you need to define a different protocol, you can choose the **Custom** option and enter the desired information.
-  ![Security Group: new rule form](img/new-rule-form.png)
-  ![Security Group: new rule options](img/new-rule-options.png)
+- **CIDR**: The IP range that gains access to resources through this rule.
+- **Protocol Port**: Select the protocol port you want to open access for. This section includes a list of commonly used protocol ports, and if you need to define another protocol, you can select the **Custom** option and enter the desired information.
+  ![Security Group: new rule form](img/iaas-securitygroups-new-rule.png)
 
-Finally, by clicking **Add**, the rule will be created and assigned to the desired group.
+Finally, by clicking **Add**, the rule is created and assigned to the desired group.
 
-### Deleting a Group
+### Deleting
 
-- To delete a security group, click the three-dot button in the **Actions** column and select **Delete**.
-- Then, if confirmed, click the **Delete** button in the opened dialog.
-  ![Security Group: remove sec gp](img/remove-sec-gp.png)
-  ![Security Group: confirm remove sec gp](img/confirm-remove-sec-gp.png)
+- To delete a security group/rule, click on the three-dot button in the **Operations** column and select the **Delete / Trash Can** option.
+- Then, if you are sure about the deletion, click the **Delete** button in the opened dialog.
+
+![Security Group: options](img/iaas-securitygroups-options.png)

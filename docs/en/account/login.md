@@ -1,47 +1,49 @@
-# Login to user account
+# Logging into the Account
 
-Given the ability to manage multiple organizations with a single account in Kubit, there are two methods for logging into your user account: Email/Phone Login and Organizational Login. Both methods are accessible via the [login page](https://panel.kubit.ir/en/login/). Below, we will explain each of these methods.
+Given the ability to manage multiple organizations with a single account in Kubit, two methods for logging into the account are provided: logging in with email/phone number and organizational login.
+Both methods are accessible through the [Login Page](https://auth.kubit.cloud/fa/login/). Below, we explain each of these methods.
 
-## Method 1: Email/Phone Login
+## Method One: Logging in with Email/Phone Number
 
 - First, enter your registered email or phone number along with your password.
-- Then, click the **Login** button to access your user account.
+- Then, click the **Login** button to access your account.
   ![Login: login with email/phone](img/login-with-email.png)
 
-## Method 2: Organizational Login (SSO)
+## Method Two: Organizational Login
 
-If you need access to the Kubit panel of the organization you are a member of, first click on the **Single Sign-On** option on the [login page](https://panel.kubit.ir/en/login/):
+If you need to access the Kubit panel for an organization you are a member of, first click on the **Organizational Login** option on the [Login Page](https://panel.kubit.ir/fa/login/):
 ![Login: login with org](img/login-with-org.png)
 
-At this stage, enter the title of the relevant organization and click the **Continue** button:
+At this stage, enter the name of the relevant organization and click **Continue**:
 ![Login: login with org continue](img/login-with-org-continue.png)
 
-Finally, enter your username and password and click the **Login** button:
+Finally, enter your username and password, then click **Login**:
 ![Login: enter username](img/enter-username-in-org.png)
+
 By following these steps, you can log into the Kubit panel.
 
 ## Logging into an Invited Organization
 
-If you have been invited to an organization, you can use one of the following methods to access the organization's panel:
+If you have been invited to an organization, you can use one of the two methods below to log into the organization’s panel:
 
 ### Invitation Link (Kubit User)
 
-If your membership type is **Kubit User**, you can log in by clicking the link sent to your email or phone number.
+If your membership type is **Kubit User**, you can click on the link sent to your email or phone number to access the panel.
 
-If you did not previously have an account, you will be directed to the [registration page](https://panel.kubit.ir/en/register/). By [creating a user account](../register), you will join the relevant organization.
+If you did not have an account previously, you will be directed to the [Registration Page](https://panel.kubit.ir/fa/register/) and can join the relevant organization by [creating an account](../register).
 
-If you already have a user account and have logged into the panel, you will be directly redirected to the relevant organization's panel.
+If you already have an account and are logged into the panel, you will be directly redirected to the relevant organization’s panel.
 
 ### LDAP User
 
-If you have been added to the organization as an LDAP user, you need to go to the [login page](https://panel.kubit.ir/en/login/) and use the **Forgot Password** option to set a new password.
-On the login page, click on **Single Sing-On**:
+If you have been added to the organization as an LDAP user, you must visit the [Login Page](https://panel.kubit.ir/fa/login/) and use the **Password Recovery** option to set a new password.
+
+On the account login page, click **Organizational Login**:
 ![Login: login with org](img/login-with-org.png)
 
-In this step, enter the title of the relevant organization and click the **Continue** button:
+At this stage, enter the name of the relevant organization and click **Continue**:
 ![Login: login with org continue](img/login-with-org-continue.png)
 
-Then in the Lost Password, click on **Reset**:
+Then, click **Recover**:
 ![Login: forgot ldap password](img/forgot-ldap-password.png)
-
-To read the remaining steps for password recovery, refer to the [Forgot Password](../forgot-password) document.
+For the continuation of the password recovery steps, refer to the [Password Recovery](../forgot-password) document.

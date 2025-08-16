@@ -1,31 +1,70 @@
 ---
 subDocuments:
+  - concepts
+  - charts
+  - namespace
   - getting-started
-  - create-project
-  - manage-pack
-  - manage-access
-  - vars
+  - config
+  - workloads
+  - log
+  - terminal
+  - monitoring
+  - alerts
+  - events
+  - docker
   - gitops
+  - CI
+  - domains
+  - vault
 ---
 
 # Kubchi (Cloud Platform)
 
-The Kubchi management tool is developed based on Agile management ideas to create a simple tool for managing infrastructures using Kubernetes.
+**Kubchi** is a cloud platform (**PaaS**) based on **Kubernetes (K8s)** designed to implement **agile management** principles in software development, with the goal of **simplifying infrastructure management**. This service can be installed and activated on Kubernetes clusters. **Benefits of Kubchi** for managing Kubernetes-based platforms include:
 
-This system consists of three main components:
+- **Installing containerized packages (Docker images) with pre-configured forms without the need for manual settings**
+- **Resource management and automatic notification of system alerts and events**
+- **Automation of CI/CD and GitOps**
+- **Management of workloads and pods through a web panel without using secondary tools**
+- **Connecting various domains to applications**
 
-- Subsystem for managing applications and their resources
-- Subsystem for monitoring program execution
-- Subsystem for resource monitoring
+and more.
 
-## Subsystem for Managing Applications and Their Resources
+After creating your [user account](http://localhost:4000/fa/docs/account) on the **Kubit** website and [selecting the relevant project](http://localhost:4000/fa/docs/organization), follow the step-by-step guide for the subsystems provided by Kubit for this service.
 
-In this subsystem, it is easy to:
+![Service Intro: paas intro](img/paas-intro.png)
 
-- Install various managed packages of ready-made applications.
-- Update installed applications.
-- Modify the resources of each application.
+:::info[Prerequisite Concepts]
 
-## Subsystem for Managing Program Execution
+[Prerequisite Concepts](concepts) introduces the architecture and operation of the **Kubchi platform**. It is recommended to review this section before starting.
 
-One part of the Kubchi software system is a tool that allows monitoring the execution status and performance of programs and packages. In this system, in addition to viewing the logs of each small component or container, you can also view the overall status of each installed package.
+:::
+**Quick access to Kubchi subsystems:**
+
+**[Application and Resource Management](getting-started) (Pack Management):** In this subsystem, you can easily install containerized packages with a one-click platform.
+
+**[Namespaces](namespace) (namespace):** In this section, manage your workloads more effectively using namespaces.
+
+**[Configuration](config) (Object Manifest):** Configure various resources and their usage in the managed Kubernetes environment of Kubchi.
+
+**[Workloads](workloads) (workloads):** Review the status and manage pods and workloads.
+
+**[Logs](log) (log):** View logs of pods and applications separately.
+
+**[Terminal](terminal) (terminal):** Manage and access pods through a web-based terminal.
+
+**[Monitoring](monitoring) (monitoring):** Monitor the consumption of various system resources.
+
+**[Alerts](alerts) (alerts):** System-generated alerts and their priorities, configured by the Kubit team.
+
+**[Events](events) (events):** Log details of cluster-level events.
+
+**[Docker Registry Credentials](docker) (docker registry credentials):** Connect your Docker registry to the Kubchi platform.
+
+**[Git Repository](gitops) (GitOps repo):** Connect your Git repository to Kubchi and control configuration changes with GitOps.
+
+**[Deployment Automation](conint) (CI/CD):** Through the information provided in this section, automatically generate CI/CD settings and keep your deployed applications synchronized with the latest changes.
+
+**[Domain Certificates](domains) (domain certificates):** Automatically connect domains to the platform for receiving and managing SSL/TLS certificates.
+
+**[Vault](vault) (vault):** A tool for automatic encryption of sensitive data, along with creating and maintaining keys for use in configurations.

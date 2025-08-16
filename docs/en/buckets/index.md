@@ -1,35 +1,42 @@
-# Buckets (Cloud Storage)
+---
+subDocuments:
+  - concepts
+  - getting-started
+  - create-space
+  - create-bucket
+  - buckets
+  - spaces
+---
 
-Cloud storage is a service for storing and managing data in a cloud environment. This service provides secure storage for various types of files. Using this service, users can store their data in the Kubit cloud and access it anytime and anywhere.
+# Cloud Storage (Buckets)
 
-![Buckets: bucket](bucket.png)
+**Bucket** or **S3-based cloud storage** is a service for **storing** and **retrieving** any type of data, including website assets, backups, data for cloud-based applications, and more. Unlike models such as File Storage (storing data in a hierarchical file structure like Windows File Explorer for organization) or Block Storage (storing data in fixed-size blocks for increased speed and efficiency), this service allows you to store data as **objects**, which can offer the advantages of both, plus the unique features of objects. Each object has an **identifier** as a unique **metadata** that can be used for better **access** and **categorization** of that object.
 
-## Basic Concepts
+After creating your [account](../account) on the **Kubit** website and selecting the relevant [project](../organization), follow the step-by-step service guide below.
 
-### Location
+![Buckets: bucket](img/bucket.png)
 
-The data center where users' data is stored and maintained corresponds to the concept of a location.
+### Quick Access:
 
-### Bucket
+| [**Using the Web Browser**](buckets/browser#browser)                                 | [**Using the S3 Browser**](buckets/browser#s3browser)                           |
+| ------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------- |
+| A web-based panel tool provided graphically for managing your files in cloud storage | A Windows tool that allows you to easily manage and access cloud storage files. |
 
-Buckets are the primary units for organizing data in cloud storage. Each bucket can contain a collection of files and folders, allowing for organized storage and management of data. Buckets are defined under a space.
+:::info[Tools Compatible with Buckets]
 
-### Space
+Any tool compatible with **S3 storage** is also compatible with **Kubit buckets**.
 
-A space is a collection of isolated buckets within a location. The concept of space is defined for segmentation and access management. To use the bucket service, there must be a space within a location that is connected to a project.
+:::
 
-### Service Account
+### Explanations and Step-by-Step Guides:
 
-A service account is a concept and identity used to define access groups to spaces and buckets. For example, to assign restricted access (read-only) to individuals, a service account is used. Specifically, a service account is defined for the desired bucket according to the required access, and the access scope is defined in the bucket policy. By granting the created service account token to individuals, they can have restricted access to the bucket's files.
+**\*You can find how to use buckets with code (SDK) in this [link](https://docs.aws.amazon.com/AmazonS3/latest/API/sdk-general-information-section.html). Python examples are also available in this [link](https://boto3.amazonaws.com/v1/documentation/api/latest/guide/s3-examples.html).**
 
-### Tag
-
-In the storage service, a tag is a key-value pair assigned to a bucket for categorization, identification, and access management.
-
-### Lifecycle
-
-The lifecycle is a set of rules that automatically manage objects. These rules move objects between different storage classes and delete them after a certain period. This helps in cost savings and better data management.
-
-### Versioning
-
-Versioning allows for storing, retrieving, and restoring different versions of a file within a bucket. Once this feature is enabled, the bucket retains all versions of a file, even after it has been overwritten or deleted. This feature provides the ability to access and recover older versions when needed, protecting data from accidental deletion or modification. Additionally, it supports data recovery and tracking changes.
+- **Overview of [Buckets](buckets) and [Spaces](spaces)**: Dashboard providing general information about each bucket and space
+- **[Buckets and Spaces](concepts)**: Exploring concepts related to S3-based services
+- **[Static Website](buckets/static-website)**: Using cloud storage as a platform for websites
+- **[Browsers](buckets/browser)**: Methods for accessing and managing files in storage
+- **Access Management for [Buckets](buckets/access-settings) and [Spaces](spaces/access-settings)**: Managing user access levels through the account service
+- **[Policy Management](buckets/policy) (Bucket Policy)**: Public permissions to specify object and bucket access levels when working with buckets
+- **[Lifecycles](buckets/lifecycle) (Life Cycles)**: Rules for the retention of objects in buckets
+- **[CORS Settings](buckets/cors)**: Sharing resources and objects with web browsers
