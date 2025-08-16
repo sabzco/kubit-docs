@@ -8,7 +8,9 @@ subDocuments:
 
 In this section, you can configure the rules and settings related to how the CDN operates to accelerate your website.
 
-![CDN: cdn settings](img/cdn-settings.png)
+![CDN: cdn settings](../img/cdn-settings.png)
+
+![CDN: cdn settings menu](../img/cdn-settings-menu.png)
 
 ## Cache Operation Level
 
