@@ -1,45 +1,44 @@
-# دسترسی‌ها
+# Access
 
-از مجوز های برای
-تعریف سطوح و مدیریت دسترسی به باکت و کلیدهای دسترسی Access Token و Secret Token برای احراز هویت و مجوز دسترسی به باکت‌ها و منابع استفاده می‌شوند. Access Token به‌عنوان شناسه کاربر و Secret Token به‌عنوان یک کلید محرمانه برای تأیید صحت آن‌ها عمل می‌کند. سرویس اکانت‌ها نیز برای تخصیص دسترسی محدود و مدیریت شده به افراد سازمان و کاربران استفاده می‌شود.
-توجه داشته باشید که پالیسی‌ها (policy) همچنان بر روی باکت ها اعمال می‌شوند.
+Permissions are used to define access levels and manage access to buckets, while Access Tokens and Secret Tokens are used for authentication and granting access to buckets and resources. The Access Token serves as the user identifier, and the Secret Token acts as a confidential key to verify their authenticity. Service accounts are also used to assign limited and managed access to individuals in the organization and users.
+Note that policies still apply to buckets.
 
-در صفحه دسترسی، **توکن‌های دسترسی** و لیست **سرویس اکانت‌ها** وجود دارد:
+On the access page, **access tokens** and a list of **service accounts** are available:
 ![Access: bucket access](../img/bucket-access.png)
 
-### دسترسی‌های فضا
+### Space Access
 
-در این بخش، **آدرس** و **کلید** دسترسی به فضا، وجود دارد. هر کلید، شامل Access Key و Secret Key می‌باشد:
+In this section, the **address** and **access key** for the space are provided. Each key includes an Access Key and a Secret Key:
 ![Access: bucket space access details](../img/bucket-space-access-details.png)
 
-### دسترسی‌های سرویس اکانت
+### Service Account Access
 
-در این بخش، لیست سرویس اکانت‌های تخصیص داده شده به باکت را مشاهده می‌کنید. همچنین می‌توانید سرویس اکانت جدید تخصیص دهید و یا سرویس اکانتی را از باکت، حذف کنید:
+In this section, you can view the list of service accounts assigned to the bucket. You can also assign a new service account or remove an existing one from the bucket:
 ![Access: bucket sa access details](../img/bucket-sa-access-details.png)
 
-#### تخصیص سرویس اکانت
+#### Assigning a Service Account
 
-برای تخصیص سرویس اکانت، روی گزینه **تخصیص سرویس اکانت** کلیک کنید:
+To assign a service account, click the **Assign Service Account** option:
 ![Access: sa allocation](../img/sa-allocation.png)
 
-می‌توانید از میان سرویس اکانت‌های موجود، یک سرویس اکانت را انتخاب کنید و یا **ساخت سرویس اکانت جدید** را انتخاب کرده و یک سرویس اکانت جدید بسازید:
+You can select an existing service account from the available options or choose **Create New Service Account** to create a new one:
 ![Access: sa allocation form](../img/sa-allocation-form.png)
 
-##### انتخاب از سرویس اکانت‌های موجود
+##### Selecting from Existing Service Accounts
 
-**سرویس اکانت** و سطح دسترسی آن در باکت را از لیست **دسترسی در باکت**، انتخاب کنید. در انتها روی دکمه **ایجاد** کلیک کنید.
+Select the **service account** and its access level in the bucket from the **Access in Bucket** list. Finally, click the **Create** button.
 ![Access: sa allocation sa lists](../img/sa-allocation-sa-lists.png)
 ![Access: allocate sa](../img/allocate-sa.png)
 
-##### ساخت سرویس اکانت جدید
+##### Creating a New Service Account
 
-**نام** سرویس اکانت جدید را وارد کرده و سطح دسترسی آن در باکت را از لیست‌ **دسترسی در باکت** انتخاب کنید. در انتها روی **ایجاد** کلیک کنید تا سرویس اکانت ساخته و به باکت تخصیص داده شود.
+Enter the **name** of the new service account and select its access level in the bucket from the **Access in Bucket** list. Finally, click **Create** to create and assign the service account to the bucket.
 ![Access: sa allocation new sa](../img/sa-allocation-new-sa.png)
 ![Access: create sa in allocation](../img/create-sa-in-allocation.png)
 
-#### حذف سرویس اکانت از باکت
+#### Removing a Service Account from a Bucket
 
-- برای حذف، کافیست روی آیکون سطل زباله کنار نام سرویس اکانت، کلیک کنید.
-- سپس روی دکمه **پاک کردن سرویس اکانت** کلیک کنید.
+- To remove, simply click the trash can icon next to the service account name.
+- Then, click the **Delete Service Account** button.
   ![Access: remove bucket sa](../img/remove-bucket-sa.png)
   ![Access: confirm remove bucket sa](../img/confirm-remove-bucket-sa.png)

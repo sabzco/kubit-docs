@@ -1,25 +1,25 @@
-# ویرایشگر Policy
+# Policy Editor
 
-پالیسی، سیاست مبتنی بر منابع است که برای اعطای مجوزهای دسترسی باکت و آبجکت‌های درون آن به دیگران (کاربران) استفاده می‌شود. پالیسی‌ها در فرمت JSON بوده و با مشخص کردن سطح دسترسی، به شکل امن و بهینه فایل‌ها و باکت‌هایتان را مدیریت کنید.
+A policy is a resource-based rule used to grant access permissions to a bucket and its objects for others (users). Policies are in JSON format, allowing you to securely and efficiently manage your files and buckets by specifying access levels.
 
-از طریق صفحه **ویرایشگر پالیسی** ویرایشگری برای تعریف و ویرایش پالیسی‌های مرتبط با باکت وجود دارد که از طریق آن می‌توانید سیاست‌های دسترسی مورد نیاز خود را تعریف کنید.
+Through the **Policy Editor** page, an editor is available to define and modify policies related to the bucket, enabling you to set the required access policies.
 ![Policy: bucket policy](../img/bucket-policy.png)
 ![Policy: bucket policy details](../img/bucket-policy-details.png)
-در ادامه به توضیح هر کدام از مقادیر پالیسی پرداخته شده است.
+Below, each policy value is explained.
 
-### مقادیر Policy
+### Policy Values
 
-| کلید       |                                                                                                                                                                                  توضیحات |
-| ---------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
-| Versioning |                                                                           نسخه زبان پالیسی را مشخص می‌کند. این نسخه نشان‌دهنده سازگاری با ساختار سیاست JSON معرفی شده در اکتبر 2012 است. |
-| Statement  |                                                                                                          شامل لیستی از قوانین دسترسی است که هر کدام مجموعه‌ای از مجوزها را تعریف می‌کند. |
-| Sid        |                                                                                                                                    یک شناسه اختیاری که برای تمایز قوانین استفاده می‌شود. |
-| Effect     |                         مشخص می‌کند که آیا قانون دسترسی را مجاز یا ممنوع می‌کند. در اینجا، `Allow` نشان می‌دهد که مجوزهای مشخص شده اعطا می‌شوند و از `Deny` برای محدودیت استفاده می‌شود. |
-| Principal  |          تعیین می‌کند این قانون برای چه کاربرانی یا سرویس‌هایی اعمال می‌شود. به طور مثال `*` برای همه کاربران و `{ "AWS": "arn:aws:iam::123456789012:user/ExampleUser" }` برای یک کاربر. |
-| Action     |                                                         اقداماتی که این پالیسی مجاز می‌کند را مشخص می‌کند. در این مورد `s3:GetObject`، اجازه دریافت (خواندن) آبجکت‌ها از باکت را می‌دهد. |
-| Resource   | نام‌های منابع ARNs و آبجکت‌هایی که پالیسی برای آنها اعمال می‌شود را مشخص می‌کند. در این مورد، نشان می‌دهد این پالیسی برای تمام آبچکت‌های باکت `*/arn:aws:s3:::bucket-name` اعمال می‌شود. |
+| Key        | Description                                                                                                                                                                              |
+| ---------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Versioning | Specifies the policy language version, indicating compatibility with the JSON policy structure introduced in October 2012.                                                               |
+| Statement  | Contains a list of access rules, each defining a set of permissions.                                                                                                                     |
+| Sid        | An optional identifier used to distinguish rules.                                                                                                                                        |
+| Effect     | Specifies whether the rule allows or denies access. Here, `Allow` grants the specified permissions, while `Deny` restricts them.                                                         |
+| Principal  | Determines which users or services the rule applies to. For example, `*` applies to all users, and `{ "AWS": "arn:aws:iam::123456789012:user/ExampleUser" }` applies to a specific user. |
+| Action     | Specifies the actions the policy allows. For example, `s3:GetObject` permits retrieving (reading) objects from the bucket.                                                               |
+| Resource   | Specifies the ARNs and objects the policy applies to. In this case, it indicates the policy applies to all objects in the bucket `arn:aws:s3:::bucket-name/*`.                           |
 
-- نمونه یک پالیسی
+- Sample Policy
 
 ```
 {
@@ -36,65 +36,65 @@
 }
 ```
 
-### مجوزها
+### Permissions
 
-لیست تمام مجوزهای ممکن برای اعمال در پالیسی، در جدول زیر موجود می‌باشد.
+The complete list of possible permissions for applying in a policy is provided in the table below.
 
-|               مجوزها               |                         توضیحات                         |
-| :--------------------------------: | :-----------------------------------------------------: |
-|         دسترسی کامل (\*/)          |    اجازه انجام هرگونه عملیات بر روی باکت را می‌دهد.     |
-|             GetObject              |         اجازه خواندن آبجکت‌های باکت را می‌دهد.          |
-|             PutObject              |          اجازه نوشتن آبجکت‌های باکت را می‌دهد.          |
-|            DeleteObject            |           اجازه حذف آبجکت‌های باکت را می‌دهد.           |
-|             ListBucket             |         اجازه لیست کردن محتوای باکت را می‌دهد.          |
-|         GetBucketLocation          |            اجازه خواندن مکان باکت را می‌دهد.            |
-|          PutBucketPolicy           |           اجازه نوشتن پالیسی باکت را می‌دهد.            |
-|          GetBucketPolicy           |           اجازه خواندن پالیسی باکت را می‌دهد.           |
-|         DeleteBucketPolicy         |            اجازه حذف پالیسی باکت را می‌دهد.             |
-|            GetObjectAcl            |       اجازه خواندن ACL آبجکت‌های باکت را می‌دهد.        |
-|            PutObjectAcl            |        اجازه تغییر ACL آبجکت‌های باکت را می‌دهد.        |
-|            GetBucketAcl            |            اجازه خواندن ACL باکت را می‌دهد.             |
-|            PutBucketAcl            |             اجازه تغییر ACL باکت را می‌دهد.             |
-|          ListAllMyBuckets          |     اجازه لیست کردن تمام باکت‌های کاربر را می‌دهد.      |
-|            CreateBucket            |            اجازه ایجاد باکت جدید را می‌دهد.             |
-|            DeleteBucket            |                اجازه حذف باکت را می‌دهد.                |
-|          GetBucketLogging          |     اجازه خواندن تنظیمات لاگ‌گذاری باکت را می‌دهد.      |
-|          PutBucketLogging          |      اجازه تغییر تنظیمات لاگ‌گذاری باکت را می‌دهد.      |
-|     PutLifecycleConfiguration      |      اجازه تغییر تنظیمات چرخه عمر باکت را می‌دهد.       |
-|     GetLifecycleConfiguration      |      اجازه خواندن تنظیمات چرخه عمر باکت را می‌دهد.      |
-|        GetBucketVersioning         |     اجازه خواندن وضعیت نسخه‌برداری باکت را می‌دهد.      |
-|        PutBucketVersioning         |      اجازه تغییر وضعیت نسخه‌برداری باکت را می‌دهد.      |
-|          GetObjectVersion          | اجازه خواندن آبجکت‌های نسخه‌برداری شده باکت را می‌دهد.  |
-|        DeleteObjectVersion         |   اجازه حذف آبجکت‌های نسخه‌برداری شده باکت را می‌دهد.   |
-|           RestoreObject            | اجازه بازیابی آبجکت‌های نسخه‌برداری شده باکت را می‌دهد. |
-|          GetBucketTagging          |         اجازه خواندن برچسب‌های باکت را می‌دهد.          |
-|          PutBucketTagging          |          اجازه تغییر برچسب‌های باکت را می‌دهد.          |
-|        DeleteBucketTagging         |           اجازه حذف برچسب‌های باکت را می‌دهد.           |
-|          GetObjectTagging          |    اجازه خواندن برچسب‌های آبجکت‌های باکت را می‌دهد.     |
-|          PutObjectTagging          |     اجازه تغییر برچسب‌های آبجکت‌های باکت را می‌دهد.     |
-|        DeleteObjectTagging         |      اجازه حذف برچسب‌های آبجکت‌های باکت را می‌دهد.      |
-| GetBucketNotificationConfiguration |     اجازه خواندن تنظیمات اعلان‌های باکت را می‌دهد.      |
-| PutBucketNotificationConfiguration |      اجازه تغییر تنظیمات اعلان‌های باکت را می‌دهد.      |
-|       GetBucketPolicyStatus        |        اجازه خواندن وضعیت پالیسی باکت را می‌دهد.        |
-|           GetBucketCors            |        اجازه خواندن تنظیمات CORS باکت را می‌دهد.        |
-|           PutBucketCors            |        اجازه تغییر تنظیمات CORS باکت را می‌دهد.         |
-|          DeleteBucketCors          |         اجازه حذف تنظیمات CORS باکت را می‌دهد.          |
-|      GetBucketRequestPayment       | اجازه خواندن تنظیمات پرداخت درخواست‌های باکت را می‌دهد. |
-|      PutBucketRequestPayment       | اجازه تغییر تنظیمات پرداخت درخواست‌های باکت را می‌دهد.  |
-|          GetBucketWebsite          |      اجازه خواندن تنظیمات وب‌سایت باکت را می‌دهد.       |
-|          PutBucketWebsite          |       اجازه تغییر تنظیمات وب‌سایت باکت را می‌دهد.       |
-|        DeleteBucketWebsite         |        اجازه حذف تنظیمات وب‌سایت باکت را می‌دهد.        |
-|        GetBucketEncryption         |          اجازه خواندن رمزنگاری باکت را می‌دهد.          |
-|        PutBucketEncryption         |          اجازه تغییر رمزنگاری باکت را می‌دهد.           |
-|     PutBucketOwnershipControls     |        اجازه تغییر کنترل مالکیت باکت را می‌دهد.         |
-|     GetBucketOwnershipControls     |        اجازه خواندن کنترل مالکیت باکت را می‌دهد.        |
-|         GetBucketLifecycle         |          اجازه خواندن چرخه عمر باکت را می‌دهد.          |
-|         PutBucketLifecycle         |          اجازه تغییر چرخه عمر باکت را می‌دهد.           |
-|       DeleteBucketLifecycle        |           اجازه حذف چرخه عمر باکت را می‌دهد.            |
-|        AbortMultipartUpload        |    اجازه لغو آپلود‌های چند‌قسمتی در باکت را می‌دهد.     |
+| Permission                         | Description                                                  |
+| :--------------------------------- | :----------------------------------------------------------- |
+| Full Access (/\*)                  | Grants permission to perform any operation on the bucket.    |
+| GetObject                          | Grants permission to read bucket objects.                    |
+| PutObject                          | Grants permission to write bucket objects.                   |
+| DeleteObject                       | Grants permission to delete bucket objects.                  |
+| ListBucket                         | Grants permission to list bucket contents.                   |
+| GetBucketLocation                  | Grants permission to read the bucket's location.             |
+| PutBucketPolicy                    | Grants permission to write the bucket's policy.              |
+| GetBucketPolicy                    | Grants permission to read the bucket's policy.               |
+| DeleteBucketPolicy                 | Grants permission to delete the bucket's policy.             |
+| GetObjectAcl                       | Grants permission to read the ACL of bucket objects.         |
+| PutObjectAcl                       | Grants permission to modify the ACL of bucket objects.       |
+| GetBucketAcl                       | Grants permission to read the bucket's ACL.                  |
+| PutBucketAcl                       | Grants permission to modify the bucket's ACL.                |
+| ListAllMyBuckets                   | Grants permission to list all user buckets.                  |
+| CreateBucket                       | Grants permission to create a new bucket.                    |
+| DeleteBucket                       | Grants permission to delete a bucket.                        |
+| GetBucketLogging                   | Grants permission to read bucket logging settings.           |
+| PutBucketLogging                   | Grants permission to modify bucket logging settings.         |
+| PutLifecycleConfiguration          | Grants permission to modify bucket lifecycle settings.       |
+| GetLifecycleConfiguration          | Grants permission to read bucket lifecycle settings.         |
+| GetBucketVersioning                | Grants permission to read the bucket's versioning status.    |
+| PutBucketVersioning                | Grants permission to modify the bucket's versioning status.  |
+| GetObjectVersion                   | Grants permission to read versioned bucket objects.          |
+| DeleteObjectVersion                | Grants permission to delete versioned bucket objects.        |
+| RestoreObject                      | Grants permission to restore versioned bucket objects.       |
+| GetBucketTagging                   | Grants permission to read bucket tags.                       |
+| PutBucketTagging                   | Grants permission to modify bucket tags.                     |
+| DeleteBucketTagging                | Grants permission to delete bucket tags.                     |
+| GetObjectTagging                   | Grants permission to read tags of bucket objects.            |
+| PutObjectTagging                   | Grants permission to modify tags of bucket objects.          |
+| DeleteObjectTagging                | Grants permission to delete tags of bucket objects.          |
+| GetBucketNotificationConfiguration | Grants permission to read bucket notification settings.      |
+| PutBucketNotificationConfiguration | Grants permission to modify bucket notification settings.    |
+| GetBucketPolicyStatus              | Grants permission to read the bucket policy status.          |
+| GetBucketCors                      | Grants permission to read bucket CORS settings.              |
+| PutBucketCors                      | Grants permission to modify bucket CORS settings.            |
+| DeleteBucketCors                   | Grants permission to delete bucket CORS settings.            |
+| GetBucketRequestPayment            | Grants permission to read bucket request payment settings.   |
+| PutBucketRequestPayment            | Grants permission to modify bucket request payment settings. |
+| GetBucketWebsite                   | Grants permission to read bucket website settings.           |
+| PutBucketWebsite                   | Grants permission to modify bucket website settings.         |
+| DeleteBucketWebsite                | Grants permission to delete bucket website settings.         |
+| GetBucketEncryption                | Grants permission to read bucket encryption settings.        |
+| PutBucketEncryption                | Grants permission to modify bucket encryption settings.      |
+| PutBucketOwnershipControls         | Grants permission to modify bucket ownership controls.       |
+| GetBucketOwnershipControls         | Grants permission to read bucket ownership controls.         |
+| GetBucketLifecycle                 | Grants permission to read bucket lifecycle settings.         |
+| PutBucketLifecycle                 | Grants permission to modify bucket lifecycle settings.       |
+| DeleteBucketLifecycle              | Grants permission to delete bucket lifecycle settings.       |
+| AbortMultipartUpload               | Grants permission to abort multipart uploads in the bucket.  |
 
-### ویرایش Policy
+### Editing Policy
 
-برای ویرایش پالیسی از **ویرایشگر Policy** می‌توانید استفاده کنید. به عنوان مثال، مقدار `"s3:ListBucket"` را به **Action** و `"arn:aws:s3:::testco-b2"` را به **Resource** اضافه کرده (این تغییرات، اجازه دسترسی لیست کردن محتوا و خواندن آبجکت‌های باکت را به کاربر می‌دهد.) و روی **ذخیره** کلیک می‌کنیم:
+You can use the **Policy Editor** to modify policies. For example, add `"s3:ListBucket"` to **Action** and `"arn:aws:s3:::testco-b2"` to **Resource** (these changes grant the user permission to list contents and read bucket objects), then click **Save**:
 ![Policy: edit bucket policy](../img/edit-bucket-policy.png)
-مطابق با همین روال، می‌توانید سایر تغییرات موردنیاز خود را اعمال کنید.
+You can apply other required changes in the same manner.

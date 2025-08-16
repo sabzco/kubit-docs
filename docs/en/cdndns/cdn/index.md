@@ -1,73 +1,73 @@
 ---
 subDocuments:
   - rules
-  - optimixation
+  - optimization
 ---
 
-# تنظیمات CDN یا شبکه توزیع محتوا (گام دوم)
+# CDN Settings (Step Two)
 
-در این بخش می‌توانید قوانین و تنظیمات مربوط به چگونگی کارکرد cdn برای سرعت بخشی به وبسایت خود را تنظیم کنید.
+In this section, you can configure the rules and settings related to how the CDN operates to accelerate your website.
 
 ![CDN: cdn settings](img/cdn-settings.png)
 
-## سطح عملیات Cache
+## Cache Operation Level
 
-با انتخاب سطح کش در کوبیت، می‌توانید به شکل دقیق مشخص کنید که چه محتوایی از سایت شما در لبه‌های شبکه کوبیت (Kubit Network Edge) ذخیره (Cache) شود. این کار باعث می‌شود سرعت پاسخ‌گویی به کاربران به طرز چشم‌گیری افزایش یابد، مصرف منابع سرور کاهش پیدا کند و تجربه کاربری روان‌تری رقم بخورد.
+By selecting the cache level in Kubit, you can precisely determine which content from your site is cached at Kubit's Network Edge. This significantly increases response speed to users, reduces server resource consumption, and provides a smoother user experience.
 
-1. **خاموش**
-   در این حالت، هیچ محتوایی در سرورهای کوبیت کش نمی‌شود. تمامی درخواست‌ها مستقیماً به سرورهای اصلی شما هدایت می‌شوند. این گزینه مناسب مواقعی است که به هر دلیل نمی‌خواهید از کش استفاده کنید؛ مثلاً در فازهای خاص توسعه یا عیب‌یابی دقیق.
-2. **بدون QueryString**
-   مفهوم «بدون QueryString» به این معناست که کوبیت هنگام ذخیره‌سازی فایل‌ها، پارامترهای انتهای URL (مانند `?v=2` یا `?utm_source=...`) را نادیده می‌گیرد و صرفاً بر اساس مسیر اصلی فایل آن را ذخیره می‌کند. این کار باعث می‌شود نسخه‌های تکراری از یک فایل صرفاً به‌دلیل تفاوت در پارامترها کش نشوند، که در نهایت منجر به کاهش مصرف حافظه کش و افزایش کارایی می‌شود. این گزینه زمانی کاربرد دارد که پارامترهای URL فقط برای اهداف تحلیلی، ردیابی یا پاک‌سازی کش مرورگر استفاده می‌شوند و محتوای واقعی فایل تغییری نکرده است. برای مثال، فایل‌های استاتیک مانند CSS و JS که به‌ندرت تغییر می‌کنند، لینک داخلی صفحه یا لینک‌هایی که حاوی کد تخفیف یا رفرال هستند ولی به یک فایل یکسان اشاره دارند، بهتر است فقط یک‌بار ذخیره شوند.
+1. **Off**
+   In this mode, no content is cached on Kubit servers. All requests are directed straight to your origin servers. This option is suitable for situations where you prefer not to use caching, such as during specific development or troubleshooting phases.
+2. **No QueryString**
+   The "No QueryString" concept means that Kubit ignores URL parameters (e.g., `?v=2` or `?utm_source=...`) when caching files and stores them based solely on the main file path. This prevents caching duplicate versions of a file due to parameter differences, ultimately reducing cache memory usage and improving efficiency. This option is useful when URL parameters are used for analytics, tracking, or browser cache busting but do not alter the file's actual content. For example, static files like CSS and JS, which rarely change, internal page links, or links with discount or referral codes pointing to the same file, should ideally be cached only once.
 
-   - **ذخیره فایل‌های کم تغییر:** فایل‌های استاتیک مانند CSS یا JS که به‌ندرت تغییر می‌کنند
-   - **عدم ذخیره محتوای تکراری:** نادیده گرفتن کوئری‌های بازاریابی یا رهگیری مانند `utm_source`، `referral_code` و سایر پارامترهایی که تغییری در محتوای فایل ایجاد نمی‌کنند.
+   - **Caching Low-Change Files:** Static files like CSS or JS that rarely change.
+   - **Avoiding Duplicate Content Caching:** Ignoring marketing or tracking queries like `utm_source`, `referral_code`, or other parameters that do not alter file content.
 
-3. **با QueryString**
-   در این حالت، برای هر ترکیب متفاوت از پارامترهای آدرس، یک نسخه کش جداگانه ساخته می‌شود. این گزینه برای شرایطی مناسب است که پارامترها واقعاً محتوای صفحه یا فایل را تغییر می‌دهند. مزیت آن دقت بالا در کش محتواهای متغیر و شخصی‌سازی‌شده است. موارد استفاده پیشنهادی:
+3. **With QueryString**
+   In this mode, a separate cached version is created for each unique combination of URL parameters. This is suitable for cases where parameters genuinely change the page or file content. Its advantage is high accuracy in caching variable and personalized content. Suggested use cases:
 
-   - **نتایج جستجو:** کش کردن کوئری‌های پرتکرار برای سرعت بیشتر.
-   - **صفحات چندبخشی:** مثل `?page=2` یا `?limit=50` برای جلوگیری از تولید مکرر محتوا.
-   - **فیلترها در فروشگاه‌ها:** مثل `?category=shoes&color=black` که هر فیلتر ترکیب جدیدی از محتوا را نمایش می‌دهد.
+   - **Search Results:** Caching frequently repeated queries for faster response.
+   - **Paginated Pages:** Like `?page=2` or `?limit=50` to avoid repeated content generation.
+   - **Filters in Stores:** Like `?category=shoes&color=black`, where each filter displays a new content combination.
 
-## حذف اطلاعات Cache شده
+## Clearing Cached Data
 
-این امکان حیاتی در کوبیت به شما کمک می‌کند که هر زمان که نیاز داشتید، اطلاعات کش‌شده را پاک‌سازی کرده و نسخه‌های به‌روز محتوای خود را از سرور اصلی منتشر کنید.
+This essential feature in Kubit allows you to clear cached data whenever needed, enabling you to publish updated versions of your content from the origin server.
 
-- **پاک‌کردن گزینشی با URL**
-  تنها کافی‌ست URL دقیق فایل یا صفحه‌ای که نیاز به به‌روزرسانی دارد وارد کنید تا کش مربوط به آن به‌صورت هدفمند پاک شود. این روش برای انتشار سریع تغییرات بدون نیاز به حذف کل کش سایت، فوق‌العاده کاربردی است.
-- **پاک‌کردن همه‌چیز**
-  با یک کلیک، تمام داده‌های کش‌شده روی شبکه کوبیت حذف می‌شوند و از آن لحظه به بعد، تمامی درخواست‌ها مستقیم از سرور اصلی پاسخ داده خواهند شد. از این گزینه معمولاً در مواقع بحرانی یا تغییرات اساسی استفاده می‌شود.
+- **Selective Clearing by URL**
+  Simply enter the exact URL of the file or page that needs updating to clear its cache selectively. This method is highly practical for quickly deploying changes without clearing the entire site cache.
+- **Clear Everything**
+  With one click, all cached data on the Kubit network is deleted, and from that moment, all requests are served directly from the origin server. This option is typically used in critical situations or major updates.
 
-## مدت زمان اعتبار اطلاعات Cache شده
+## Cache Data Expiration Duration
 
-شما می‌توانید درخواست دهید هر نوع محتوا تا چه مدت در کش کوبیت باقی بماند. این مدت زمان به صورت انعطاف‌پذیر قابل تنظیم است و نقش کلیدی در کنترل به‌روز بودن محتوای سایت ایفا می‌کند، در عین حال که عملکرد را بهینه نگه می‌دارد.
+You can specify how long each type of content remains in Kubit's cache. This duration is flexibly adjustable and plays a key role in balancing content freshness with optimized performance.
 
-## صفحات خطا Cache
+## Caching Error Pages
 
-در صورت مواجهه با خطاهای HTTP مانند 404 (یافت نشدن) یا 500 (خطای داخلی سرور)، کوبیت این قابلیت را دارد که پاسخ‌های خطادار را برای مدت مشخصی در کش نگه دارد. این کار می‌تواند از ارسال مکرر درخواست‌های مشابه به سرور اصلی جلوگیری کرده و در مواقع بحرانی، مانند قطعی موقت سایت یا افزایش ناگهانی ترافیک، به کاهش فشار بر زیرساخت کمک کند.
+In case of HTTP errors like 404 (Not Found) or 500 (Internal Server Error), Kubit can cache error responses for a specified duration. This prevents repeated requests to the origin server and helps reduce server load during critical situations, such as temporary site outages or sudden traffic spikes.
 
-با این حال، انتخاب مدت زمان کش‌کردن این نوع خطاها نیاز به دقت دارد. به‌عنوان مثال اگر صفحه‌ای مانند محصول یا دسته‌بندی که معمولاً در دسترس است به‌طور موقت خطا دهد، نباید خطای آن برای مدت طولانی کش شود؛ چراکه این صفحات احتمالاً در زمان کوتاهی بازیابی می‌شوند.
+However, choosing the cache duration for such errors requires caution. For example, if a page like a product or category, which is usually accessible, temporarily returns an error, it should not be cached for too long, as these pages are likely to recover quickly.
 
-بنابراین، تنظیم دقیق مدت زمان کش برای هر نوع خطا می‌تواند هم در بهبود تجربه کاربر و هم در حفظ سلامت زیرساخت سرور مؤثر باشد.
+Thus, precisely setting the cache duration for each error type can improve user experience and maintain server infrastructure health.
 
-## مدت زمان Cache اطلاعات در مرورگر
+## Browser Cache Duration
 
-علاوه بر کش سمت کوبیت، شما می‌توانید زمان نگه‌داری فایل‌ها در حافظه مرورگر کاربران نهایی را هم تعیین کنید. این موضوع باعث افزایش سرعت بارگذاری صفحات در بازدیدهای بعدی می‌شود و مصرف پهنای باند را کاهش می‌دهد.
+In addition to Kubit's caching, you can also set how long files are stored in the end user's browser cache. This increases page load speed on subsequent visits and reduces bandwidth consumption.
 
-## حداکثر اندازه کش
+## Maximum Cache Size
 
-هر فایل یا محتوا تا سقف مشخصی می‌تواند در شبکه کش شود. با افزایش این اندازه، فایل‌های حجیم‌تری مانند ویدیوها یا اپلیکیشن‌های وب پیشرفته نیز در کوبیت ذخیره می‌شوند.
+Each file or content can be cached up to a specific size limit. By increasing this size, larger files like videos or advanced web applications can also be cached on Kubit.
 
-مقادیر قابل انتخاب: `128MB` | `256MB` | `512MB` | `2048MB`
+Available values: `127MB` | `256MB` | `512MB` | `2048MB`
 
-## دسترسی همیشگی (Always Online)
+## Always Online
 
-با فعال‌سازی این ویژگی، در صورت از کار افتادن سرور یا سایت شما، کوبیت می‌تواند آخرین نسخه کش‌شده‌ی صفحات را به بازدیدکنندگان نمایش دهد. این قابلیت به‌ویژه در مواقع قطع برق، حملات DDoS یا بروزرسانی‌های غیرمنتظره، پایداری تجربه کاربران را حفظ می‌کند.
+By enabling this feature, if your server or site goes down, Kubit can display the last cached version of pages to visitors. This is particularly useful during power outages, DDoS attacks, or unexpected updates, ensuring user experience stability.
 
-## کش صفحات با Set-Cookie
+## Caching Pages with Set-Cookie
 
-در حالت پیش‌فرض، صفحاتی که هدر `Set-Cookie` دارند (مثلاً برای کاربران لاگین شده)، کش نمی‌شوند. با فعال‌سازی این گزینه، می‌توانید اجازه دهید حتی این صفحات نیز کش شوند؛ البته با دقت در مدیریت امنیت و به‌روزرسانی محتوا. (توضیح)
+By default, pages with the `Set-Cookie` header (e.g., for logged-in users) are not cached. Enabling this option allows caching such pages, though careful management of security and content updates is required.
 
-## حالت توسعه (Development Mode)
+## Development Mode
 
-در طول توسعه سایت یا اعمال تغییرات مکرر، ممکن است کش باعث نمایش نسخه‌های قدیمی شود. با فعال‌سازی این حالت، تمام کش‌ها به صورت موقت غیرفعال شده و تغییرات به‌صورت لحظه‌ای نمایش داده می‌شوند. این گزینه برای توسعه‌دهندگان وب، ابزاری ارزشمند است.
+During site development or frequent changes, caching may cause outdated versions to be displayed. By enabling this mode, all caches are temporarily disabled, and changes are shown instantly. This feature is invaluable for web developers.

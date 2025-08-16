@@ -1,61 +1,59 @@
-# مرورگر باکت {#broweser}
+# Bucket Browser {#broweser}
 
-در صفحه مرورگر باکت، **فایل‌های بارگذاری شده**، **پوشه‌ها**، **ساخت پوشه جدید**، **بارگذاری فایل** و امکانات مرتبط به آبجکت‌ها وجود دارد:
+On the bucket browser page, you can view **uploaded files**, **folders**, **create new folders**, **upload files**, and access features related to objects:
 ![Browser: bucket details](../img/bucket-details.png)
 
-## بارگذاری فایل
+## File Upload
 
-برای بارگذاری فایل، رو گزینه **بارگذاری فایل** کلیک کنید:
+To upload a file, click the **Upload File** option:
 ![Browser: upload file](../img/upload-file.png)
-پس از انتخاب فایل، فایل موردنظر بارگذاری شده و به لیست فایل‌های صفحه **مرورگر** اضافه خواهد شد.
+After selecting the file, it will be uploaded and added to the list of files on the **Browser** page.
 
-:::info[بارگذاری فایل در پوشه]
-برای بارگذاری فایل در پوشه، کافیست وارد پوشه موردنظر شوید و مراحل ذکر شده در **بارگذاری فایل** را انجام دهید.
+:::info[Uploading Files to a Folder]
+To upload a file to a folder, simply navigate to the desired folder and follow the steps outlined in **File Upload**.
 :::
 
-## ساخت پوشه
+## Create Folder
 
-برای ساخت پوشه جدید، روی گزینه **پوشه جدید** کلیک کنید:
+To create a new folder, click the **New Folder** option:
 ![Browser: new folder](../img/new-folder.png)
 
-سپس **نام** پوشه را وارد کرده و روی **ایجاد** کیک کنید:
+Then, enter the **name** of the folder and click **Create**:
 ![Browser: new folder form](../img/new-folder-form.png)
-در انتها پوشه جدید ساخته شده و به لیست آبجکت‌های صفحه **مرورگر** اضافه خواهد شد.
+The new folder will be created and added to the list of objects on the **Browser** page.
 
-## جزئیات آبجکت
+## Object Details
 
-با کلیک روی هر آبجکت، اطلاعاتی درمورد آبجکت انتخاب شده شامل **نام**، **اندازه**، **آخرین ویرایش** و **مسیر** آبجکت، به همراه امکان **کپی لینک دانلود** و **دانلود** مستقیم آبجکت نمایش داده می‌شود:
+By clicking on any object, details about the selected object, including **name**, **size**, **last modified**, and **path**, are displayed, along with options to **copy the download link** and **download** the object directly:
 ![Browser: obj details](../img/obj-details.png)
 
-به ازای آبجکت‌های مختلف، عملیات‌های مختلفی از طریق مرورگر فراهم شده است که در ادامه به توضیح آنها می‌پردازیم.
+For different objects, various operations are available through the browser, which are explained below.
 
-### عملیات‌های فایل
+### File Operations
 
-عملیات‌های مرتبط با یک فایل، شامل **لینک زماندار**، **کپی**، **جابه‌جایی**، **برچسب‌ها**، **نسخه‌ها** و **پاک کردن** می‌باشد. دسترسی به هرکدام از این عملیات‌ها از طریق دکمه سه نقطه روی کارت فایل فراهم شده است:
+Operations related to a file include **temporary link**, **copy**, **move**, **tags**, **versions**, and **delete**. Access to each of these operations is provided via the three-dot button on the file card:
 ![Browser: obj options btn](../img/obj-options-btn.png)
 ![Browser: obj options](../img/obj-options.png)
 
-:::info[غیرفعال بودن نسخه‌ها]
-در صورتی که امکان **نسخه‌نگاری** برای باکت غیرفعال باشد، این گزینه در لیست عملیات‌ها نیز غیرفعال خواهد بود.
+:::info[Disabled Versions]
+If **versioning** is disabled for the bucket, this option will also be disabled in the list of operations.
 :::
 
-### عملیات‌های پوشه
+### Folder Operations
 
-عملیات‌های مرتبط با یک پوشه، شامل **کپی**، **جابه‌جایی** و **پاک کردن** می‌باشد. دسترسی به هرکدام از این عملیات‌ها از طریق دکمه سه نقطه روی کارت پوشه فراهم شده است:
+Operations related to a folder include **copy**, **move**, and **delete**. Access to each of these operations is provided via the three-dot button on the folder card:
 ![Browser: folder options btn](../img/folder-options-btn.png)
 ![Browser: folder options](../img/folder-options.png)
 
-<a id="s3_Browser"></a>
+## Managing Cloud Storage Files with S3Browser Windows Software {#s3browser}
 
-## مدیریت فایل‌های فضای ابری با نرم‌افزار ویندوزی S3Browser {#s3browser}
+S3Browser is a powerful and convenient solution for accessing and working with files stored in the cloud. With it, you can easily use your spaces and buckets, and directly download or upload resources.
+In the first step, create a service account to specify the level of access to the bucket. If you enter the default values on the page, you grant full access to the user.
 
-برنامه S3Browser یک راه‌حل قدرتمند و راحت برای کار و دسترسی به فایل های ذخیره شده در فضای ابری می‌باشد. با استفاده از آن می‌توانید به آسانی از فضا ها و باکت های خود استفاده کنید و منابع را مستقیماً دانلود و آپلود کنید.
-در گام نخست از طریق ساخت یک سرویس اکانت میزان دسترسی به باکت را مشخص کنید. اگر مقدار‌های پیشفرض در صفحه را وارد کنید، تمام دسترسی ها را به استفاده کننده می‌دهید.
-
-1. API endpoint: در این قسمت آدرس سرویس را از منوی دسترسی عمومی وارد می‌کنیم s3.kubit.ir.
-2. Access Key ID: از منوی دسترسی عمومی این مقدار را بردارید.
-3. Secret Access Key: این مقدار را نیز از قسمت دسترسی عمومی بردارید.
+1. API endpoint: Enter the service address from the public access menu, s3.kubit.ir.
+2. Access Key ID: Obtain this value from the public access menu.
+3. Secret Access Key: Obtain this value from the public access menu as well.
    ![Browser: s3broweser add new account](../img/s3broweser-add-new-account.png)
    ![Browser: s3broweser add new account fields](../img/s3broweser-add-new-account-fields.png)
 
-اکنون می‌توانید باکت ها و فضا های خود را مشاهده و تغییرات مدنظر را اعمال کنید.
+Now you can view your buckets and spaces and apply the desired changes.

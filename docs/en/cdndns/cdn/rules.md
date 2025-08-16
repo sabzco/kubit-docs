@@ -1,107 +1,107 @@
-# قوانین صفحات
+# Page Rules
 
-در این بخش قوانین cdn را مشخص نمایید و با افزودن قانون جدید به صورت پیشرفته ترافیک سایت را مدیریت کنید.
+In this section, specify the CDN rules and manage website traffic more effectively by adding new rules.
 
-## افزودن قانون جدید
+## Adding a New Rule
 
-برای افزودن قانون جدید از این تب روی افزودن قانون جدید کلیک می‌کنیم.
+To add a new rule, click on "Add New Rule" from this tab.
 
 ![CDN: cdn rules](../img/cdn-rules.png)
 
-در این بخش جزئیات مربوط به اجرای قانون را مشاهده می‌کنیم:
+In this section, we can view the details related to rule execution:
 
-- نام قانون
-- ترتیب اجرای آن (نزولی و مقدار کمتر زودتر)
-- نام هاست
-- مسیر
+- Rule Name
+- Execution Order (descending, lower value executed first)
+- Hostname
+- Path
   ![CDN: cdn rules new](../img/cdn-rules-new.png)
 
-با انتخاب گزینه **افزودن قواعد** لیست قوانین را در این بخش مشاهده و براساس نیاز خود یک گزینه را انتخاب می‌کنیم.
+By selecting the **Add Rules** option, we can view the list of rules in this section and choose one based on our needs.
 
 ![CDN: cdn rules new list](../img/cdn-rules-new-list.png)
 
-## لیست قوانین صفحات
+## List of Page Rules
 
-### کش (Cache)
+### Cache
 
-#### سیاست‌های کش
+#### Cache Policies
 
-امکان پیکربندی سیاست‌های کشینگ از جمله موارد زیر را فراهم می‌کند:
+Enables configuration of caching policies, including the following:
 
-- **نوع کش** (مانند کش موقت یا دائم)
-- **رفتار نسبت به Query String** (کش کردن نسخه‌های مختلف بر اساس پارامترهای URL)
-- **مدت زمان اعتبار محتوا**
-- **رفتار هنگام بروز خطا**
-- **تأثیر متغیرهای کوکی بر کش**
+- **Cache Type** (e.g., temporary or permanent cache)
+- **Behavior Toward Query String** (caching different versions based on URL parameters)
+- **Content Expiration Duration**
+- **Behavior During Errors**
+- **Impact of Cookie Variables on Cache**
 
-#### کش مرورگر
+#### Browser Cache
 
-مدت زمان ذخیره فایل‌ها در کش مرورگر کاربر را تعیین می‌کند تا از درخواست‌های مکرر به سرور جلوگیری شود. این کار به کاهش پهنای باند و افزایش سرعت سایت کمک می‌کند.
+Determines how long files are stored in the user's browser cache to prevent repeated server requests. This reduces bandwidth usage and improves site speed.
 
-### بهینه‌سازی (Optimization)
+### Optimization
 
-#### فشرده‌سازی فایل‌ها
+#### File Compression
 
-با فشرده‌سازی فایل‌های CSS، JavaScript و HTML، حجم محتوا کاهش یافته و زمان بارگذاری صفحات کوتاه‌تر می‌شود.
+By compressing CSS, JavaScript, and HTML files, content size is reduced, and page load times are shortened.
 
-#### کاهش اندازه تصاویر
+#### Image Size Reduction
 
-تصاویر به‌صورت خودکار فشرده یا بهینه می‌شوند تا بدون افت محسوس کیفیت، حجم آنها کاهش یابد.
+Images are automatically compressed or optimized to reduce their size without noticeable quality loss.
 
-#### تغییر اندازه تصاویر (Image Resizing)
+#### Image Resizing
 
-تصاویر به‌صورت پویا بر اساس ابعاد مناسب دستگاه بازدیدکننده (مانند موبایل یا دسکتاپ) تغییر اندازه داده می‌شوند. این کار بار روی سرور را کاهش داده و تجربه کاربری را بهبود می‌دهد.
+Images are dynamically resized based on the visitor's device dimensions (e.g., mobile or desktop). This reduces server load and enhances user experience.
 
-### کنترل کش مبدأ (Origin Cache Control)
+### Origin Cache Control
 
-تعیین می‌کند که CDN چگونه از دستورهای کشینگ ارسال‌شده از سرور مبدأ پیروی کند. این تنظیمات مشخص می‌کنند که آیا هدرهایی مانند `Cache-Control` و `Expires` از مبدأ رعایت شوند یا خیر.
+Determines how the CDN follows caching instructions sent from the origin server. These settings specify whether headers like `Cache-Control` and `Expires` from the origin are honored or not.
 
-### هدرها (HTTP Headers)
+### HTTP Headers
 
-#### هدر هاست دلخواه
+#### Custom Host Header
 
-امکان تعیین یک مقدار سفارشی برای هدر `Host` در هنگام ارسال درخواست به سرور مبدأ را فراهم می‌کند. این قابلیت می‌تواند در تنظیمات پیشرفته مانند دسترسی به منابع مجزا یا تست محیط‌های مختلف مفید باشد.
+Allows setting a custom value for the `Host` header when sending requests to the origin server. This feature can be useful in advanced setups, such as accessing separate resources or testing different environments.
 
-#### هدر ارسالی به کاربر
+#### Headers Sent to the User
 
-کنترل هدرهای HTTP ارسال‌شده از سمت CDN به مرورگر کاربر مانند:
+Controls HTTP headers sent from the CDN to the user's browser, such as:
 
-- `Cache-Control` (تنظیم رفتار کش در مرورگر)
-- `Content-Type` (نوع محتوا)
-- `Access-Control-Allow-Origin` (برای CORS)
+- `Cache-Control` (controls cache behavior in the browser)
+- `Content-Type` (content type)
+- `Access-Control-Allow-Origin` (for CORS)
 
-#### هدر ارسالی به مبدأ
+#### Headers Sent to the Origin
 
-قابلیت تنظیم یا افزودن هدرهای HTTP در هنگام ارسال درخواست به سرور مبدأ، مانند:
+Enables setting or adding HTTP headers when sending requests to the origin server, such as:
 
 - `Authorization`
 - `X-Forwarded-For`
 - `User-Agent`
 
-#### نادیده‌ گرفتن هدر ارسالی به کاربر
+#### Ignoring Headers Sent to the User
 
-تمام یا برخی از هدرهایی که از مبدأ ارسال می‌شوند و باید به کاربر برسند، نادیده گرفته شده و به‌جای آن از مقادیر پیش‌فرض CDN استفاده می‌شود.
+All or some headers sent from the origin to the user are ignored, and the CDN's default values are used instead.
 
-#### نادیده‌ گرفتن هدر ارسالی به مبدأ
+#### Ignoring Headers Sent to the Origin
 
-این تنظیم مشخص می‌کند که هنگام ارسال درخواست از سمت CDN به سرور مبدأ، هدرهای پیش‌فرض به‌جای هدرهای سفارشی‌شده توسط مرورگر یا کلاینت ارسال شوند.
+This setting specifies that when sending requests from the CDN to the origin server, default headers are used instead of headers customized by the browser or client.
 
-### انتقال نشانی (URL Redirection)
+### URL Redirection
 
-پیکربندی رفتار انتقال URL هنگام مواجهه با تغییراتی مانند:
+Configures URL redirection behavior for cases such as:
 
-- انتقال از دامنه قدیمی به جدید
-- تغییر ساختار URL
-- هدایت از نسخه HTTP به HTTPS (یا بالعکس)
+- Redirecting from an old domain to a new one
+- Changing URL structure
+- Redirecting from HTTP to HTTPS (or vice versa)
 
-### زمان انقضا (Timeouts)
+### Timeouts
 
-تنظیم محدودیت‌های زمانی برای ارتباط بین CDN و سرور مبدأ شامل:
+Sets time limits for communication between the CDN and the origin server, including:
 
-- **Timeout اتصال**: حداکثر زمان انتظار برای اتصال به سرور
-- **Timeout خواندن**: حداکثر زمان انتظار برای دریافت پاسخ از سرور
-- **Timeout ارسال**: حداکثر زمان مجاز برای ارسال داده‌ها
+- **Connection Timeout**: Maximum time to wait for a connection to the server
+- **Read Timeout**: Maximum time to wait for a response from the server
+- **Send Timeout**: Maximum time allowed for sending data
 
-### کش بر اساس نوع دستگاه (cache by device type)
+### Cache by Device Type
 
-محتوای متفاوت برای دستگاه‌های مختلف (موبایل، تبلت، دسکتاپ) کش می‌شود تا نسخه بهینه‌شده برای هر نوع نمایشگر ارسال گردد. این قابلیت برای سایت‌هایی با طراحی واکنش‌گرا (responsive) بسیار مفید است.
+Caches different content for various devices (mobile, tablet, desktop) to deliver optimized versions for each display type. This feature is highly beneficial for sites with responsive design.

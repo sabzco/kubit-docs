@@ -1,20 +1,20 @@
-# استاتیک وب‌سایت
+# Website Static
 
-Static Website Hosting در باکت‌ها قابلیتی است که باکت را به یک وب‌سایت ایستا تبدیل می‌کند. با فعال‌سازی آن، می‌توانید فایل‌های HTML، CSS، و JavaScript را به‌صورت مستقیم از فضای ذخیره‌سازی ابری برای کاربران ارائه دهید و یک آدرس URL اختصاصی برای وب‌سایت خود دریافت کنید.
+Static Website Hosting in buckets is a feature that transforms a bucket into a static website. By enabling it, you can serve HTML, CSS, and JavaScript files directly from cloud storage to users and receive a dedicated URL for your website.
 ![Website: bucket static website](../img/bucket-staticwebsite.png)
 
-# فعال‌سازی
+# Activation
 
-:::warning[توجه]
-لازم است پیش از فعال کردن استاتیک وب‌سایت به دو نکته توجه داشته باشید:
+:::warning[Note]
+Before enabling static website hosting, ensure the following:
 
-1. مطمئن شوید که فایل‌های موردنیاز برای نمایش وب‌سایت در باکت آپلود شده باشند.
-2. گزینه [دسترسی عمومی](../#bucket-public-access) باکت فعال شده باشد.
+1. Verify that the necessary files for displaying the website have been uploaded to the bucket.
+2. Ensure the [public access](../#bucket-public-access) option for the bucket is enabled.
 
 :::
 
-- ابتدا به زیرصفحه **استاتیک وب‌سایت** مراجعه کنید و گزینه **فعال‌سازی استاتیک وب‌سایت** را انتخاب کنید.
-- سپس، مقادیر **آدرس فایل مبدأ** و **آدرس فایل ارور** را وارد کرده و روی **اعمال تغییرات** کلیک کنید.
-- پس از فعال‌سازی، یک **آدرس URL** اختصاصی برای وب‌سایت شما ایجاد می‌شود که پس از مراجعه به آن، محتویات باکت به‌صورت وب‌سایت نمایش داده خواهد شد.
+- First, navigate to the **Static Website** subpage and select the **Enable Static Website** option.
+- Then, enter the values for **Source File Address** and **Error File Address**, and click **Apply Changes**.
+- After activation, a dedicated **URL address** will be generated for your website, which, when accessed, will display the bucket's contents as a website.
   ![Website: sw form](../img/static-website-form.png)
   ![Website: sw config](../img/static-website-config.png)

@@ -1,54 +1,54 @@
-# چرخه عمر
+# Lifecycle
 
-**چرخه عمر (Lifecycle)** در مفهوم S3 (فضای ذخیره‌سازی ابری) مجموعه‌ای از قوانین است که به شما امکان می‌دهد مدیریت خودکار آبجکت‌ها را برای کاهش هزینه‌ها و بهینه‌سازی ذخیره‌سازی انجام دهید. با استفاده از این قابلیت، می‌توانید آبجکت‌ها را به لایه‌های ذخیره‌سازی ارزان‌تر منتقل کنید یا پس از مدت زمان مشخصی حذف کنید.
-در صفحه چرخه عمر، لیستی از **قوانین تعریف شده** به همراه امکان **تعریف قانون جدید** فراهم شده است:
+**Lifecycle** in the context of S3 (cloud storage) is a set of rules that allows you to automate object management to reduce costs and optimize storage. With this feature, you can move objects to cheaper storage tiers or delete them after a specified period.
+On the Lifecycle page, a list of **defined rules** is provided along with the ability to **define a new rule**:
 ![Lifecycle: bucket lifecycle](../img/bucket-lifecycle.png)
 
-در لیست قوانین، اطلاعاتی چون **نام**، **وضعیت**، **تعداد روزها**، **پیشوند** و تعداد **برچسب‌ها** موجود است:
+In the list of rules, information such as **name**, **status**, **number of days**, **prefix**, and the number of **tags** is displayed:
 ![Lifecycle: lifecycle rules](../img/lifecycle-rules.png)
 
-## تعریف قانون جدید
+## Defining a New Rule
 
-مقادیری که در یک قانون می‌توانند تنظیم شوند به همراه توضیحات، عبارتند از:
+The values that can be set in a rule, along with their descriptions, are as follows:
 
-- **نام قانون (اجباری)**: نامی معتبر و یکتا که برای تشخیص قانون چرخه عمر انتخاب می‌شود.
-- **تعداد روزها**: بازه زمانی پاک کردن آبجکت‌ها پس از ایجاد آنها.
-- **محدودسازی گسترهٔ اعتبار قانون**
-  - **پیشوند**: اعمال قانون تنها بر روی آبجکت‌هایی که نام آنها با پیشوند مشخص شده شروع شود. به عنوان مثال برای اعمال قانون روی آبجکت‌های پوشه `imgs` در باکت موردنظر، مقدار پیشوند وارد شده باید برابر `imgs/` باشد. حتی می‌توان با وارد کردن نام یک آبجکت، قانون را در سطح آبجکت هم محدود کرد، مانند `imgs/kubernetes.png`.
-  - **برچسب‌ها**: اعمال قانون بر روی آبجکت‌هایی که برچسب وارد شده را داشته باشند.
-- **حذف نسخه‌های غیرجاری** (_ویژه باکت‌های دارای نسخه‌نگاری_): حذف نسخه‌های غیرجاری آبجکت‌ها بعد از بازه زمانی مشخص.
-- **حذف آپلودهای چند بخشیِ ناقص**: حذف آبجکت‌هایی که بعد از آپلود چند بخشی، تکمیل نشده‌اند.
+- **Rule Name (Required)**: A valid and unique name chosen to identify the lifecycle rule.
+- **Number of Days**: The time period after which objects are deleted following their creation.
+- **Scope Limitation of the Rule**
+  - **Prefix**: Applies the rule only to objects whose names start with the specified prefix. For example, to apply the rule to objects in the `imgs` folder in the target bucket, the prefix value should be `imgs/`. You can even limit the rule to a specific object by entering its name, such as `imgs/kubernetes.png`.
+  - **Tags**: Applies the rule to objects that have the specified tag.
+- **Delete Noncurrent Versions** (_specific to buckets with versioning_): Deletes noncurrent versions of objects after a specified time period.
+- **Delete Incomplete Multipart Uploads**: Deletes objects that remain incomplete after a multipart upload.
 
-:::caution[عدم اعمال محدودیت بر روی قانون]
-توجه داشته باشید در صورتی که پیشوند یا برچسبی وارد نکنید، قانون ساخته شده روی تمام آبجکت‌های باکت اعمال می‌شود.
+:::caution[No Restrictions on the Rule]
+Note that if you do not specify a prefix or tag, the created rule will apply to all objects in the bucket.
 :::
 
-برای تعریف قانون جدید، با کلیک روی دکمه **تعریف قانون جدید** به زیرصفحه **قانون جدید** هدایت خواهید شد. فرمی شامل اطلاعات موردنیاز برای ایجاد قانون (که در بالا توضیح داده شد)، نمایش داده می‌شود.
+To define a new rule, click the **Define New Rule** button to be directed to the **New Rule** subpage. A form containing the required information for creating the rule (as described above) will be displayed.
 ![Lifecycle: new lifecycle rule btn](../img/new-lifecycle-rule-btn.png)
 ![Lifecycle: lifecycle rule form 1](../img/lifecycle-rule-form.png)
 
-## ویرایش قانون
+## Editing a Rule
 
-- برای ویرایش قانون، روی دکمه سه نقطه در ستون عملیات قانون موردنظر کلیک کنید.
-- سپس روی گزینه **ویرایش قانون** کلیک کنید تا به فرم ویرایش هدایت شوید.
-- سپس مطابق با تغییرات موردنظر، ویرایش لازم را اعمال کرده و روی **به‌روزرسانی قانون** کلیک کنید.
+- To edit a rule, click the three-dot button in the operations column of the desired rule.
+- Then, click the **Edit Rule** option to be directed to the edit form.
+- Make the necessary changes and click **Update Rule**.
   ![Lifecycle: edit rule](../img/edit-rule.png)
 
-## حذف قانون
+## Deleting a Rule
 
-- برای حذف قانون، روی دکمه سه نقطه در ستون عملیات قانون موردنظر کلیک کنید.
-- سپس روی گزینه **پاک کردن قانون** کلیک کنید.
+- To delete a rule, click the three-dot button in the operations column of the desired rule.
+- Then, click the **Delete Rule** option.
   ![Lifecycle: remove rule](../img/remove-rule.png)
 
-## ویرایشگر چرخه عمر
+## Lifecycle Editor
 
-می‌توان از ویرایشگر گرافیکی برای تغییرات مد نظر خود استفاده و سپس بروزرسانی کنید.
+You can use the graphical editor to make desired changes and then update them.
 ![Lifecycle: editor](../img/lifecycle-editor.png)
 ![Lifecycle: editor](../img/lifecycle-editor-page.png)
-همچنین امکان تعریف و ویرایش قوانین چرخه عمر از طریق ویرایشگر JSON وجود دارد که لیستی از قوانین موجود در باکت می‌باشد.
+Additionally, it is possible to define and edit lifecycle rules using the JSON editor, which displays a list of existing rules in the bucket.
 ![Lifecycle: editor](../img/lifecycle-rules-editor.png)
 
-- نمونه یک قانون چرخه عمر
+- Sample Lifecycle Rule
 
 ```
 {
@@ -84,13 +84,13 @@
 }
 ```
 
-### کلیدهای هر قانون
+### Keys for Each Rule
 
-- **ID**: یک شناسه اختیاری برای قانون. به شناسایی و مدیریت قوانین کمک می‌کند. مثال: `MoveToGlacierAfter30Days`
-- **Status**: وضعیت قانون را مشخص می‌کند. مقدارهای ممکن: `Enabled`, `Disabled`
-- **Filter**: تعیین می‌کند این قانون برای کدام آبجکت‌ها اعمال شود.
-  - _Prefix_: آبجکت‌هایی با پیشوند مشخص شده را هدف قرار می‌دهد. مثال: `logs/` (فقط آبجکت‌هایی که مسیرشان با logs/ شروع می‌شود).
-  - _Tags_ (اختیاری): بر اساس برچسب‌ها (Tags) آبجکت‌ها را هدف قرار می‌دهد. مثال:
+- **ID**: An optional identifier for the rule, helping with rule identification and management. Example: `MoveToGlacierAfter30Days`
+- **Status**: Specifies the rule's status. Possible values: `Enabled`, `Disabled`
+- **Filter**: Determines which objects the rule applies to.
+  - _Prefix_: Targets objects with the specified prefix. Example: `logs/` (only objects whose path starts with logs/).
+  - _Tags_ (optional): Targets objects based on tags. Example:
   ```
   "Tags": [
     {
@@ -99,19 +99,19 @@
     },
   ]
   ```
-- **Transitions**: انتقال آبجکت‌ها به لایه‌های ذخیره‌سازی ارزان‌تر را تعریف می‌کند.
-  ساختار: آرایه‌ای از انتقال‌ها که هر انتقال شامل:
-  - _Days_: تعداد روزهایی که پس از ایجاد آبجکت، انتقال انجام شود. مثال: `30` (بعد از 30 روز منتقل شود).
-  - _Date_ (اختیاری): تاریخ مشخص برای انتقال. مثال: `2025-01-01T00:00:00Z`
-  - _StorageClass_: کلاس ذخیره‌سازی مقصد. مقدارهای ممکن:
-    `GLACIER`,`DEEP_ARCHIVE`, `STANDARD_IA (Standard-Infrequent Access)`,
-- **Expiration**: مشخص می‌کند که آبجکت‌ها بعد از چه مدت حذف شوند.
-  - _Days_: تعداد روزهایی که پس از ایجاد آبجکت، حذف انجام شود. مثال: `365` (بعد از یک سال حذف شود).
-  - _Date_ (اختیاری): تاریخ مشخص برای حذف. مثال:`2025-01-01T00:00:00Z`
-- **NoncurrentVersionTransitions** (اختیاری): انتقال نسخه‌های قدیمی آبجکت (Noncurrent Versions) به کلاس‌های ذخیره‌سازی ارزان‌تر.
-  - _NoncurrentDays_: تعداد روزهایی که پس از غیر فعال شدن یک نسخه از آبجکت، انتقال انجام شود. مثال: `30`
-  - _StorageClass_:کلاس ذخیره‌سازی مقصد. مثال: `GLACIER`
-- **NoncurrentVersionExpiration** (اختیاری): مشخص می‌کند که نسخه‌های قدیمی آبجکت‌ها بعد از چه مدت حذف شوند.
-  - _NoncurrentDays_: تعداد روزهایی که پس از غیر فعال شدن یک نسخه از آبجکت، حذف انجام شود. مثال: `180`
-- **AbortIncompleteMultipartUpload** (اختیاری): آپلودهای چندبخشی ناقص را پس از تعداد روز مشخص حذف می‌کند.
-  - _DaysAfterInitiation_: تعداد روزهایی که پس از شروع آپلود، عملیات حذف انجام شود. مثال: `7`
+- **Transitions**: Defines the movement of objects to cheaper storage tiers.
+  Structure: An array of transitions, each including:
+  - _Days_: The number of days after object creation when the transition occurs. Example: `30` (move after 30 days).
+  - _Date_ (optional): A specific date for the transition. Example: `2025-01-01T00:00:00Z`
+  - _StorageClass_: The destination storage class. Possible values:
+    `GLACIER`, `DEEP_ARCHIVE`, `STANDARD_IA (Standard-Infrequent Access)`,
+- **Expiration**: Specifies when objects are deleted.
+  - _Days_: The number of days after object creation when deletion occurs. Example: `365` (delete after one year).
+  - _Date_ (optional): A specific date for deletion. Example: `2025-01-01T00:00:00Z`
+- **NoncurrentVersionTransitions** (optional): Moves noncurrent versions of objects to cheaper storage classes.
+  - _NoncurrentDays_: The number of days after a version becomes noncurrent when the transition occurs. Example: `30`
+  - _StorageClass_: The destination storage class. Example: `GLACIER`
+- **NoncurrentVersionExpiration** (optional): Specifies when noncurrent versions of objects are deleted.
+  - _NoncurrentDays_: The number of days after a version becomes noncurrent when deletion occurs. Example: `180`
+- **AbortIncompleteMultipartUpload** (optional): Deletes incomplete multipart uploads after a specified number of days.
+  - _DaysAfterInitiation_: The number of days after the upload starts when deletion occurs. Example: `7`

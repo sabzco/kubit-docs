@@ -1,45 +1,45 @@
-# بهینه‌سازی
+# Optimization
 
-در این بخش، مجموعه‌ای از قابلیت‌های کاربردی و خودکار برای بهینه‌سازی عملکرد کل زیرصفحات وب‌سایت شما فراهم شده است. با فعال‌سازی این ویژگی‌ها می‌توانید سرعت بارگذاری و تجربه کاربری وب‌سایت خود را به‌صورت چشم‌گیری افزایش دهید.
+In this section, a set of practical and automated features are provided to optimize the performance of all your website's subpages. By enabling these features, you can significantly increase the loading speed and user experience of your website.
 
-:::tip[شمول و استثنای قوانین بهینه‌سازی]
-قوانینی که در این تب اعمال می‌کنید **به‌صورت سراسری روی تمام صفحات وب‌سایت شما** اثر می‌گذارند.  
-در صورتی‌که نیاز دارید **صفحات خاصی را از این قوانین مستثنا کنید** یا **تنظیمات جداگانه‌ای اعمال کنید**، لطفاً به بخش [قوانین](../rules) مراجعه کنید.
+:::tip[Inclusion and Exclusion of Optimization Rules]
+The rules applied in this tab **affect all pages of your website globally**.  
+If you need to **exclude specific pages from these rules** or **apply separate settings**, please refer to the [Rules](../rules) section.
 :::
 
 ![CDN: cdn optimization](../img/cdn-optimization.png)
 
-## موارد قابل بهینه‌سازی
+## Optimizable Items
 
-### بهینه‌سازی CSS و JavaScript
+### CSS and JavaScript Optimization
 
-با فعال‌سازی این ویژگی، فایل‌های CSS و JavaScript شما به صورت خودکار بهینه‌سازی می‌شوند. این بهینه‌سازی شامل فشرده‌سازی، حذف فضاهای خالی و کامنت‌ها، و گاهی ترکیب فایل‌ها است که باعث کاهش حجم کلی منابع می‌شود و در نتیجه، زمان بارگذاری صفحات وب‌سایت کاهش می‌یابد.
+By enabling this feature, your CSS and JavaScript files are automatically optimized. This optimization includes compression, removal of whitespace and comments, and sometimes file concatenation, which reduces the overall resource size, resulting in faster page load times.
 
-### فشرده‌سازی فایل‌های CSS
+### CSS File Compression
 
-تمام فایل‌های CSS با حذف فاصله‌های اضافی، خطوط خالی و توضیحات (کامنت‌ها) سبک‌تر شده و سریع‌تر بارگذاری می‌شوند.
+All CSS files are made lighter by removing extra spaces, blank lines, and comments, allowing them to load faster.
 
-### فشرده‌سازی فایل‌های JavaScript
+### JavaScript File Compression
 
-اسکریپت‌های JavaScript نیز به همان شیوه فشرده می‌شوند تا حجم کلی فایل کاهش یابد. این کار در عملکرد کلاینت مؤثر است و سرعت بارگذاری را بهبود می‌دهد.
+JavaScript scripts are similarly compressed to reduce their overall size. This improves client-side performance and enhances loading speed.
 
-### فشرده‌سازی تصاویر
+### Image Compression
 
-با فعال‌سازی این گزینه، تصاویر به صورت خودکار به فرمت‌های مدرن‌تر و کم‌حجم‌تری مانند WebP تبدیل می‌شوند. این کار بدون افت محسوس کیفیت، حجم تصاویر را کاهش داده و تجربه کاربری را بهبود می‌بخشد.
-تصاویر با فرمت‌ JPG/JPEG/PNG به WebP یا فرمت‌های مشابه تبدیل می‌شوند تا حجم آن‌ها کاهش یابد.
-تصاویر متحرک GIF نیز فشرده شده یا به فرمت‌های جایگزین با عملکرد بهتر تبدیل می‌شوند تا مصرف پهنای باند کاهش پیدا کند.
+By enabling this option, images are automatically converted to modern, lower-size formats like WebP. This reduces image size without noticeable quality loss, improving user experience.  
+Images in JPG/JPEG/PNG formats are converted to WebP or similar formats to reduce their size.  
+Animated GIFs are also compressed or converted to alternative formats with better performance to reduce bandwidth consumption.
 
-### تغییر اندازه تصاویر
+### Image Resizing
 
-با فعال‌سازی این گزینه، اندازه تصاویر آپلود‌شده یا موجود در وب‌سایت به ابعاد مشخص‌شده (مثلاً بر اساس نوع دستگاه یا طراحی قالب) تغییر می‌یابند. این کار باعث می‌شود تنها تصویری با اندازه مناسب بر اساس درخواست در لحظه (on-the-fly) برای نمایش بارگذاری شود و از لود شدن سایز نامناسب جلوگیری گردد. مزایای این امر شامل کاهش حجم صفحه، بهبود عملکرد در موبایل و تبلت، مصرف کمتر از پهنای باند کاربر، سرعت بالاتر بارگذاری و امتیاز بهتر در PageSpeed می‌باشند.
+By enabling this option, the size of uploaded or existing images on the website is adjusted to specified dimensions (e.g., based on device type or template design). This ensures that only an appropriately sized image is loaded on-the-fly for display, preventing the loading of unsuitable sizes. Benefits include reduced page size, improved performance on mobile and tablet devices, lower bandwidth usage, faster loading speeds, and better PageSpeed scores.
 
-مثال‌های سیستم تغییر اندازه تصویر on-the-fly:
+Examples of on-the-fly image resizing system:
 
-| نوع درخواست | توضیحات                                                                                            | مثال                                                                                             |
-| ----------- | -------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------ |
-| crop        | `x,y`: مختصات گوشه‌ی مستطیل برش‌خورده در تصویر ورودی `width, height`: عرض و ارتفاع تصویر برش‌خورده | `https://pa.th/to/image.png?commands=crop=x:y::widthxheight`                                     |
-| grayscale   | تبدیل تصویر به سیاه و سفید (سطوح خاکستری)                                                          | `https://pa.th/to/image.png?commands=grayscale`                                                  |
-| rotate      | چرخاندن تصویر در جهت ساعت‌گرد                                                                      | `https://pa.th/to/image.png?commands=rotate=degree`                                              |
-| blur        | `degree`: میزان تاری تصویر                                                                         | `https://pa.th/to/image.png?commands=blur=degree`                                                |
-| resize      | `width, height`: عرض و ارتفاع تصویر خروجی                                                          | `https://pa.th/to/image.png?commands=resize=widthxheight`                                        |
-| pipe        | اجرای زنجیره‌ای چند فرمان با جدا کردن آن‌ها با ویرگول (`,`)                                        | `https://pa.th/to/image.png?commands=crop=150:150::200x200,grayscale,blur=1,rotate=10,rotate=40` |
+| Request Type | Description                                                                                                                    | Example                                                                                          |
+| ------------ | ------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------ |
+| crop         | `x,y`: Coordinates of the cropped rectangle's corner in the input image `width, height`: Width and height of the cropped image | `https://pa.th/to/image.png?commands=crop=x:y::widthxheight`                                     |
+| grayscale    | Converts the image to black and white (grayscale)                                                                              | `https://pa.th/to/image.png?commands=grayscale`                                                  |
+| rotate       | Rotates the image clockwise                                                                                                    | `https://pa.th/to/image.png?commands=rotate=degree`                                              |
+| blur         | `degree`: Degree of image blur                                                                                                 | `https://pa.th/to/image.png?commands=blur=degree`                                                |
+| resize       | `width, height`: Width and height of the output image                                                                          | `https://pa.th/to/image.png?commands=resize=widthxheight`                                        |
+| pipe         | Executes a chain of multiple commands separated by commas (`,`)                                                                | `https://pa.th/to/image.png?commands=crop=150:150::200x200,grayscale,blur=1,rotate=10,rotate=40` |

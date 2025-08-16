@@ -1,42 +1,38 @@
-# تنظیمات CORS
+# CORS Settings
 
-تنظیمات CORS (Cross-Origin Resource Sharing) به شما امکان می‌دهد درخواست‌های از منابع خارجی (دامنه‌های دیگر) را به باکت خود مدیریت کنید.
+CORS (Cross-Origin Resource Sharing) settings allow you to manage requests from external sources (other domains) to your bucket.
 
 ![CORS: bucket cors](../img/bucket-cors.png)
 
-در صفحه تنظیمات CORS، لیستی از **قوانین** تعریف شده، به همراه امکان **تعریف قانون جدید**، **ویرایش** و **حذف** وجود دارد.
-در لیست قوانین، اطلاعاتی چون **نام** قانون، و مقادیری مانند **Allowed Origins**، **Allowed Methods**، **AllowedHeaders** و ... که برای قانون تنظیم شده است، وجود دارند.
-با کلیک روی هر **نام**، به صفحه **جزئیات** آن قانون هدایت خواهید شد.
+On the CORS settings page, a list of **defined rules** is provided, along with options to **define a new rule**, **edit**, and **delete**.  
+In the list of rules, information such as the **name** of the rule and values like **Allowed Origins**, **Allowed Methods**, **AllowedHeaders**, and more, which are set for the rule, are displayed.  
+By clicking on each **name**, you will be directed to the **details** page of that rule.
 ![CORS: list](../img/cors-list.png)
 
-## تعریف یک قانون CORS{#cors-example}
+## Defining a CORS Rule {#cors-example}
 
-برای تنظیم قوانین CORS، باید با چند المنت اصلی آشنا شوید که برای هر کدام از آن‌ها، مقادیری را به عنوان تنظیمات مشخص می‌کنید. این مقادیر تعیین می‌کنند که دسترسی به منابع چگونه و از کجا مجاز است. این تنظیمات شامل فیلدهای زیر می‌باشند:
+To configure CORS rules, you need to understand several key elements, for which you specify values as settings. These values determine how and from where access to resources is permitted. The settings include the following fields:
 
-- **نام قانون (اجباری)**: نامی معتبر و یکتا که برای تشخیص قانون CORS انتخاب می‌شود.
+- **Rule Name (Required)**: A valid and unique name chosen to identify the CORS rule.
+- **AllowedHeaders**: A list of HTTP headers that can be sent with the request. These headers inform the server which additional data (such as tokens or formats) is acceptable, e.g., `Content-Type`, `Authorization`, etc.
+- **AllowedMethods**: A list of HTTP methods (e.g., `GET`, `POST`, `PUT`, `DELETE`, `HEAD`) that the browser is allowed to use for requests to the server. These methods specify which types of requests are permitted.
+- **AllowedOrigins (Required)**: The URLs of domains that are allowed to access the resources. This field ensures that requests are only accepted from the specified addresses.
+- **ExposeHeaders**: Specific headers that the browser is allowed to view in the response. This allows the browser to access headers that may not be available by default.
 
-- **AllowedHeaders:** لیستی از هدرهای HTTP که می‌توانند همراه درخواست ارسال شوند. این هدرها به سرور اعلام می‌کنند که کدام داده‌های اضافی (مانند توکن‌ها یا فرمت‌ها) قابل قبول هستند. مانند `Content-Type`، `Authorization` و ...
-
-- **AllowedMethods:** لیستی از متدهای HTTP (مانند `GET`، `POST`، `PUT`، `DELETE`, `HEAD`) که به مرورگر اجازه می‌دهد از آن‌ها برای درخواست به سرور استفاده کند. این متدها مشخص می‌کنند که چه نوع درخواست‌هایی مجاز هستند.
-
-- **AllowedOrigins (اجباری)**: آدرس‌های (URL) دامنه‌هایی که به آن‌ها اجازه دسترسی به منابع داده می‌شود. این فیلد تعیین می‌کند که درخواست‌ها فقط از آدرس‌های مشخص شده پذیرفته شوند.
-
-- **ExposeHeaders**: هدرهای خاصی که به مرورگر اجازه می‌دهد آن‌ها را در پاسخ مشاهده کند. این به مرورگر اجازه می‌دهد به هدرهایی خاص که شاید به‌طور پیش‌فرض در دسترس نباشند، دسترسی پیدا کند.
-
-برای تعریف قانون جدید، با کلیک روی دکمه **تعریف قانون جدید** به زیرصفحه **قانون جدید** هدایت خواهید شد. فرمی شامل اطلاعات موردنیاز برای ایجاد قانون (که در بالا توضیح داده شد)، نمایش داده می‌شود.
+To define a new rule, click the **Define New Rule** button to be directed to the **New Rule** subpage. A form containing the required information for creating the rule (as described above) will be displayed.
 ![CORS: new cors btn](../img/new-cors-page.png)
 ![CORS: new cors form](../img/new-cors-form.png)
 
-### ویرایش
+### Editing
 
-- برای ویرایش قانون، روی دکمه سه نقطه در ستون عملیات قانون موردنظر کلیک کنید.
-- سپس روی گزینه **ویرایش قانون** کلیک کنید تا به فرم ویرایش هدایت شوید.
-- سپس مطابق با تغییرات موردنظر، ویرایش لازم را اعمال کرده و روی **به‌روزرسانی قانون** کلیک کنید.
+- To edit a rule, click the three-dot button in the operations column of the desired rule.
+- Then, click the **Edit Rule** option to be directed to the edit form.
+- Make the necessary changes and click **Update Rule**.
   ![CORS: edit btn](../img/edit-cors.png)
   ![CORS: edit form](../img/edit-cors-form.png)
 
-### حذف
+### Deleting
 
-- برای حذف قانون، روی دکمه سه نقطه در ستون عملیات قانون موردنظر کلیک کنید.
-- سپس روی گزینه **پاک کردن قانون** کلیک کنید.
+- To delete a rule, click the three-dot button in the operations column of the desired rule.
+- Then, click the **Delete Rule** option.
   ![CORS: delete btn](../img/delete-cors.png)
