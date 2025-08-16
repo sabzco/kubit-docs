@@ -107,7 +107,6 @@ If the GitOps file of the pack is in the development project structure (in the s
 `cicd.yaml`:
 
 ```yml
-
 ---
 kubit webhook:
   stage: deploy
