@@ -4,6 +4,7 @@ subDocuments:
   - buckets
   - kubchi
   - certman
+  - security
   - account
   - organization
   - ticketing

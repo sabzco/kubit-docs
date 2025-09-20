@@ -7,6 +7,7 @@ subDocuments:
   - cdndns
   - kubchi
   - certman
+  - security
   - ticketing
   - resmon
   - accounting
