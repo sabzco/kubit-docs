@@ -3,6 +3,7 @@ subDocuments:
   - account
   - iaas
   - buckets
+  - ai
   - saas
   - cdndns
   - kubchi
